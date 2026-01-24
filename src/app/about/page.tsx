@@ -135,6 +135,17 @@ export default function AboutPage() {
                                 </div>
                             </div>
                         </li>
+                        <li>
+                            <span className={styles.listIcon}>
+                                <FluentEmoji name="book" size={20} />
+                            </span>
+                            <div className={styles.listContent}>
+                                <div className={styles.listTitle}>教科書との差分</div>
+                                <div className={styles.listDesc}>
+                                    既知の知識と新しい知識の橋渡し
+                                </div>
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </section>
