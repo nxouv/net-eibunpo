@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   description: "教科書英語とネットで使う英語の違いを学べる文法学習サイト。SNSや配信で使われるカジュアルな英語表現、ニュアンス、話し言葉の文法を体系的に学べます。",
   icons: {
     icon: "/favicon.ico",
-    apple: "/favicon.png",
+    apple: "/apple-touch-icon.png",
   },
 
   openGraph: {
