@@ -30,8 +30,7 @@ export default function HomePage() {
       <TopHeader completedCount={completedCount} totalCount={totalLessons} />
       <main className={`container ${styles.main}`}>
         <section className={styles.hero}>
-          <h1 className={styles.heroTitle}>ネット英文法</h1>
-          <p className={styles.heroSubtitle}>
+          <p className={styles.heroTagline}>
             SNS・配信・チャットで使う英語を学ぶ
           </p>
         </section>

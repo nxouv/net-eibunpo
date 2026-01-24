@@ -6,19 +6,17 @@
 
 .hero {
     text-align: center;
-    padding: 32px 0 48px;
+    padding: 24px 0 40px;
 }
 
-.heroTitle {
-    font-size: 28px;
-    font-weight: 700;
+.heroTagline {
+    font-size: 18px;
+    font-weight: 500;
     color: var(--color-text-main);
-    margin-bottom: 8px;
-}
-
-.heroSubtitle {
-    font-size: 15px;
-    color: var(--color-text-sub);
+    background: linear-gradient(135deg, var(--color-grammar) 0%, var(--color-spoken) 50%, var(--color-writing) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .categorySection {
