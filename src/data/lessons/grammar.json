@@ -2332,8 +2332,16 @@
         "title": "ニュアンス",
         "points": [
           {
+            "heading": "目的を表す",
+            "text": "「I came here to say this」のように「〜するために」という目的を表せる。ネットでよく使う。"
+          },
+          {
             "heading": "wanna/gonna",
             "text": "want to → wanna、going to → gonna のように to が縮約されることが多い。"
+          },
+          {
+            "heading": "forget/remember の違い",
+            "text": "「I forgot to save」は「セーブし忘れた」。「I forgot saving」は「セーブしたこと忘れてた」。to は未来、-ing は過去。"
           }
         ]
       },
@@ -2458,6 +2466,14 @@
           {
             "heading": "動名詞だけ取る動詞",
             "text": "enjoy, finish, stop, keep, avoid などは動名詞だけを取る。"
+          },
+          {
+            "heading": "一般的・繰り返しの行為",
+            "text": "「I enjoy playing games」のように、一般的・習慣的な行為には動名詞が自然。"
+          },
+          {
+            "heading": "Done + 動名詞",
+            "text": "「Done playing」「Done eating」のように「〜し終わった」はネットでよく使う。"
           }
         ]
       },
