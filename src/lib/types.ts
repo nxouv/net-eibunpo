@@ -23,11 +23,18 @@ export interface SummaryStep {
 }
 
 // 基本のカタチ
+export interface PatternItem {
+  label: string;      // ラベル（例: "肯定", "否定"）
+  pattern: string;    // パターン（例: "主語 + 動詞"）
+  highlight?: string; // ハイライトする部分（例: "don't"）
+}
+
 export interface FormStep {
   type: 'form';
   title: string;
   intro?: string; // 初心者向けの導入説明
-  pattern: string;
+  // patternは文字列（旧形式）または配列（新形式）に対応
+  pattern: string | PatternItem[];
   breakdown?: Array<{
     part: string;   // 文の一部（例: "I", "don't", "like"）
     role: string;   // 役割の説明（例: "主語", "否定", "動詞"）

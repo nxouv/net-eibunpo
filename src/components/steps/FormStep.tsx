@@ -1,17 +1,42 @@
-import type { FormStep as FormStepType, Category } from '@/lib/types';
+import type { FormStep as FormStepType, Category, PatternItem } from '@/lib/types';
 import styles from './steps.module.css';
+import { Check, X } from 'lucide-react';
 
 interface Props {
     step: FormStepType;
     category: Category;
 }
 
+// ハイライト部分を強調表示する関数
+function highlightPattern(pattern: string, highlight?: string) {
+    if (!highlight) return pattern;
+
+    const parts = pattern.split(highlight);
+    if (parts.length === 1) return pattern;
+
+    return (
+        <>
+            {parts.map((part, i) => (
+                <span key={i}>
+                    {part}
+                    {i < parts.length - 1 && (
+                        <span className={styles.patternHighlight}>{highlight}</span>
+                    )}
+                </span>
+            ))}
+        </>
+    );
+}
+
 export function FormStep({ step, category }: Props) {
-    const patternClass = category === 'spoken'
-        ? styles.patternSpoken
+    const isPatternArray = Array.isArray(step.pattern);
+
+    // カテゴリごとの色クラス
+    const categoryColorClass = category === 'spoken'
+        ? styles.patternContainerSpoken
         : category === 'writing'
-            ? styles.patternWriting
-            : styles.pattern;
+            ? styles.patternContainerWriting
+            : '';
 
     return (
         <div>
@@ -36,9 +61,40 @@ export function FormStep({ step, category }: Props) {
                 </div>
             )}
 
-            <div className={`${styles.pattern} ${patternClass}`}>
-                {step.pattern}
-            </div>
+            {/* パターン表示（新形式：配列） */}
+            {isPatternArray && (
+                <div className={`${styles.patternContainer} ${categoryColorClass}`}>
+                    {(step.pattern as PatternItem[]).map((item, i) => (
+                        <div key={i} className={styles.patternRow}>
+                            <span className={`${styles.patternLabel} ${item.label === '肯定' || item.label === '基本'
+                                    ? styles.patternLabelPositive
+                                    : styles.patternLabelNegative
+                                }`}>
+                                {item.label === '肯定' || item.label === '基本' ? (
+                                    <Check size={14} />
+                                ) : (
+                                    <X size={14} />
+                                )}
+                                {item.label}
+                            </span>
+                            <span className={styles.patternText}>
+                                {highlightPattern(item.pattern, item.highlight)}
+                            </span>
+                        </div>
+                    ))}
+                </div>
+            )}
+
+            {/* パターン表示（旧形式：文字列） */}
+            {!isPatternArray && (
+                <div className={`${styles.pattern} ${category === 'spoken' ? styles.patternSpoken
+                        : category === 'writing' ? styles.patternWriting
+                            : ''
+                    }`}>
+                    {step.pattern as string}
+                </div>
+            )}
+
             <div className={styles.exampleList}>
                 {step.examples.map((example, i) => (
                     <div key={i} className={styles.exampleItem}>

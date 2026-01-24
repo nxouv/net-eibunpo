@@ -95,6 +95,71 @@
     background-color: var(--color-writing-light);
 }
 
+/* 新パターン表示（複数行対応） */
+.patternContainer {
+    background-color: var(--color-grammar-light);
+    border-radius: var(--radius-sm);
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.patternContainerSpoken {
+    background-color: var(--color-spoken-light);
+}
+
+.patternContainerWriting {
+    background-color: var(--color-writing-light);
+}
+
+.patternRow {
+    display: flex;
+    align-items: center;
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.patternRow:last-child {
+    border-bottom: none;
+}
+
+.patternLabel {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin-right: 12px;
+    min-width: 60px;
+    justify-content: center;
+}
+
+.patternLabelPositive {
+    background-color: var(--color-success);
+    color: white;
+}
+
+.patternLabelNegative {
+    background-color: var(--color-text-sub);
+    color: white;
+}
+
+.patternText {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--font-en);
+    color: var(--color-text-main);
+}
+
+.patternHighlight {
+    color: var(--color-grammar);
+    font-weight: 700;
+    background-color: rgba(50, 180, 217, 0.15);
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
 .exampleList {
     display: flex;
     flex-direction: column;

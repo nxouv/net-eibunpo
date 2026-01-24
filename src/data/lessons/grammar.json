@@ -33,7 +33,17 @@
             "role": "これを"
           }
         ],
-        "pattern": "肯定：主語 + 動詞 / 否定：主語 + don't/doesn't + 動詞",
+        "pattern": [
+          {
+            "label": "肯定",
+            "pattern": "主語 + 動詞"
+          },
+          {
+            "label": "否定",
+            "pattern": "主語 + don't + 動詞",
+            "highlight": "don't"
+          }
+        ],
         "examples": [
           {
             "en": "I like this.",
