@@ -98,6 +98,47 @@ export default function AboutPage() {
                 </div>
             </section>
 
+            <section className={styles.section}>
+                <h2 className={styles.sectionTitle}>このサイトの特徴</h2>
+                <div className={styles.content}>
+                    <ul className={styles.list}>
+                        <li>
+                            <span className={styles.listIcon}>
+                                <FluentEmoji name="target" size={20} />
+                            </span>
+                            <div className={styles.listContent}>
+                                <div className={styles.listTitle}>1画面1要素</div>
+                                <div className={styles.listDesc}>
+                                    情報を詰め込みすぎず、少しずつステップを進める
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <span className={styles.listIcon}>
+                                <FluentEmoji name="puzzle" size={20} />
+                            </span>
+                            <div className={styles.listContent}>
+                                <div className={styles.listTitle}>チャンクで覚える</div>
+                                <div className={styles.listDesc}>
+                                    フレーズをかたまりで覚えてそのまま使う
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <span className={styles.listIcon}>
+                                <FluentEmoji name="lightbulb" size={20} />
+                            </span>
+                            <div className={styles.listContent}>
+                                <div className={styles.listTitle}>文脈で理解</div>
+                                <div className={styles.listDesc}>
+                                    ルール暗記ではなく使用場面でイメージ
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
             <div className={styles.cta}>
                 <Link href="/" className={styles.backLink}>
                     ← レッスン一覧へ
