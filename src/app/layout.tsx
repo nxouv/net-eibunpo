@@ -17,13 +17,32 @@ const nunito = Nunito({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://net-eibunpo.vercel.app"),
   title: "ネット英文法 - ネットで使える英語の文法学習サイト",
   description: "教科書英語とネットで使う英語の違いを学べる文法学習サイト。SNSや配信で使われるカジュアルな英語表現、ニュアンス、話し言葉の文法を体系的に学べます。",
+  icons: {
+    icon: "/favicon.png",
+    apple: "/favicon.png",
+  },
   openGraph: {
     title: "ネット英文法",
     description: "教科書英語とネットで使う英語の違いを学べる文法学習サイト。SNSや配信で使われるカジュアルな英語表現、ニュアンス、話し言葉の文法を体系的に学べます。",
     type: "website",
     locale: "ja_JP",
+    images: [
+      {
+        url: "/ogp.png",
+        width: 1200,
+        height: 630,
+        alt: "ネット英文法",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "ネット英文法",
+    description: "教科書英語とネットで使う英語の違いを学べる文法学習サイト。",
+    images: ["/ogp.png"],
   },
 };
 
