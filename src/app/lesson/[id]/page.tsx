@@ -37,6 +37,27 @@ export default function LessonPage() {
         }
     }, [lessonId, currentStep, lesson, updateCurrentPosition]);
 
+    // Canonical URL設定: まとめページを正規URLとして指定
+    useEffect(() => {
+        const canonicalUrl = `${window.location.origin}/lesson/${lessonId}/summary`;
+        let link = document.querySelector('link[rel="canonical"]') as HTMLLinkElement;
+
+        if (!link) {
+            link = document.createElement('link');
+            link.rel = 'canonical';
+            document.head.appendChild(link);
+        }
+        link.href = canonicalUrl;
+
+        return () => {
+            // クリーンアップ: ページ離脱時に削除
+            const existingLink = document.querySelector('link[rel="canonical"]');
+            if (existingLink) {
+                existingLink.remove();
+            }
+        };
+    }, [lessonId]);
+
     if (!lesson) {
         return (
             <>
