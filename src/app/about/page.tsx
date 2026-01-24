@@ -4,8 +4,8 @@ import { FluentEmoji } from '@/components/FluentEmoji/FluentEmoji';
 import styles from './page.module.css';
 
 export const metadata: Metadata = {
-    title: 'このサイトはなに？ | ネット英文法',
-    description: 'ネット英文法のコンセプトと使い方。教科書英語を知らなくても基本から学べます。',
+    title: 'ネット英文法について - コンセプトと学習方法',
+    description: 'ネット英文法のコンセプト、学習の特徴、レッスンの流れを説明。1画面1要素、チャンク学習、教科書との差分で効率的に学べます。',
 };
 
 export default function AboutPage() {
