@@ -97,7 +97,7 @@ export default function LessonPage() {
                 <div className={`container ${styles.stepContainer}`}>
                     <div className={styles.stepContent}>
                         <StepCard category={lesson.category}>
-                            <StepRenderer step={step} category={lesson.category} />
+                            <StepRenderer step={step} category={lesson.category} lessonTitle={lesson.title} />
                             <ProgressDots
                                 total={totalSteps}
                                 current={currentStep}
@@ -136,12 +136,13 @@ export default function LessonPage() {
 interface StepRendererProps {
     step: LessonStepType;
     category: Category;
+    lessonTitle: string;
 }
 
-function StepRenderer({ step, category }: StepRendererProps) {
+function StepRenderer({ step, category, lessonTitle }: StepRendererProps) {
     switch (step.type) {
         case 'summary':
-            return <SummaryStep step={step} />;
+            return <SummaryStep step={step} lessonTitle={lessonTitle} />;
         case 'form':
             return <FormStep step={step} category={category} />;
         case 'nuance':
