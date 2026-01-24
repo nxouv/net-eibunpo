@@ -35,31 +35,31 @@
 
 /* ダークモード */
 [data-theme="dark"] {
-  --color-bg: #1F2937;
-  --color-bg-card: #374151;
+  --color-bg: #0f1419;
+  --color-bg-card: #1a1f26;
   --color-text-main: #F9FAFB;
-  --color-text-sub: #D1D5DB;
-  --color-border: #4B5563;
-  --color-shadow: rgba(0, 0, 0, 0.3);
+  --color-text-sub: #9CA3AF;
+  --color-border: #2d3640;
+  --color-shadow: rgba(0, 0, 0, 0.5);
 
   /* カテゴリの薄い背景色（ダーク用） */
-  --color-grammar-light: #1a3a42;
-  --color-spoken-light: #3d2a32;
-  --color-writing-light: #253d30;
+  --color-grammar-light: #0d2228;
+  --color-spoken-light: #271a1f;
+  --color-writing-light: #142820;
 }
 
 /* システムのダークモード設定に従う（初期値） */
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --color-bg: #1F2937;
-    --color-bg-card: #374151;
+    --color-bg: #0f1419;
+    --color-bg-card: #1a1f26;
     --color-text-main: #F9FAFB;
-    --color-text-sub: #D1D5DB;
-    --color-border: #4B5563;
-    --color-shadow: rgba(0, 0, 0, 0.3);
-    --color-grammar-light: #1a3a42;
-    --color-spoken-light: #3d2a32;
-    --color-writing-light: #253d30;
+    --color-text-sub: #9CA3AF;
+    --color-border: #2d3640;
+    --color-shadow: rgba(0, 0, 0, 0.5);
+    --color-grammar-light: #0d2228;
+    --color-spoken-light: #271a1f;
+    --color-writing-light: #142820;
   }
 }
 
