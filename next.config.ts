@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // No special config needed for lucide-react
+  transpilePackages: ['@lobehub/fluent-emoji'],
 };
 
 export default nextConfig;

@@ -9,6 +9,7 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@lobehub/fluent-emoji": "^4.1.0",
     "@vercel/analytics": "^1.6.1",
     "fluentui-emoji-js": "^1.2.1",
     "lucide-react": "^0.563.0",
