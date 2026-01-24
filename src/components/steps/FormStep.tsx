@@ -1,6 +1,5 @@
 import type { FormStep as FormStepType, Category, PatternItem } from '@/lib/types';
 import styles from './steps.module.css';
-import { Check, X } from 'lucide-react';
 
 interface Props {
     step: FormStepType;
@@ -67,14 +66,9 @@ export function FormStep({ step, category }: Props) {
                     {(step.pattern as PatternItem[]).map((item, i) => (
                         <div key={i} className={styles.patternRow}>
                             <span className={`${styles.patternLabel} ${item.label === '肯定' || item.label === '基本'
-                                    ? styles.patternLabelPositive
-                                    : styles.patternLabelNegative
+                                ? styles.patternLabelPositive
+                                : styles.patternLabelNegative
                                 }`}>
-                                {item.label === '肯定' || item.label === '基本' ? (
-                                    <Check size={14} />
-                                ) : (
-                                    <X size={14} />
-                                )}
                                 {item.label}
                             </span>
                             <span className={styles.patternText}>
@@ -88,8 +82,8 @@ export function FormStep({ step, category }: Props) {
             {/* パターン表示（旧形式：文字列） */}
             {!isPatternArray && (
                 <div className={`${styles.pattern} ${category === 'spoken' ? styles.patternSpoken
-                        : category === 'writing' ? styles.patternWriting
-                            : ''
+                    : category === 'writing' ? styles.patternWriting
+                        : ''
                     }`}>
                     {step.pattern as string}
                 </div>
