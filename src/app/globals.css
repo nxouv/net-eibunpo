@@ -21,6 +21,7 @@
 
   /* UI */
   --color-success: #10B981;
+  --color-success-light: rgba(16, 185, 129, 0.08);
   --color-shadow: rgba(0, 0, 0, 0.08);
 
   /* フォント */

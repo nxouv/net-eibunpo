@@ -12,6 +12,19 @@
     font-size: 18px;
     line-height: 1.8;
     color: var(--color-text-main);
+    animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(8px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 /* Summary step */
@@ -27,7 +40,7 @@
     font-size: 16px;
     line-height: 1.7;
     color: var(--color-text-main);
-    margin-bottom: 20px;
+    margin-bottom: 28px;
     padding: 16px;
     background-color: var(--color-bg);
     border-radius: var(--radius-sm);
@@ -35,7 +48,7 @@
 }
 
 .breakdownContainer {
-    margin-bottom: 20px;
+    margin-bottom: 28px;
     padding: 16px;
     background-color: var(--color-bg);
     border-radius: var(--radius-sm);
@@ -81,7 +94,7 @@
     padding: 20px;
     background-color: var(--color-grammar-light);
     border-radius: var(--radius-sm);
-    margin-bottom: 20px;
+    margin-bottom: 28px;
     font-family: var(--font-en);
 }
 
@@ -99,7 +112,7 @@
 .patternContainer {
     background-color: var(--color-grammar-light);
     border-radius: var(--radius-sm);
-    margin-bottom: 20px;
+    margin-bottom: 28px;
     overflow: hidden;
 }
 
@@ -189,7 +202,7 @@
 .pointList {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 24px;
 }
 
 .pointItem {
@@ -297,6 +310,23 @@
 
 .speakButton {
     flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: transparent;
+    border: none;
+    color: var(--color-text-sub);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.speakButton:hover {
+    color: var(--color-grammar);
+    background-color: var(--color-grammar-light);
+    transform: scale(1.1);
 }
 
 /* Examples step */
@@ -387,6 +417,7 @@
 .practiceInput:focus {
     outline: none;
     border-color: var(--color-grammar);
+    box-shadow: 0 0 0 4px rgba(50, 180, 217, 0.15);
 }
 
 .practiceShowAnswer {

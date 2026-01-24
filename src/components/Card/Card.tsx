@@ -38,10 +38,17 @@ interface LessonCardProps {
 }
 
 export function LessonCard({ id, title, isComplete, category }: LessonCardProps) {
+    const cardClasses = [
+        styles.card,
+        styles.lessonCard,
+        styles[category],
+        isComplete && styles.lessonCardComplete,
+    ].filter(Boolean).join(' ');
+
     return (
         <Link
             href={`/lesson/${id}`}
-            className={`${styles.card} ${styles.lessonCard} ${styles[category]}`}
+            className={cardClasses}
         >
             <div className={`${styles.lessonIcon} ${isComplete ? styles.lessonIconComplete : styles.lessonIconIncomplete}`}>
                 {isComplete ? '✓' : ''}
