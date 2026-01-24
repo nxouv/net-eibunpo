@@ -30,6 +30,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     return {
         title: `${lesson.title} - ${categoryLabel} | ネット英文法`,
         description,
+        alternates: {
+            canonical: `/lesson/${id}/summary`,
+        },
     };
 }
 
