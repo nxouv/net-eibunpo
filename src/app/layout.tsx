@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     ],
   },
   twitter: {
-    card: "summary_large_image",
+    card: "summary",
     title: "ネット英文法",
     description: "教科書英語とネットで使う英語の違いを学べる文法学習サイト。",
     images: ["/ogp.png"],
