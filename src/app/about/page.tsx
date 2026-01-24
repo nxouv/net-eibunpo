@@ -43,6 +43,58 @@ export default function AboutPage() {
             </section>
 
             <section className={styles.section}>
+                <h2 className={styles.sectionTitle}>このサイトの特徴</h2>
+                <div className={styles.content}>
+                    <ul className={styles.list}>
+                        <li>
+                            <span className={styles.listIcon}>
+                                <FluentEmoji name="target" size={20} />
+                            </span>
+                            <div className={styles.listContent}>
+                                <div className={styles.listTitle}>1画面1要素</div>
+                                <div className={styles.listDesc}>
+                                    情報を詰め込みすぎず、少しずつステップを進める
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <span className={styles.listIcon}>
+                                <FluentEmoji name="puzzle" size={20} />
+                            </span>
+                            <div className={styles.listContent}>
+                                <div className={styles.listTitle}>チャンクで覚える</div>
+                                <div className={styles.listDesc}>
+                                    フレーズをかたまりで覚えてそのまま使う
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <span className={styles.listIcon}>
+                                <FluentEmoji name="lightbulb" size={20} />
+                            </span>
+                            <div className={styles.listContent}>
+                                <div className={styles.listTitle}>文脈で理解</div>
+                                <div className={styles.listDesc}>
+                                    ルール暗記ではなく使用場面でイメージ
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <span className={styles.listIcon}>
+                                <FluentEmoji name="book" size={20} />
+                            </span>
+                            <div className={styles.listContent}>
+                                <div className={styles.listTitle}>教科書との差分</div>
+                                <div className={styles.listDesc}>
+                                    既知の知識と新しい知識の橋渡し
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section className={styles.section}>
                 <h2 className={styles.sectionTitle}>学べること</h2>
                 <div className={styles.content}>
                     <ul className={styles.list}>
@@ -95,58 +147,6 @@ export default function AboutPage() {
                         <li><strong>例文</strong>：実際の使用例</li>
                         <li><strong>やってみよう</strong>：練習</li>
                     </ol>
-                </div>
-            </section>
-
-            <section className={styles.section}>
-                <h2 className={styles.sectionTitle}>このサイトの特徴</h2>
-                <div className={styles.content}>
-                    <ul className={styles.list}>
-                        <li>
-                            <span className={styles.listIcon}>
-                                <FluentEmoji name="target" size={20} />
-                            </span>
-                            <div className={styles.listContent}>
-                                <div className={styles.listTitle}>1画面1要素</div>
-                                <div className={styles.listDesc}>
-                                    情報を詰め込みすぎず、少しずつステップを進める
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <span className={styles.listIcon}>
-                                <FluentEmoji name="puzzle" size={20} />
-                            </span>
-                            <div className={styles.listContent}>
-                                <div className={styles.listTitle}>チャンクで覚える</div>
-                                <div className={styles.listDesc}>
-                                    フレーズをかたまりで覚えてそのまま使う
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <span className={styles.listIcon}>
-                                <FluentEmoji name="lightbulb" size={20} />
-                            </span>
-                            <div className={styles.listContent}>
-                                <div className={styles.listTitle}>文脈で理解</div>
-                                <div className={styles.listDesc}>
-                                    ルール暗記ではなく使用場面でイメージ
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <span className={styles.listIcon}>
-                                <FluentEmoji name="book" size={20} />
-                            </span>
-                            <div className={styles.listContent}>
-                                <div className={styles.listTitle}>教科書との差分</div>
-                                <div className={styles.listDesc}>
-                                    既知の知識と新しい知識の橋渡し
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
                 </div>
             </section>
 
