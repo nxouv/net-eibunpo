@@ -14,10 +14,35 @@
       {
         "type": "form",
         "title": "基本のカタチ",
+        "intro": "「〜する」が肯定文、「〜しない」が否定文。否定するときは動詞の前に don't（または doesn't）を入れる。",
+        "breakdown": [
+          {
+            "part": "I",
+            "role": "誰が（主語）"
+          },
+          {
+            "part": "don't",
+            "role": "〜しない"
+          },
+          {
+            "part": "like",
+            "role": "好き（動詞）"
+          },
+          {
+            "part": "this",
+            "role": "これを"
+          }
+        ],
         "pattern": "肯定：主語 + 動詞 / 否定：主語 + don't/doesn't + 動詞",
         "examples": [
-          { "en": "I like this.", "ja": "これ好き" },
-          { "en": "I don't like this.", "ja": "これ好きじゃない" }
+          {
+            "en": "I like this.",
+            "ja": "これ好き"
+          },
+          {
+            "en": "I don't like this.",
+            "ja": "これ好きじゃない"
+          }
         ]
       },
       {
@@ -54,23 +79,61 @@
         "type": "chunks",
         "title": "よく使うフレーズ",
         "items": [
-          { "en": "I don't think so", "ja": "そうは思わない" },
-          { "en": "I don't really ...", "ja": "あんまり〜しない" },
-          { "en": "I'm not sure", "ja": "よくわからない" },
-          { "en": "That doesn't make sense", "ja": "それ意味わからん" },
-          { "en": "I don't mind", "ja": "別にいいよ" },
-          { "en": "It doesn't matter", "ja": "どうでもいい" }
+          {
+            "en": "I don't think so",
+            "ja": "そうは思わない"
+          },
+          {
+            "en": "I don't really ...",
+            "ja": "あんまり〜しない"
+          },
+          {
+            "en": "I'm not sure",
+            "ja": "よくわからない"
+          },
+          {
+            "en": "That doesn't make sense",
+            "ja": "それ意味わからん"
+          },
+          {
+            "en": "I don't mind",
+            "ja": "別にいいよ"
+          },
+          {
+            "en": "It doesn't matter",
+            "ja": "どうでもいい"
+          }
         ]
       },
       {
         "type": "examples",
         "title": "例文",
         "items": [
-          { "en": "I like this game but I don't play it much", "ja": "このゲーム好きだけどあんまやらない", "context": "SNS" },
-          { "en": "Don't think that's gonna work", "ja": "それうまくいかないと思う", "context": "会話" },
-          { "en": "She doesn't stream on weekends", "ja": "彼女週末は配信しない", "context": "SNS" },
-          { "en": "I don't get why people like this", "ja": "なんでみんなこれ好きなのかわからん", "context": "SNS" },
-          { "en": "Not gonna lie, I love this", "ja": "正直これ好き", "context": "配信" }
+          {
+            "en": "I like this game but I don't play it much",
+            "ja": "このゲーム好きだけどあんまやらない",
+            "context": "SNS"
+          },
+          {
+            "en": "Don't think that's gonna work",
+            "ja": "それうまくいかないと思う",
+            "context": "会話"
+          },
+          {
+            "en": "She doesn't stream on weekends",
+            "ja": "彼女週末は配信しない",
+            "context": "SNS"
+          },
+          {
+            "en": "I don't get why people like this",
+            "ja": "なんでみんなこれ好きなのかわからん",
+            "context": "SNS"
+          },
+          {
+            "en": "Not gonna lie, I love this",
+            "ja": "正直これ好き",
+            "context": "配信"
+          }
         ]
       },
       {
@@ -81,14 +144,22 @@
             "type": "translate",
             "instruction": "日本語を英語にしてみよう",
             "question": "あんまり好きじゃない",
-            "answers": ["I don't really like it", "Don't really like it", "Not really into it"],
+            "answers": [
+              "I don't really like it",
+              "Don't really like it",
+              "Not really into it"
+            ],
             "explanation": "「あんまり」は really で表現。主語省略もOK。"
           },
           {
             "type": "convert",
             "instruction": "ネットっぽい言い方に変えてみよう",
             "question": "I do not understand what you mean.",
-            "answers": ["I don't get what you mean", "Don't get what you mean", "I don't understand what you mean"],
+            "answers": [
+              "I don't get what you mean",
+              "Don't get what you mean",
+              "I don't understand what you mean"
+            ],
             "explanation": "do not → don't、understand → get でカジュアルに"
           }
         ]
@@ -112,8 +183,14 @@
         "title": "基本のカタチ",
         "pattern": "Do/Does/Are/Is + 主語 + ... ?",
         "examples": [
-          { "en": "Do you like this?", "ja": "これ好き？" },
-          { "en": "Are you coming?", "ja": "来る？" }
+          {
+            "en": "Do you like this?",
+            "ja": "これ好き？"
+          },
+          {
+            "en": "Are you coming?",
+            "ja": "来る？"
+          }
         ]
       },
       {
@@ -150,23 +227,61 @@
         "type": "chunks",
         "title": "よく使うフレーズ",
         "items": [
-          { "en": "You sure?", "ja": "マジで？本当に？" },
-          { "en": "You coming?", "ja": "来る？" },
-          { "en": "Got it?", "ja": "わかった？" },
-          { "en": "Wanna try?", "ja": "やってみる？" },
-          { "en": "You serious?", "ja": "本気で言ってる？" },
-          { "en": "Need help?", "ja": "手伝おうか？" }
+          {
+            "en": "You sure?",
+            "ja": "マジで？本当に？"
+          },
+          {
+            "en": "You coming?",
+            "ja": "来る？"
+          },
+          {
+            "en": "Got it?",
+            "ja": "わかった？"
+          },
+          {
+            "en": "Wanna try?",
+            "ja": "やってみる？"
+          },
+          {
+            "en": "You serious?",
+            "ja": "本気で言ってる？"
+          },
+          {
+            "en": "Need help?",
+            "ja": "手伝おうか？"
+          }
         ]
       },
       {
         "type": "examples",
         "title": "例文",
         "items": [
-          { "en": "You watching the stream tonight?", "ja": "今夜の配信見る？", "context": "SNS" },
-          { "en": "Anyone else having this issue?", "ja": "他にこの問題ある人いる？", "context": "SNS" },
-          { "en": "You tried the new update yet?", "ja": "新しいアプデもう試した？", "context": "会話" },
-          { "en": "This working for you?", "ja": "これ動いてる？", "context": "配信" },
-          { "en": "You guys ready?", "ja": "みんな準備できた？", "context": "配信" }
+          {
+            "en": "You watching the stream tonight?",
+            "ja": "今夜の配信見る？",
+            "context": "SNS"
+          },
+          {
+            "en": "Anyone else having this issue?",
+            "ja": "他にこの問題ある人いる？",
+            "context": "SNS"
+          },
+          {
+            "en": "You tried the new update yet?",
+            "ja": "新しいアプデもう試した？",
+            "context": "会話"
+          },
+          {
+            "en": "This working for you?",
+            "ja": "これ動いてる？",
+            "context": "配信"
+          },
+          {
+            "en": "You guys ready?",
+            "ja": "みんな準備できた？",
+            "context": "配信"
+          }
         ]
       },
       {
@@ -177,14 +292,22 @@
             "type": "translate",
             "instruction": "日本語を英語にしてみよう",
             "question": "これ見たことある？",
-            "answers": ["You seen this?", "Have you seen this?", "Seen this before?"],
+            "answers": [
+              "You seen this?",
+              "Have you seen this?",
+              "Seen this before?"
+            ],
             "explanation": "Have you を省略するパターンが多い"
           },
           {
             "type": "convert",
             "instruction": "ネットっぽい言い方に変えてみよう",
             "question": "Do you want to play together?",
-            "answers": ["Wanna play?", "You wanna play together?", "Down to play?"],
+            "answers": [
+              "Wanna play?",
+              "You wanna play together?",
+              "Down to play?"
+            ],
             "explanation": "Want to → wanna、Do you を省略"
           }
         ]

@@ -26,7 +26,12 @@ export interface SummaryStep {
 export interface FormStep {
   type: 'form';
   title: string;
+  intro?: string; // 初心者向けの導入説明
   pattern: string;
+  breakdown?: Array<{
+    part: string;   // 文の一部（例: "I", "don't", "like"）
+    role: string;   // 役割の説明（例: "主語", "否定", "動詞"）
+  }>;
   examples: Array<{
     en: string;
     ja: string;
