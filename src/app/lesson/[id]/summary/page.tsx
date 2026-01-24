@@ -14,7 +14,7 @@ export default function SummaryPage() {
     const router = useRouter();
     const lessonId = params.id as string;
 
-    const { markLessonComplete, isLessonComplete } = useProgress();
+    const { markLessonComplete, markLessonIncomplete, isLessonComplete } = useProgress();
     const lesson = getLessonById(lessonId);
     const nextLesson = getNextLesson(lessonId);
 
@@ -39,6 +39,12 @@ export default function SummaryPage() {
 
     const handleComplete = () => {
         markLessonComplete(lessonId);
+    };
+
+    const handleUncomplete = () => {
+        if (confirm('完了を取り消しますか？')) {
+            markLessonIncomplete(lessonId);
+        }
     };
 
     const handleNextLesson = () => {
@@ -138,17 +144,24 @@ export default function SummaryPage() {
                             </Button>
                         )}
 
-                        <Button
-                            variant="secondary"
-                            href={`/lesson/${lessonId}`}
-                            fullWidth={isComplete && !nextLesson}
-                        >
-                            もう一度学ぶ
-                        </Button>
+                        <div className={styles.subActions}>
+                            <Button
+                                variant="secondary"
+                                href={`/lesson/${lessonId}`}
+                            >
+                                もう一度学ぶ
+                            </Button>
 
-                        <Button variant="ghost" href="/">
-                            一覧へ
-                        </Button>
+                            {isComplete && (
+                                <Button variant="ghost" onClick={handleUncomplete}>
+                                    完了を取り消す
+                                </Button>
+                            )}
+
+                            <Button variant="ghost" href="/">
+                                一覧へ
+                            </Button>
+                        </div>
                     </div>
                 </div>
             </main>

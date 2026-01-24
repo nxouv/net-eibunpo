@@ -76,10 +76,27 @@ export function useProgress() {
         return progress.completedLessons.includes(lessonId);
     }, [progress.completedLessons]);
 
+    // レッスン完了を取り消し
+    const markLessonIncomplete = useCallback((lessonId: string) => {
+        setProgress(prev => {
+            if (!prev.completedLessons.includes(lessonId)) {
+                return prev;
+            }
+            const newProgress = {
+                ...prev,
+                completedLessons: prev.completedLessons.filter(id => id !== lessonId),
+            };
+            saveProgress(newProgress);
+            return newProgress;
+        });
+    }, [saveProgress]);
+
     // 進捗をリセット
     const resetProgress = useCallback(() => {
-        saveProgress(DEFAULT_PROGRESS);
-    }, [saveProgress]);
+        const newProgress = { ...DEFAULT_PROGRESS };
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(newProgress));
+        setProgress(newProgress);
+    }, []);
 
     // 完了数を取得
     const getCompletedCount = useCallback((lessonIds: string[]) => {
@@ -90,6 +107,7 @@ export function useProgress() {
         progress,
         isLoaded,
         markLessonComplete,
+        markLessonIncomplete,
         updateCurrentPosition,
         isLessonComplete,
         resetProgress,
