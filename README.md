@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ネット英文法
 
-## Getting Started
+教科書英語とネットで使う英語の違いを学べる文法学習サイト。
 
-First, run the development server:
+🌐 **サイト**: [net-eibunpo.nanataro.app](https://net-eibunpo.nanataro.app)
+
+## 概要
+
+SNS・配信・チャットで使われるカジュアルな英語表現を体系的に学べます。
+
+- **文法**: 時制、助動詞、前置詞など30レッスン
+- **話し言葉**: 省略表現、イントネーションなど10レッスン
+- **書き言葉**: SNS特有の表現、略語など4レッスン
+
+## 特徴
+
+- 📱 1画面1要素のシンプルな学習フロー
+- 🔄 教科書英語との比較で違いが分かる
+- 💬 実際のネットで使われる例文
+- 📊 進捗管理機能
+
+## 技術スタック
+
+- Next.js 16
+- React 19
+- TypeScript
+- Vercel Analytics
+
+## 開発
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+[http://localhost:3000](http://localhost:3000) で確認できます。
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ライセンス
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT
