@@ -72,7 +72,14 @@ export default function LessonPage() {
 
     const totalSteps = lesson.steps.length;
     const step = lesson.steps[currentStep];
-    const isLastStep = currentStep === totalSteps - 1;
+    const isLastStep = currentStep >= totalSteps - 1;
+
+    // ガード: stepがundefinedの場合はまとめページにリダイレクト
+    useEffect(() => {
+        if (!step && lesson) {
+            router.push(`/lesson/${lessonId}/summary`);
+        }
+    }, [step, lesson, lessonId, router]);
 
     const handleNext = () => {
         if (isLastStep) {
@@ -83,12 +90,18 @@ export default function LessonPage() {
         }
     };
 
+
     const handlePrev = () => {
         if (currentStep > 0) {
             setCurrentStep(prev => prev - 1);
             window.scrollTo(0, 0);
         }
     };
+
+    // stepがない場合はリダイレクト中なので何も表示しない
+    if (!step) {
+        return null;
+    }
 
     return (
         <>
@@ -98,6 +111,7 @@ export default function LessonPage() {
                     <div className={styles.stepContent}>
                         <StepCard category={lesson.category}>
                             <StepRenderer step={step} category={lesson.category} lessonTitle={lesson.title} />
+
                             <ProgressDots
                                 total={totalSteps}
                                 current={currentStep}

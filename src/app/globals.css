@@ -144,3 +144,8 @@ body {
   /* Prevent APNG animation by using canvas-based rendering */
   image-rendering: auto;
 }
+
+/* レッスンページでフッターを非表示（まとめページは除く） */
+body:has([data-hide-footer="true"]):not(:has([data-hide-footer="false"]))>footer {
+  display: none;
+}

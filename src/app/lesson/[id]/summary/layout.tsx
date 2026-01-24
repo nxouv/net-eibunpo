@@ -38,5 +38,5 @@ export default function SummaryLayout({
 }: {
     children: React.ReactNode;
 }) {
-    return children;
+    return <div data-hide-footer="false">{children}</div>;
 }

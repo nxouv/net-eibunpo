@@ -41,5 +41,5 @@ export default function LessonLayout({
 }: {
     children: React.ReactNode;
 }) {
-    return children;
+    return <div data-hide-footer="true">{children}</div>;
 }
