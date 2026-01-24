@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 import { getAllLessons } from '@/lib/lessons';
 
-const BASE_URL = 'https://net-eibunpo.com';
+const BASE_URL = 'https://net-eibunpo.nanataro.app';
 
 export default function sitemap(): MetadataRoute.Sitemap {
     const lessons = getAllLessons();
