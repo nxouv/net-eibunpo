@@ -71,12 +71,7 @@ export function ThemeToggle() {
             aria-label={`テーマ切り替え: 現在${label}`}
             title={label}
         >
-            {/* Stars for dark mode decoration */}
-            <div className={styles.stars}>
-                <div className={styles.star} />
-                <div className={styles.star} />
-                <div className={styles.star} />
-            </div>
+
 
             {/* Sliding knob with icon */}
             <div className={styles.knob}>

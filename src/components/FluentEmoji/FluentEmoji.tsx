@@ -1,7 +1,6 @@
 'use client';
 
 import {
-    Volume2,
     Check,
     type LucideIcon,
 } from 'lucide-react';
@@ -29,14 +28,14 @@ type IconName =
     | 'two'
     | 'three';
 
-// Map icon names to Lucide icons (for functional icons - speaker, check)
+// Map icon names to Lucide icons (for functional icons - check only)
 const LUCIDE_ICON_MAP: Record<string, LucideIcon> = {
-    'speaker': Volume2,
     'check': Check,
 };
 
 // Map icon names to Fluent Emoji characters
 const EMOJI_MAP: Record<string, string> = {
+    'speaker': '🔊',
     'lightbulb': '💡',
     'puzzle': '🧩',
     'target': '🎯',
