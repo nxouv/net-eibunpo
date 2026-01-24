@@ -1,919 +1,929 @@
 [
-    {
-        "id": "contraction",
-        "category": "spoken",
-        "categoryLabel": "話し言葉の文法",
-        "title": "縮約・連結",
-        "order": 1,
-        "steps": [
-            {
-                "type": "summary",
-                "title": "ポイント",
-                "content": "gonna, wanna, gotta など、音が繋がる・縮まるパターン。知らないと聞き取れない。"
-            },
-            {
-                "type": "nuance",
-                "title": "ニュアンス",
-                "points": [
-                    {
-                        "heading": "なぜ縮約するのか",
-                        "text": "ネイティブの日常会話では単語がくっついたり縮んだりする。これは「正しくない英語」ではなく、カジュアルな場面での自然な話し方。"
-                    },
-                    {
-                        "heading": "使う場面",
-                        "text": "配信者やSNSでは当たり前に使われる。ただし、フォーマルな場面（ビジネスメール等）では避ける。"
-                    }
-                ]
-            },
-            {
-                "type": "chunks",
-                "title": "よく使うフレーズ",
-                "items": [
-                    {
-                        "en": "gonna",
-                        "ja": "going to → 〜するつもり"
-                    },
-                    {
-                        "en": "wanna",
-                        "ja": "want to → 〜したい"
-                    },
-                    {
-                        "en": "gotta",
-                        "ja": "got to → 〜しなきゃ"
-                    },
-                    {
-                        "en": "kinda",
-                        "ja": "kind of → ちょっと"
-                    },
-                    {
-                        "en": "dunno",
-                        "ja": "don't know → 知らない"
-                    },
-                    {
-                        "en": "lemme",
-                        "ja": "let me → 〜させて"
-                    },
-                    {
-                        "en": "gimme",
-                        "ja": "give me → ちょうだい"
-                    },
-                    {
-                        "en": "shoulda",
-                        "ja": "should have → 〜すべきだった"
-                    },
-                    {
-                        "en": "coulda",
-                        "ja": "could have → 〜できたはず"
-                    },
-                    {
-                        "en": "woulda",
-                        "ja": "would have → 〜しただろう"
-                    }
-                ]
-            },
-            {
-                "type": "examples",
-                "title": "例文",
-                "items": [
-                    {
-                        "en": "I'm gonna grab some coffee.",
-                        "ja": "コーヒー買ってくる",
-                        "context": "会話"
-                    },
-                    {
-                        "en": "I wanna try that.",
-                        "ja": "あれ試したい",
-                        "context": "会話"
-                    },
-                    {
-                        "en": "I gotta go, talk later.",
-                        "ja": "行かなきゃ、また後で",
-                        "context": "会話"
-                    },
-                    {
-                        "en": "Shoulda saved earlier.",
-                        "ja": "もっと早くセーブすべきだった",
-                        "context": "配信"
-                    }
-                ]
-            },
-            {
-                "type": "practice",
-                "title": "やってみよう",
-                "items": [
-                    {
-                        "type": "expand",
-                        "instruction": "元の形に戻してみよう",
-                        "question": "I dunno what you're gonna do.",
-                        "answers": [
-                            "I don't know what you are going to do."
-                        ],
-                        "explanation": "dunno = don't know、gonna = going to"
-                    }
-                ]
-            }
+  {
+    "id": "contraction",
+    "category": "spoken",
+    "categoryLabel": "話し言葉の文法",
+    "title": "縮約・連結",
+    "order": 1,
+    "steps": [
+      {
+        "type": "summary",
+        "title": "ポイント",
+        "content": "gonna, wanna, gotta など、音が繋がる・縮まるパターン。知らないと聞き取れない。"
+      },
+      {
+        "type": "nuance",
+        "title": "ニュアンス",
+        "points": [
+          {
+            "heading": "なぜ縮約するのか",
+            "text": "ネイティブの日常会話では単語がくっついたり縮んだりする。これは「正しくない英語」ではなく、カジュアルな場面での自然な話し方。"
+          },
+          {
+            "heading": "使う場面",
+            "text": "配信者やSNSでは当たり前に使われる。ただし、フォーマルな場面（ビジネスメール等）では避ける。"
+          }
         ]
-    },
-    {
-        "id": "omission",
-        "category": "spoken",
-        "categoryLabel": "話し言葉の文法",
-        "title": "省略",
-        "order": 2,
-        "steps": [
-            {
-                "type": "summary",
-                "title": "ポイント",
-                "content": "主語やbe動詞がよく省略される。文脈でわかるものは言わない。"
-            },
-            {
-                "type": "nuance",
-                "title": "ニュアンス",
-                "points": [
-                    {
-                        "heading": "主語の省略",
-                        "text": "「I」は特によく省略される。「(I) Gotta go」「(I) Don't know」など。"
-                    },
-                    {
-                        "heading": "be動詞の省略",
-                        "text": "「(Are) You coming?」「(I'm) Just chilling」のように、be動詞も省略される。"
-                    }
-                ]
-            },
-            {
-                "type": "chunks",
-                "title": "よく使うフレーズ",
-                "items": [
-                    {
-                        "en": "Gotta go",
-                        "ja": "行かなきゃ"
-                    },
-                    {
-                        "en": "Don't know",
-                        "ja": "わからない"
-                    },
-                    {
-                        "en": "Not sure",
-                        "ja": "よくわからない"
-                    },
-                    {
-                        "en": "Just saying",
-                        "ja": "言ってるだけ"
-                    },
-                    {
-                        "en": "You coming?",
-                        "ja": "来る？"
-                    },
-                    {
-                        "en": "Sounds good",
-                        "ja": "いいね"
-                    }
-                ]
-            },
-            {
-                "type": "examples",
-                "title": "例文",
-                "items": [
-                    {
-                        "en": "Gonna be late, sorry",
-                        "ja": "遅れる、ごめん",
-                        "context": "会話"
-                    },
-                    {
-                        "en": "Not gonna lie, this is hard",
-                        "ja": "正直これ難しい",
-                        "context": "配信"
-                    },
-                    {
-                        "en": "Nice! Love it",
-                        "ja": "いいね！好き",
-                        "context": "SNS"
-                    }
-                ]
-            },
-            {
-                "type": "practice",
-                "title": "やってみよう",
-                "items": [
-                    {
-                        "type": "convert",
-                        "instruction": "省略形に変えてみよう",
-                        "question": "I am going to the store.",
-                        "answers": [
-                            "Going to the store",
-                            "Gonna go to the store"
-                        ],
-                        "explanation": "I am → 省略"
-                    }
-                ]
-            }
+      },
+      {
+        "type": "chunks",
+        "title": "よく使うフレーズ",
+        "items": [
+          {
+            "en": "gonna",
+            "ja": "going to → 〜するつもり"
+          },
+          {
+            "en": "wanna",
+            "ja": "want to → 〜したい"
+          },
+          {
+            "en": "gotta",
+            "ja": "got to → 〜しなきゃ"
+          },
+          {
+            "en": "kinda",
+            "ja": "kind of → ちょっと"
+          },
+          {
+            "en": "dunno",
+            "ja": "don't know → 知らない"
+          },
+          {
+            "en": "lemme",
+            "ja": "let me → 〜させて"
+          },
+          {
+            "en": "gimme",
+            "ja": "give me → ちょうだい"
+          },
+          {
+            "en": "shoulda",
+            "ja": "should have → 〜すべきだった"
+          },
+          {
+            "en": "coulda",
+            "ja": "could have → 〜できたはず"
+          },
+          {
+            "en": "woulda",
+            "ja": "would have → 〜しただろう"
+          }
         ]
-    },
-    {
-        "id": "fragment",
-        "category": "spoken",
-        "categoryLabel": "話し言葉の文法",
-        "title": "断片文",
-        "order": 3,
-        "steps": [
-            {
-                "type": "summary",
-                "title": "ポイント",
-                "content": "完全な文ではなく、必要な部分だけで会話する。「You coming?」「Yeah, in a sec.」"
-            },
-            {
-                "type": "nuance",
-                "title": "ニュアンス",
-                "points": [
-                    {
-                        "heading": "効率重視",
-                        "text": "必要な情報だけ伝えればいい。主語や動詞が省略されても文脈でわかる。"
-                    },
-                    {
-                        "heading": "返答でよく使う",
-                        "text": "「In a sec」「Not really」「Kinda」など、一言で返すパターンが多い。"
-                    }
-                ]
-            },
-            {
-                "type": "chunks",
-                "title": "よく使うフレーズ",
-                "items": [
-                    {
-                        "en": "In a sec",
-                        "ja": "すぐ"
-                    },
-                    {
-                        "en": "Not really",
-                        "ja": "あんまり"
-                    },
-                    {
-                        "en": "If you want",
-                        "ja": "したいなら"
-                    },
-                    {
-                        "en": "Whenever",
-                        "ja": "いつでも"
-                    },
-                    {
-                        "en": "Same here",
-                        "ja": "こっちも"
-                    }
-                ]
-            },
-            {
-                "type": "examples",
-                "title": "例文",
-                "items": [
-                    {
-                        "en": "A: You coming? B: Yeah, in a sec.",
-                        "ja": "A: 来る？ B: うん、すぐ",
-                        "context": "会話"
-                    },
-                    {
-                        "en": "A: You like it? B: Kinda.",
-                        "ja": "A: 好き？ B: まあまあ",
-                        "context": "会話"
-                    }
-                ]
-            },
-            {
-                "type": "practice",
-                "title": "やってみよう",
-                "items": [
-                    {
-                        "type": "translate",
-                        "instruction": "日本語を英語にしてみよう",
-                        "question": "すぐ行く",
-                        "answers": [
-                            "In a sec",
-                            "Coming",
-                            "Be there in a sec"
-                        ],
-                        "explanation": "短い返答"
-                    }
-                ]
-            }
+      },
+      {
+        "type": "examples",
+        "title": "例文",
+        "items": [
+          {
+            "en": "I'm gonna grab some coffee.",
+            "ja": "コーヒー買ってくる",
+            "context": "会話"
+          },
+          {
+            "en": "I wanna try that.",
+            "ja": "あれ試したい",
+            "context": "会話"
+          },
+          {
+            "en": "I gotta go, talk later.",
+            "ja": "行かなきゃ、また後で",
+            "context": "会話"
+          },
+          {
+            "en": "Shoulda saved earlier.",
+            "ja": "もっと早くセーブすべきだった",
+            "context": "配信"
+          }
         ]
-    },
-    {
-        "id": "fillers",
-        "category": "spoken",
-        "categoryLabel": "話し言葉の文法",
-        "title": "つなぎ言葉",
-        "order": 4,
-        "steps": [
-            {
-                "type": "summary",
-                "title": "ポイント",
-                "content": "like, you know, I mean などのつなぎ言葉。ネイティブの会話に超頻出。"
-            },
-            {
-                "type": "nuance",
-                "title": "ニュアンス",
-                "points": [
-                    {
-                        "heading": "like の多用",
-                        "text": "若い世代は「like」をめちゃくちゃ使う。「It was like, so weird」。意味はほぼない。"
-                    },
-                    {
-                        "heading": "I mean",
-                        "text": "「つまり」「言いたいのは」という意味。言い直しや補足の前に使う。"
-                    }
-                ]
-            },
-            {
-                "type": "chunks",
-                "title": "よく使うフレーズ",
-                "items": [
-                    {
-                        "en": "like",
-                        "ja": "なんか"
-                    },
-                    {
-                        "en": "you know",
-                        "ja": "わかる？/ね？"
-                    },
-                    {
-                        "en": "I mean",
-                        "ja": "つまり"
-                    },
-                    {
-                        "en": "so",
-                        "ja": "だから/えーと"
-                    },
-                    {
-                        "en": "basically",
-                        "ja": "要するに"
-                    },
-                    {
-                        "en": "honestly",
-                        "ja": "正直"
-                    },
-                    {
-                        "en": "literally",
-                        "ja": "マジで"
-                    }
-                ]
-            },
-            {
-                "type": "examples",
-                "title": "例文",
-                "items": [
-                    {
-                        "en": "It was like, super weird, you know?",
-                        "ja": "なんかめっちゃ変だったんだよね",
-                        "context": "会話"
-                    },
-                    {
-                        "en": "I mean, I get it, but still",
-                        "ja": "いやわかるんだけど、でもさ",
-                        "context": "会話"
-                    }
-                ]
-            },
-            {
-                "type": "practice",
-                "title": "やってみよう",
-                "items": [
-                    {
-                        "type": "translate",
-                        "instruction": "日本語を英語にしてみよう",
-                        "question": "正直言ってそれ最高",
-                        "answers": [
-                            "Honestly, that's the best",
-                            "Honestly that's amazing"
-                        ],
-                        "explanation": "honestly で「正直」"
-                    }
-                ]
-            }
+      },
+      {
+        "type": "practice",
+        "title": "やってみよう",
+        "items": [
+          {
+            "type": "expand",
+            "instruction": "元の形に戻してみよう",
+            "question": "I dunno what you're gonna do.",
+            "answers": [
+              "I don't know what you are going to do."
+            ],
+            "explanation": "dunno = don't know、gonna = going to"
+          }
         ]
-    },
-    {
-        "id": "hedging",
-        "category": "spoken",
-        "categoryLabel": "話し言葉の文法",
-        "title": "ぼかし表現",
-        "order": 5,
-        "steps": [
-            {
-                "type": "summary",
-                "title": "ポイント",
-                "content": "kinda, sort of, I guess など、断定を避けてやわらげる表現。"
-            },
-            {
-                "type": "nuance",
-                "title": "ニュアンス",
-                "points": [
-                    {
-                        "heading": "断定しない",
-                        "text": "「It's bad」より「It's kinda bad」の方が柔らかい。"
-                    },
-                    {
-                        "heading": "I guess",
-                        "text": "「〜かな」「たぶん」というニュアンス。確信がない時に使う。"
-                    }
-                ]
-            },
-            {
-                "type": "chunks",
-                "title": "よく使うフレーズ",
-                "items": [
-                    {
-                        "en": "kinda",
-                        "ja": "ちょっと/なんか"
-                    },
-                    {
-                        "en": "sort of",
-                        "ja": "なんか/ちょっと"
-                    },
-                    {
-                        "en": "I guess",
-                        "ja": "たぶん/そうかも"
-                    },
-                    {
-                        "en": "maybe",
-                        "ja": "たぶん"
-                    },
-                    {
-                        "en": "pretty much",
-                        "ja": "ほぼ"
-                    }
-                ]
-            },
-            {
-                "type": "examples",
-                "title": "例文",
-                "items": [
-                    {
-                        "en": "It's kinda annoying, not gonna lie",
-                        "ja": "ちょっとうざい、正直",
-                        "context": "SNS"
-                    },
-                    {
-                        "en": "I'm pretty sure it's broken",
-                        "ja": "たぶん壊れてる",
-                        "context": "配信"
-                    }
-                ]
-            },
-            {
-                "type": "practice",
-                "title": "やってみよう",
-                "items": [
-                    {
-                        "type": "translate",
-                        "instruction": "日本語を英語にしてみよう",
-                        "question": "たぶん大丈夫だと思う",
-                        "answers": [
-                            "I think it's fine",
-                            "Pretty sure it's okay",
-                            "I guess it's fine"
-                        ],
-                        "explanation": "やわらげ表現"
-                    }
-                ]
-            }
+      }
+    ],
+    "netTip": "なぜ縮約するのか。ネイティブの日常会話では単語がくっついたり縮んだりする。これは「正しくない英語」ではなく、カジュアルな場面での自然な話し方。"
+  },
+  {
+    "id": "omission",
+    "category": "spoken",
+    "categoryLabel": "話し言葉の文法",
+    "title": "省略",
+    "order": 2,
+    "steps": [
+      {
+        "type": "summary",
+        "title": "ポイント",
+        "content": "主語やbe動詞がよく省略される。文脈でわかるものは言わない。"
+      },
+      {
+        "type": "nuance",
+        "title": "ニュアンス",
+        "points": [
+          {
+            "heading": "主語の省略",
+            "text": "「I」は特によく省略される。「(I) Gotta go」「(I) Don't know」など。"
+          },
+          {
+            "heading": "be動詞の省略",
+            "text": "「(Are) You coming?」「(I'm) Just chilling」のように、be動詞も省略される。"
+          }
         ]
-    },
-    {
-        "id": "intensifiers",
-        "category": "spoken",
-        "categoryLabel": "話し言葉の文法",
-        "title": "強調表現",
-        "order": 6,
-        "steps": [
-            {
-                "type": "summary",
-                "title": "ポイント",
-                "content": "so, really, literally, super など、感情や程度を強調する表現。"
-            },
-            {
-                "type": "nuance",
-                "title": "ニュアンス",
-                "points": [
-                    {
-                        "heading": "literally の使い方",
-                        "text": "本来は「文字通り」だが、今は単なる強調で使われる。「I literally died」など。"
-                    },
-                    {
-                        "heading": "super がカジュアル",
-                        "text": "very より super の方がカジュアル。「super cool」「super tired」。"
-                    }
-                ]
-            },
-            {
-                "type": "chunks",
-                "title": "よく使うフレーズ",
-                "items": [
-                    {
-                        "en": "so",
-                        "ja": "めっちゃ"
-                    },
-                    {
-                        "en": "really",
-                        "ja": "本当に"
-                    },
-                    {
-                        "en": "literally",
-                        "ja": "マジで"
-                    },
-                    {
-                        "en": "super",
-                        "ja": "超"
-                    },
-                    {
-                        "en": "totally",
-                        "ja": "完全に"
-                    },
-                    {
-                        "en": "lowkey",
-                        "ja": "ちょっと"
-                    },
-                    {
-                        "en": "highkey",
-                        "ja": "マジで"
-                    }
-                ]
-            },
-            {
-                "type": "examples",
-                "title": "例文",
-                "items": [
-                    {
-                        "en": "I'm literally dying rn",
-                        "ja": "マジで死にそう（笑）",
-                        "context": "SNS"
-                    },
-                    {
-                        "en": "I'm lowkey addicted",
-                        "ja": "ちょっとハマってる",
-                        "context": "SNS"
-                    }
-                ]
-            },
-            {
-                "type": "practice",
-                "title": "やってみよう",
-                "items": [
-                    {
-                        "type": "translate",
-                        "instruction": "日本語を英語にしてみよう",
-                        "question": "マジで疲れた",
-                        "answers": [
-                            "I'm literally exhausted",
-                            "I'm so tired",
-                            "Super tired rn"
-                        ],
-                        "explanation": "literally/so/super で強調"
-                    }
-                ]
-            }
+      },
+      {
+        "type": "chunks",
+        "title": "よく使うフレーズ",
+        "items": [
+          {
+            "en": "Gotta go",
+            "ja": "行かなきゃ"
+          },
+          {
+            "en": "Don't know",
+            "ja": "わからない"
+          },
+          {
+            "en": "Not sure",
+            "ja": "よくわからない"
+          },
+          {
+            "en": "Just saying",
+            "ja": "言ってるだけ"
+          },
+          {
+            "en": "You coming?",
+            "ja": "来る？"
+          },
+          {
+            "en": "Sounds good",
+            "ja": "いいね"
+          }
         ]
-    },
-    {
-        "id": "discourse-markers",
-        "category": "spoken",
-        "categoryLabel": "話し言葉の文法",
-        "title": "談話標識",
-        "order": 7,
-        "steps": [
-            {
-                "type": "summary",
-                "title": "ポイント",
-                "content": "so, anyway, the thing is など、話の流れを示す表現。"
-            },
-            {
-                "type": "nuance",
-                "title": "ニュアンス",
-                "points": [
-                    {
-                        "heading": "話を始める時",
-                        "text": "「So...」「Anyway...」で話を始めたり、話題を変えたりする。"
-                    },
-                    {
-                        "heading": "the thing is",
-                        "text": "「問題は〜」「実は〜」というニュアンス。重要なポイントを言う前に使う。"
-                    }
-                ]
-            },
-            {
-                "type": "chunks",
-                "title": "よく使うフレーズ",
-                "items": [
-                    {
-                        "en": "so",
-                        "ja": "で/だから"
-                    },
-                    {
-                        "en": "anyway",
-                        "ja": "とにかく"
-                    },
-                    {
-                        "en": "the thing is",
-                        "ja": "問題は/実は"
-                    },
-                    {
-                        "en": "basically",
-                        "ja": "要するに"
-                    },
-                    {
-                        "en": "actually",
-                        "ja": "実は"
-                    }
-                ]
-            },
-            {
-                "type": "examples",
-                "title": "例文",
-                "items": [
-                    {
-                        "en": "So anyway, I was thinking...",
-                        "ja": "でとにかく、思ったんだけど",
-                        "context": "会話"
-                    },
-                    {
-                        "en": "The thing is, I don't have time",
-                        "ja": "問題は時間がないこと",
-                        "context": "会話"
-                    }
-                ]
-            },
-            {
-                "type": "practice",
-                "title": "やってみよう",
-                "items": [
-                    {
-                        "type": "translate",
-                        "instruction": "日本語を英語にしてみよう",
-                        "question": "とにかく、行こう",
-                        "answers": [
-                            "Anyway, let's go",
-                            "So let's just go"
-                        ],
-                        "explanation": "anyway で話をまとめる"
-                    }
-                ]
-            }
+      },
+      {
+        "type": "examples",
+        "title": "例文",
+        "items": [
+          {
+            "en": "Gonna be late, sorry",
+            "ja": "遅れる、ごめん",
+            "context": "会話"
+          },
+          {
+            "en": "Not gonna lie, this is hard",
+            "ja": "正直これ難しい",
+            "context": "配信"
+          },
+          {
+            "en": "Nice! Love it",
+            "ja": "いいね！好き",
+            "context": "SNS"
+          }
         ]
-    },
-    {
-        "id": "reactions",
-        "category": "spoken",
-        "categoryLabel": "話し言葉の文法",
-        "title": "反応・相槌",
-        "order": 8,
-        "steps": [
-            {
-                "type": "summary",
-                "title": "ポイント",
-                "content": "No way, For real?, Same など、驚きや共感を表す反応フレーズ。"
-            },
-            {
-                "type": "nuance",
-                "title": "ニュアンス",
-                "points": [
-                    {
-                        "heading": "驚きの表現",
-                        "text": "「No way!」「For real?」「Wait what?」など、驚きを表す表現はたくさんある。"
-                    },
-                    {
-                        "heading": "Same の使い方",
-                        "text": "「Same」一言で「わかる」「自分も」という共感を表せる。"
-                    }
-                ]
-            },
-            {
-                "type": "chunks",
-                "title": "よく使うフレーズ",
-                "items": [
-                    {
-                        "en": "No way!",
-                        "ja": "マジで！"
-                    },
-                    {
-                        "en": "For real?",
-                        "ja": "マジで？"
-                    },
-                    {
-                        "en": "Wait what?",
-                        "ja": "え、なに？"
-                    },
-                    {
-                        "en": "Same",
-                        "ja": "わかる/同じ"
-                    },
-                    {
-                        "en": "Right",
-                        "ja": "だよね"
-                    },
-                    {
-                        "en": "Totally",
-                        "ja": "まさに"
-                    },
-                    {
-                        "en": "True",
-                        "ja": "たしかに"
-                    }
-                ]
-            },
-            {
-                "type": "examples",
-                "title": "例文",
-                "items": [
-                    {
-                        "en": "Wait what? That's insane!",
-                        "ja": "え、なに？やば！",
-                        "context": "配信"
-                    },
-                    {
-                        "en": "Same, I feel the same way",
-                        "ja": "わかる、同じこと思う",
-                        "context": "会話"
-                    }
-                ]
-            },
-            {
-                "type": "practice",
-                "title": "やってみよう",
-                "items": [
-                    {
-                        "type": "translate",
-                        "instruction": "日本語を英語にしてみよう",
-                        "question": "マジで？それやばい",
-                        "answers": [
-                            "For real? That's crazy",
-                            "No way, that's insane"
-                        ],
-                        "explanation": "驚き + 感想"
-                    }
-                ]
-            }
+      },
+      {
+        "type": "practice",
+        "title": "やってみよう",
+        "items": [
+          {
+            "type": "convert",
+            "instruction": "省略形に変えてみよう",
+            "question": "I am going to the store.",
+            "answers": [
+              "Going to the store",
+              "Gonna go to the store"
+            ],
+            "explanation": "I am → 省略"
+          }
         ]
-    },
-    {
-        "id": "tag-question",
-        "category": "spoken",
-        "categoryLabel": "話し言葉の文法",
-        "title": "付加疑問・確認",
-        "order": 9,
-        "steps": [
-            {
-                "type": "summary",
-                "title": "ポイント",
-                "content": "..., right? や ..., isn't it? で相手に確認や同意を求める。"
-            },
-            {
-                "type": "nuance",
-                "title": "ニュアンス",
-                "points": [
-                    {
-                        "heading": "right? が万能",
-                        "text": "正式な付加疑問（isn't it? など）より「right?」が圧倒的に使われる。"
-                    },
-                    {
-                        "heading": "huh? / yeah?",
-                        "text": "カジュアルには「huh?」「yeah?」で確認することも。"
-                    }
-                ]
-            },
-            {
-                "type": "chunks",
-                "title": "よく使うフレーズ",
-                "items": [
-                    {
-                        "en": "..., right?",
-                        "ja": "〜だよね？"
-                    },
-                    {
-                        "en": "..., isn't it?",
-                        "ja": "〜じゃない？"
-                    },
-                    {
-                        "en": "..., huh?",
-                        "ja": "〜でしょ？"
-                    },
-                    {
-                        "en": "..., yeah?",
-                        "ja": "〜だよね？"
-                    }
-                ]
-            },
-            {
-                "type": "examples",
-                "title": "例文",
-                "items": [
-                    {
-                        "en": "This is the one, right?",
-                        "ja": "これだよね？",
-                        "context": "会話"
-                    },
-                    {
-                        "en": "You're coming, yeah?",
-                        "ja": "来るよね？",
-                        "context": "会話"
-                    }
-                ]
-            },
-            {
-                "type": "practice",
-                "title": "やってみよう",
-                "items": [
-                    {
-                        "type": "translate",
-                        "instruction": "日本語を英語にしてみよう",
-                        "question": "これでいいよね？",
-                        "answers": [
-                            "This is good, right?",
-                            "This works, yeah?"
-                        ],
-                        "explanation": "right? で確認"
-                    }
-                ]
-            }
+      }
+    ],
+    "netTip": "主語の省略。「I」は特によく省略される。「(I) Gotta go」「(I) Don't know」など。"
+  },
+  {
+    "id": "fragment",
+    "category": "spoken",
+    "categoryLabel": "話し言葉の文法",
+    "title": "断片文",
+    "order": 3,
+    "steps": [
+      {
+        "type": "summary",
+        "title": "ポイント",
+        "content": "完全な文ではなく、必要な部分だけで会話する。「You coming?」「Yeah, in a sec.」"
+      },
+      {
+        "type": "nuance",
+        "title": "ニュアンス",
+        "points": [
+          {
+            "heading": "効率重視",
+            "text": "必要な情報だけ伝えればいい。主語や動詞が省略されても文脈でわかる。"
+          },
+          {
+            "heading": "返答でよく使う",
+            "text": "「In a sec」「Not really」「Kinda」など、一言で返すパターンが多い。"
+          }
         ]
-    },
-    {
-        "id": "quotative",
-        "category": "spoken",
-        "categoryLabel": "話し言葉の文法",
-        "title": "報告動詞の口語",
-        "order": 10,
-        "steps": [
-            {
-                "type": "summary",
-                "title": "ポイント",
-                "content": "be like や go で「〜って言った」を表す。said より圧倒的に多い。"
-            },
-            {
-                "type": "nuance",
-                "title": "ニュアンス",
-                "points": [
-                    {
-                        "heading": "be like",
-                        "text": "「I was like '何これ'」のように、自分や他人の言葉・反応を伝える。"
-                    },
-                    {
-                        "heading": "go",
-                        "text": "「He goes 'what?'」のように、過去の会話を再現する時に使う。"
-                    }
-                ]
-            },
-            {
-                "type": "chunks",
-                "title": "よく使うフレーズ",
-                "items": [
-                    {
-                        "en": "I was like...",
-                        "ja": "〜って感じだった"
-                    },
-                    {
-                        "en": "He goes...",
-                        "ja": "彼が〜って"
-                    },
-                    {
-                        "en": "She's like...",
-                        "ja": "彼女が〜って"
-                    },
-                    {
-                        "en": "They were like...",
-                        "ja": "みんな〜って"
-                    }
-                ]
-            },
-            {
-                "type": "examples",
-                "title": "例文",
-                "items": [
-                    {
-                        "en": "I was like 'wait what?'",
-                        "ja": "え、なに？って感じだった",
-                        "context": "会話"
-                    },
-                    {
-                        "en": "And he goes 'I don't know'",
-                        "ja": "で彼が「知らない」って",
-                        "context": "会話"
-                    }
-                ]
-            },
-            {
-                "type": "practice",
-                "title": "やってみよう",
-                "items": [
-                    {
-                        "type": "translate",
-                        "instruction": "日本語を英語にしてみよう",
-                        "question": "彼女が「マジで？」って言ってた",
-                        "answers": [
-                            "She was like 'for real?'",
-                            "She goes 'seriously?'"
-                        ],
-                        "explanation": "be like で引用"
-                    }
-                ]
-            }
+      },
+      {
+        "type": "chunks",
+        "title": "よく使うフレーズ",
+        "items": [
+          {
+            "en": "In a sec",
+            "ja": "すぐ"
+          },
+          {
+            "en": "Not really",
+            "ja": "あんまり"
+          },
+          {
+            "en": "If you want",
+            "ja": "したいなら"
+          },
+          {
+            "en": "Whenever",
+            "ja": "いつでも"
+          },
+          {
+            "en": "Same here",
+            "ja": "こっちも"
+          }
         ]
-    }
+      },
+      {
+        "type": "examples",
+        "title": "例文",
+        "items": [
+          {
+            "en": "A: You coming? B: Yeah, in a sec.",
+            "ja": "A: 来る？ B: うん、すぐ",
+            "context": "会話"
+          },
+          {
+            "en": "A: You like it? B: Kinda.",
+            "ja": "A: 好き？ B: まあまあ",
+            "context": "会話"
+          }
+        ]
+      },
+      {
+        "type": "practice",
+        "title": "やってみよう",
+        "items": [
+          {
+            "type": "translate",
+            "instruction": "日本語を英語にしてみよう",
+            "question": "すぐ行く",
+            "answers": [
+              "In a sec",
+              "Coming",
+              "Be there in a sec"
+            ],
+            "explanation": "短い返答"
+          }
+        ]
+      }
+    ],
+    "netTip": "効率重視。必要な情報だけ伝えればいい。主語や動詞が省略されても文脈でわかる。"
+  },
+  {
+    "id": "fillers",
+    "category": "spoken",
+    "categoryLabel": "話し言葉の文法",
+    "title": "つなぎ言葉",
+    "order": 4,
+    "steps": [
+      {
+        "type": "summary",
+        "title": "ポイント",
+        "content": "like, you know, I mean などのつなぎ言葉。ネイティブの会話に超頻出。"
+      },
+      {
+        "type": "nuance",
+        "title": "ニュアンス",
+        "points": [
+          {
+            "heading": "like の多用",
+            "text": "若い世代は「like」をめちゃくちゃ使う。「It was like, so weird」。意味はほぼない。"
+          },
+          {
+            "heading": "I mean",
+            "text": "「つまり」「言いたいのは」という意味。言い直しや補足の前に使う。"
+          }
+        ]
+      },
+      {
+        "type": "chunks",
+        "title": "よく使うフレーズ",
+        "items": [
+          {
+            "en": "like",
+            "ja": "なんか"
+          },
+          {
+            "en": "you know",
+            "ja": "わかる？/ね？"
+          },
+          {
+            "en": "I mean",
+            "ja": "つまり"
+          },
+          {
+            "en": "so",
+            "ja": "だから/えーと"
+          },
+          {
+            "en": "basically",
+            "ja": "要するに"
+          },
+          {
+            "en": "honestly",
+            "ja": "正直"
+          },
+          {
+            "en": "literally",
+            "ja": "マジで"
+          }
+        ]
+      },
+      {
+        "type": "examples",
+        "title": "例文",
+        "items": [
+          {
+            "en": "It was like, super weird, you know?",
+            "ja": "なんかめっちゃ変だったんだよね",
+            "context": "会話"
+          },
+          {
+            "en": "I mean, I get it, but still",
+            "ja": "いやわかるんだけど、でもさ",
+            "context": "会話"
+          }
+        ]
+      },
+      {
+        "type": "practice",
+        "title": "やってみよう",
+        "items": [
+          {
+            "type": "translate",
+            "instruction": "日本語を英語にしてみよう",
+            "question": "正直言ってそれ最高",
+            "answers": [
+              "Honestly, that's the best",
+              "Honestly that's amazing"
+            ],
+            "explanation": "honestly で「正直」"
+          }
+        ]
+      }
+    ],
+    "netTip": "like の多用。若い世代は「like」をめちゃくちゃ使う。「It was like, so weird」。意味はほぼない。"
+  },
+  {
+    "id": "hedging",
+    "category": "spoken",
+    "categoryLabel": "話し言葉の文法",
+    "title": "ぼかし表現",
+    "order": 5,
+    "steps": [
+      {
+        "type": "summary",
+        "title": "ポイント",
+        "content": "kinda, sort of, I guess など、断定を避けてやわらげる表現。"
+      },
+      {
+        "type": "nuance",
+        "title": "ニュアンス",
+        "points": [
+          {
+            "heading": "断定しない",
+            "text": "「It's bad」より「It's kinda bad」の方が柔らかい。"
+          },
+          {
+            "heading": "I guess",
+            "text": "「〜かな」「たぶん」というニュアンス。確信がない時に使う。"
+          }
+        ]
+      },
+      {
+        "type": "chunks",
+        "title": "よく使うフレーズ",
+        "items": [
+          {
+            "en": "kinda",
+            "ja": "ちょっと/なんか"
+          },
+          {
+            "en": "sort of",
+            "ja": "なんか/ちょっと"
+          },
+          {
+            "en": "I guess",
+            "ja": "たぶん/そうかも"
+          },
+          {
+            "en": "maybe",
+            "ja": "たぶん"
+          },
+          {
+            "en": "pretty much",
+            "ja": "ほぼ"
+          }
+        ]
+      },
+      {
+        "type": "examples",
+        "title": "例文",
+        "items": [
+          {
+            "en": "It's kinda annoying, not gonna lie",
+            "ja": "ちょっとうざい、正直",
+            "context": "SNS"
+          },
+          {
+            "en": "I'm pretty sure it's broken",
+            "ja": "たぶん壊れてる",
+            "context": "配信"
+          }
+        ]
+      },
+      {
+        "type": "practice",
+        "title": "やってみよう",
+        "items": [
+          {
+            "type": "translate",
+            "instruction": "日本語を英語にしてみよう",
+            "question": "たぶん大丈夫だと思う",
+            "answers": [
+              "I think it's fine",
+              "Pretty sure it's okay",
+              "I guess it's fine"
+            ],
+            "explanation": "やわらげ表現"
+          }
+        ]
+      }
+    ],
+    "netTip": "断定しない。「It's bad」より「It's kinda bad」の方が柔らかい。"
+  },
+  {
+    "id": "intensifiers",
+    "category": "spoken",
+    "categoryLabel": "話し言葉の文法",
+    "title": "強調表現",
+    "order": 6,
+    "steps": [
+      {
+        "type": "summary",
+        "title": "ポイント",
+        "content": "so, really, literally, super など、感情や程度を強調する表現。"
+      },
+      {
+        "type": "nuance",
+        "title": "ニュアンス",
+        "points": [
+          {
+            "heading": "literally の使い方",
+            "text": "本来は「文字通り」だが、今は単なる強調で使われる。「I literally died」など。"
+          },
+          {
+            "heading": "super がカジュアル",
+            "text": "very より super の方がカジュアル。「super cool」「super tired」。"
+          }
+        ]
+      },
+      {
+        "type": "chunks",
+        "title": "よく使うフレーズ",
+        "items": [
+          {
+            "en": "so",
+            "ja": "めっちゃ"
+          },
+          {
+            "en": "really",
+            "ja": "本当に"
+          },
+          {
+            "en": "literally",
+            "ja": "マジで"
+          },
+          {
+            "en": "super",
+            "ja": "超"
+          },
+          {
+            "en": "totally",
+            "ja": "完全に"
+          },
+          {
+            "en": "lowkey",
+            "ja": "ちょっと"
+          },
+          {
+            "en": "highkey",
+            "ja": "マジで"
+          }
+        ]
+      },
+      {
+        "type": "examples",
+        "title": "例文",
+        "items": [
+          {
+            "en": "I'm literally dying rn",
+            "ja": "マジで死にそう（笑）",
+            "context": "SNS"
+          },
+          {
+            "en": "I'm lowkey addicted",
+            "ja": "ちょっとハマってる",
+            "context": "SNS"
+          }
+        ]
+      },
+      {
+        "type": "practice",
+        "title": "やってみよう",
+        "items": [
+          {
+            "type": "translate",
+            "instruction": "日本語を英語にしてみよう",
+            "question": "マジで疲れた",
+            "answers": [
+              "I'm literally exhausted",
+              "I'm so tired",
+              "Super tired rn"
+            ],
+            "explanation": "literally/so/super で強調"
+          }
+        ]
+      }
+    ],
+    "netTip": "literally の使い方。本来は「文字通り」だが、今は単なる強調で使われる。「I literally died」など。"
+  },
+  {
+    "id": "discourse-markers",
+    "category": "spoken",
+    "categoryLabel": "話し言葉の文法",
+    "title": "談話標識",
+    "order": 7,
+    "steps": [
+      {
+        "type": "summary",
+        "title": "ポイント",
+        "content": "so, anyway, the thing is など、話の流れを示す表現。"
+      },
+      {
+        "type": "nuance",
+        "title": "ニュアンス",
+        "points": [
+          {
+            "heading": "話を始める時",
+            "text": "「So...」「Anyway...」で話を始めたり、話題を変えたりする。"
+          },
+          {
+            "heading": "the thing is",
+            "text": "「問題は〜」「実は〜」というニュアンス。重要なポイントを言う前に使う。"
+          }
+        ]
+      },
+      {
+        "type": "chunks",
+        "title": "よく使うフレーズ",
+        "items": [
+          {
+            "en": "so",
+            "ja": "で/だから"
+          },
+          {
+            "en": "anyway",
+            "ja": "とにかく"
+          },
+          {
+            "en": "the thing is",
+            "ja": "問題は/実は"
+          },
+          {
+            "en": "basically",
+            "ja": "要するに"
+          },
+          {
+            "en": "actually",
+            "ja": "実は"
+          }
+        ]
+      },
+      {
+        "type": "examples",
+        "title": "例文",
+        "items": [
+          {
+            "en": "So anyway, I was thinking...",
+            "ja": "でとにかく、思ったんだけど",
+            "context": "会話"
+          },
+          {
+            "en": "The thing is, I don't have time",
+            "ja": "問題は時間がないこと",
+            "context": "会話"
+          }
+        ]
+      },
+      {
+        "type": "practice",
+        "title": "やってみよう",
+        "items": [
+          {
+            "type": "translate",
+            "instruction": "日本語を英語にしてみよう",
+            "question": "とにかく、行こう",
+            "answers": [
+              "Anyway, let's go",
+              "So let's just go"
+            ],
+            "explanation": "anyway で話をまとめる"
+          }
+        ]
+      }
+    ],
+    "netTip": "話を始める時。「So...」「Anyway...」で話を始めたり、話題を変えたりする。"
+  },
+  {
+    "id": "reactions",
+    "category": "spoken",
+    "categoryLabel": "話し言葉の文法",
+    "title": "反応・相槌",
+    "order": 8,
+    "steps": [
+      {
+        "type": "summary",
+        "title": "ポイント",
+        "content": "No way, For real?, Same など、驚きや共感を表す反応フレーズ。"
+      },
+      {
+        "type": "nuance",
+        "title": "ニュアンス",
+        "points": [
+          {
+            "heading": "驚きの表現",
+            "text": "「No way!」「For real?」「Wait what?」など、驚きを表す表現はたくさんある。"
+          },
+          {
+            "heading": "Same の使い方",
+            "text": "「Same」一言で「わかる」「自分も」という共感を表せる。"
+          }
+        ]
+      },
+      {
+        "type": "chunks",
+        "title": "よく使うフレーズ",
+        "items": [
+          {
+            "en": "No way!",
+            "ja": "マジで！"
+          },
+          {
+            "en": "For real?",
+            "ja": "マジで？"
+          },
+          {
+            "en": "Wait what?",
+            "ja": "え、なに？"
+          },
+          {
+            "en": "Same",
+            "ja": "わかる/同じ"
+          },
+          {
+            "en": "Right",
+            "ja": "だよね"
+          },
+          {
+            "en": "Totally",
+            "ja": "まさに"
+          },
+          {
+            "en": "True",
+            "ja": "たしかに"
+          }
+        ]
+      },
+      {
+        "type": "examples",
+        "title": "例文",
+        "items": [
+          {
+            "en": "Wait what? That's insane!",
+            "ja": "え、なに？やば！",
+            "context": "配信"
+          },
+          {
+            "en": "Same, I feel the same way",
+            "ja": "わかる、同じこと思う",
+            "context": "会話"
+          }
+        ]
+      },
+      {
+        "type": "practice",
+        "title": "やってみよう",
+        "items": [
+          {
+            "type": "translate",
+            "instruction": "日本語を英語にしてみよう",
+            "question": "マジで？それやばい",
+            "answers": [
+              "For real? That's crazy",
+              "No way, that's insane"
+            ],
+            "explanation": "驚き + 感想"
+          }
+        ]
+      }
+    ],
+    "netTip": "驚きの表現。「No way!」「For real?」「Wait what?」など、驚きを表す表現はたくさんある。"
+  },
+  {
+    "id": "tag-question",
+    "category": "spoken",
+    "categoryLabel": "話し言葉の文法",
+    "title": "付加疑問・確認",
+    "order": 9,
+    "steps": [
+      {
+        "type": "summary",
+        "title": "ポイント",
+        "content": "..., right? や ..., isn't it? で相手に確認や同意を求める。"
+      },
+      {
+        "type": "nuance",
+        "title": "ニュアンス",
+        "points": [
+          {
+            "heading": "right? が万能",
+            "text": "正式な付加疑問（isn't it? など）より「right?」が圧倒的に使われる。"
+          },
+          {
+            "heading": "huh? / yeah?",
+            "text": "カジュアルには「huh?」「yeah?」で確認することも。"
+          }
+        ]
+      },
+      {
+        "type": "chunks",
+        "title": "よく使うフレーズ",
+        "items": [
+          {
+            "en": "..., right?",
+            "ja": "〜だよね？"
+          },
+          {
+            "en": "..., isn't it?",
+            "ja": "〜じゃない？"
+          },
+          {
+            "en": "..., huh?",
+            "ja": "〜でしょ？"
+          },
+          {
+            "en": "..., yeah?",
+            "ja": "〜だよね？"
+          }
+        ]
+      },
+      {
+        "type": "examples",
+        "title": "例文",
+        "items": [
+          {
+            "en": "This is the one, right?",
+            "ja": "これだよね？",
+            "context": "会話"
+          },
+          {
+            "en": "You're coming, yeah?",
+            "ja": "来るよね？",
+            "context": "会話"
+          }
+        ]
+      },
+      {
+        "type": "practice",
+        "title": "やってみよう",
+        "items": [
+          {
+            "type": "translate",
+            "instruction": "日本語を英語にしてみよう",
+            "question": "これでいいよね？",
+            "answers": [
+              "This is good, right?",
+              "This works, yeah?"
+            ],
+            "explanation": "right? で確認"
+          }
+        ]
+      }
+    ],
+    "netTip": "right? が万能。正式な付加疑問（isn't it? など）より「right?」が圧倒的に使われる。"
+  },
+  {
+    "id": "quotative",
+    "category": "spoken",
+    "categoryLabel": "話し言葉の文法",
+    "title": "報告動詞の口語",
+    "order": 10,
+    "steps": [
+      {
+        "type": "summary",
+        "title": "ポイント",
+        "content": "be like や go で「〜って言った」を表す。said より圧倒的に多い。"
+      },
+      {
+        "type": "nuance",
+        "title": "ニュアンス",
+        "points": [
+          {
+            "heading": "be like",
+            "text": "「I was like '何これ'」のように、自分や他人の言葉・反応を伝える。"
+          },
+          {
+            "heading": "go",
+            "text": "「He goes 'what?'」のように、過去の会話を再現する時に使う。"
+          }
+        ]
+      },
+      {
+        "type": "chunks",
+        "title": "よく使うフレーズ",
+        "items": [
+          {
+            "en": "I was like...",
+            "ja": "〜って感じだった"
+          },
+          {
+            "en": "He goes...",
+            "ja": "彼が〜って"
+          },
+          {
+            "en": "She's like...",
+            "ja": "彼女が〜って"
+          },
+          {
+            "en": "They were like...",
+            "ja": "みんな〜って"
+          }
+        ]
+      },
+      {
+        "type": "examples",
+        "title": "例文",
+        "items": [
+          {
+            "en": "I was like 'wait what?'",
+            "ja": "え、なに？って感じだった",
+            "context": "会話"
+          },
+          {
+            "en": "And he goes 'I don't know'",
+            "ja": "で彼が「知らない」って",
+            "context": "会話"
+          }
+        ]
+      },
+      {
+        "type": "practice",
+        "title": "やってみよう",
+        "items": [
+          {
+            "type": "translate",
+            "instruction": "日本語を英語にしてみよう",
+            "question": "彼女が「マジで？」って言ってた",
+            "answers": [
+              "She was like 'for real?'",
+              "She goes 'seriously?'"
+            ],
+            "explanation": "be like で引用"
+          }
+        ]
+      }
+    ],
+    "netTip": "be like。「I was like '何これ'」のように、自分や他人の言葉・反応を伝える。"
+  }
 ]

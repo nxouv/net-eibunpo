@@ -123,6 +123,7 @@ export interface Lesson {
   title: string;
   order: number;
   steps: LessonStep[];
+  netTip?: string;
 }
 
 // ========================================

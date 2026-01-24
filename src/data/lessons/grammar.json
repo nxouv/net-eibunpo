@@ -148,7 +148,8 @@
           }
         ]
       }
-    ]
+    ],
+    "netTip": "縮約が基本。do not → don't、does not → doesn't。ネットではほぼ100%縮約形。"
   },
   {
     "id": "yes-no-question",
@@ -299,7 +300,8 @@
           }
         ]
       }
-    ]
+    ],
+    "netTip": "Do を省略。カジュアルな場面では「You coming?」のように Do を省略し、語尾を上げるだけで疑問文に。"
   },
   {
     "id": "wh-question",
@@ -451,7 +453,8 @@
           }
         ]
       }
-    ]
+    ],
+    "netTip": "do を省略。「What you doing?」のように助動詞を省略するのがカジュアル。"
   },
   {
     "id": "imperative",
@@ -598,7 +601,8 @@
           }
         ]
       }
-    ]
+    ],
+    "netTip": "Just で柔らかく。「Just try it」のように Just を入れると「とりあえず〜してみて」という気軽なニュアンスに。"
   },
   {
     "id": "exclamation",
@@ -750,7 +754,8 @@
           }
         ]
       }
-    ]
+    ],
+    "netTip": "シンプルに。「What a beautiful sunset!」より「So beautiful!」「This is insane!」の方がネットでは自然。"
   },
   {
     "id": "present-tense",
@@ -892,7 +897,8 @@
           }
         ]
       }
-    ]
+    ],
+    "netTip": "習慣・事実を表す。「I play Valorant」は「（普段から）Valorantやってる」という習慣。今やってるなら進行形を使う。"
   },
   {
     "id": "past-tense",
@@ -1038,7 +1044,8 @@
           }
         ]
       }
-    ]
+    ],
+    "netTip": "完結した過去。過去形は「終わったこと」。今と繋がりがあるなら現在完了を使う傾向。"
   },
   {
     "id": "progressive",
@@ -1180,7 +1187,8 @@
           }
         ]
       }
-    ]
+    ],
+    "netTip": "略語 rn。right now → rn と略す。「playing rn」で「今やってる」。"
   },
   {
     "id": "future",
@@ -1323,7 +1331,8 @@
           }
         ]
       }
-    ]
+    ],
+    "netTip": "gonna が自然。going to → gonna と縮約するのがカジュアルな場面では普通。"
   },
   {
     "id": "present-perfect",
@@ -1466,7 +1475,8 @@
           }
         ]
       }
-    ]
+    ],
+    "netTip": "have を省略。「You seen this?」のように Have を省略するのがカジュアル。"
   },
   {
     "id": "present-perfect-progressive",
@@ -1594,7 +1604,8 @@
           }
         ]
       }
-    ]
+    ],
+    "netTip": "継続を強調。「I've been waiting」は「ずっと待ってる」という継続のニュアンス。"
   },
   {
     "id": "modal-can-could",
@@ -1736,7 +1747,8 @@
           }
         ]
       }
-    ]
+    ],
+    "netTip": "can't が超多い。「I can't」「Can't believe」「Can't even」など、驚きや感情表現で can't がめっちゃ使われる。"
   },
   {
     "id": "modal-will-would",
@@ -1873,7 +1885,8 @@
           }
         ]
       }
-    ]
+    ],
+    "netTip": "would で柔らかく。「I want」より「I would like」「I'd love」の方が柔らかい。"
   },
   {
     "id": "modal-may-might",
@@ -2002,7 +2015,8 @@
           }
         ]
       }
-    ]
+    ],
+    "netTip": "might がカジュアル。ネットでは might の方がよく使われる。may はフォーマル。"
   },
   {
     "id": "modal-must-have-to",
@@ -2136,7 +2150,8 @@
           }
         ]
       }
-    ]
+    ],
+    "netTip": "gotta がカジュアル。have to → have got to → gotta と縮約。ネットでは gotta が超頻出。"
   },
   {
     "id": "modal-should",
@@ -2269,7 +2284,8 @@
           }
         ]
       }
-    ]
+    ],
+    "netTip": "柔らかい提案。「You should try it」は「試してみたら？」程度。押し付けがましくない。"
   },
   {
     "id": "infinitive",
@@ -2406,7 +2422,8 @@
           }
         ]
       }
-    ]
+    ],
+    "netTip": "目的を表す。「I came here to say this」のように「〜するために」という目的を表せる。ネットでよく使う。"
   },
   {
     "id": "gerund",
@@ -2538,7 +2555,8 @@
           }
         ]
       }
-    ]
+    ],
+    "netTip": "動名詞だけ取る動詞。enjoy, finish, stop, keep, avoid などは動名詞だけを取る。"
   },
   {
     "id": "infinitive-vs-gerund",
@@ -2667,7 +2685,8 @@
           }
         ]
       }
-    ]
+    ],
+    "netTip": "意味が変わる動詞。stop to do = 〜するために止まる。stop doing = 〜するのをやめる。forget, remember, try も同様。"
   },
   {
     "id": "conjunction-coordinating",
@@ -2804,7 +2823,8 @@
           }
         ]
       }
-    ]
+    ],
+    "netTip": "But で始める。「But...」で文を始めるのはカジュアルではよくある。"
   },
   {
     "id": "conjunction-subordinating",
@@ -2941,7 +2961,8 @@
           }
         ]
       }
-    ]
+    ],
+    "netTip": "cuz/cos。because → cuz/cos と略す。「I did it cuz I wanted to」。"
   },
   {
     "id": "relative-pronoun",
@@ -3070,7 +3091,8 @@
           }
         ]
       }
-    ]
+    ],
+    "netTip": "that が万能。カジュアルでは who も which も that で代用されることが多い。"
   },
   {
     "id": "comparison",
@@ -3207,7 +3229,8 @@
           }
         ]
       }
-    ]
+    ],
+    "netTip": "way で強調。「way better」「way more」で「ずっと〜」と強調。much より way がカジュアル。"
   },
   {
     "id": "adjective-adverb",
@@ -3340,7 +3363,8 @@
           }
         ]
       }
-    ]
+    ],
+    "netTip": "-ly を省略。カジュアルでは「real good」のように ly を省略することがある（文法的には正しくないが）。"
   },
   {
     "id": "passive",
@@ -3473,7 +3497,8 @@
           }
         ]
       }
-    ]
+    ],
+    "netTip": "能動態の方が多い。ネットでは「They released it」のように能動態が好まれる傾向。受動態はフォーマル寄り。"
   },
   {
     "id": "there-is-are",
@@ -3603,7 +3628,8 @@
           }
         ]
       }
-    ]
+    ],
+    "netTip": "There's で統一。カジュアルな場面では複数でも There's を使う人が多い。「There's two ways」など。"
   },
   {
     "id": "pronouns",
@@ -3736,7 +3762,8 @@
           }
         ]
       }
-    ]
+    ],
+    "netTip": "単数 they。性別不明な人や、ジェンダーニュートラルで「they」を使う。「Someone left their bag」など。"
   },
   {
     "id": "prepositions",
@@ -3869,7 +3896,8 @@
           }
         ]
       }
-    ]
+    ],
+    "netTip": "前置詞の省略。「(on) Monday」「(at) 5pm」のように前置詞が省略されることがある。"
   },
   {
     "id": "conditional",
@@ -4002,7 +4030,8 @@
           }
         ]
       }
-    ]
+    ],
+    "netTip": "I were vs I was。正式には「If I were」だが、カジュアルでは「If I was」も使われる。"
   },
   {
     "id": "causative-perception",
@@ -4131,6 +4160,7 @@
           }
         ]
       }
-    ]
+    ],
+    "netTip": "lemme。let me → lemme と縮約。「Lemme check」「Lemme think」。"
   }
 ]

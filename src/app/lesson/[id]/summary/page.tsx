@@ -6,7 +6,7 @@ import { Button } from '@/components/Button/Button';
 import { FluentEmoji } from '@/components/FluentEmoji/FluentEmoji';
 import { useProgress } from '@/hooks/useProgress';
 import { getLessonById, getNextLesson } from '@/lib/lessons';
-import type { ChunksStep, FormStep } from '@/lib/types';
+import type { ChunksStep, FormStep, NuanceStep, ComparisonStep } from '@/lib/types';
 import styles from './page.module.css';
 
 export default function SummaryPage() {
@@ -32,9 +32,11 @@ export default function SummaryPage() {
 
     const isComplete = isLessonComplete(lessonId);
 
-    // Extract summary data from steps
+    // Extract data from steps
     const summaryStep = lesson.steps.find(s => s.type === 'summary');
     const formStep = lesson.steps.find(s => s.type === 'form') as FormStep | undefined;
+    const nuanceStep = lesson.steps.find(s => s.type === 'nuance') as NuanceStep | undefined;
+    const comparisonStep = lesson.steps.find(s => s.type === 'comparison') as ComparisonStep | undefined;
     const chunksStep = lesson.steps.find(s => s.type === 'chunks') as ChunksStep | undefined;
 
     const handleComplete = () => {
@@ -95,6 +97,41 @@ export default function SummaryPage() {
                         </section>
                     )}
 
+                    {nuanceStep && nuanceStep.points.length > 0 && (
+                        <section className={styles.section}>
+                            <h2 className={styles.sectionTitle}>
+                                <FluentEmoji name="lightbulb" size={18} />
+                                ニュアンス
+                            </h2>
+                            <ul className={styles.nuanceList}>
+                                {nuanceStep.points.slice(0, 3).map((point, i) => (
+                                    <li key={i} className={styles.nuanceItem}>
+                                        <strong>{point.heading}</strong>
+                                        <span>{point.text}</span>
+                                    </li>
+                                ))}
+                            </ul>
+                        </section>
+                    )}
+
+                    {comparisonStep && comparisonStep.pairs.length > 0 && (
+                        <section className={styles.section}>
+                            <h2 className={styles.sectionTitle}>
+                                <FluentEmoji name="book" size={18} />
+                                教科書 vs ネット
+                            </h2>
+                            <div className={styles.comparisonList}>
+                                {comparisonStep.pairs.slice(0, 2).map((pair, i) => (
+                                    <div key={i} className={styles.comparisonItem}>
+                                        <div className={styles.textbook}>{pair.textbook}</div>
+                                        <div className={styles.arrow}>→</div>
+                                        <div className={styles.real}>{pair.real}</div>
+                                    </div>
+                                ))}
+                            </div>
+                        </section>
+                    )}
+
                     {chunksStep && (
                         <section className={styles.section}>
                             <h2 className={styles.sectionTitle}>
@@ -111,15 +148,16 @@ export default function SummaryPage() {
                         </section>
                     )}
 
-                    <section className={styles.tipSection}>
-                        <h2 className={styles.tipTitle}>
-                            <FluentEmoji name="lightbulb" size={16} /> ネットでは
-                        </h2>
-                        <p className={styles.tipContent}>
-                            縮約形が普通。主語の省略もよくある。
-                            教科書通りに言うと逆に不自然に聞こえることも。
-                        </p>
-                    </section>
+                    {lesson.netTip && (
+                        <section className={styles.tipSection}>
+                            <h2 className={styles.tipTitle}>
+                                <FluentEmoji name="target" size={16} /> ネットでは
+                            </h2>
+                            <p className={styles.tipContent}>
+                                {lesson.netTip}
+                            </p>
+                        </section>
+                    )}
 
                     <div className={styles.actions}>
                         {!isComplete && (
