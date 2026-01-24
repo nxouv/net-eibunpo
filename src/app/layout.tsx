@@ -26,10 +26,9 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "ネット英文法",
-    description: "教科書英語とネットで使う英語の違いを学べる文法学習サイト。SNSや配信で使われるカジュアルな英語表現、ニュアンス、話し言葉の文法を体系的に学べます。",
     type: "website",
     locale: "ja_JP",
+    siteName: "ネット英文法",
     images: [
       {
         url: "/ogp.png",
@@ -41,10 +40,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary",
-    title: "ネット英文法",
-    description: "教科書英語とネットで使う英語の違いを学べる文法学習サイト。",
     images: ["/ogp.png"],
   },
+
 };
 
 export default function RootLayout({
