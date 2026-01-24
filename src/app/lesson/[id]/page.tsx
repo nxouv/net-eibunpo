@@ -58,12 +58,14 @@ export default function LessonPage() {
             router.push(`/lesson/${lessonId}/summary`);
         } else {
             setCurrentStep(prev => prev + 1);
+            window.scrollTo(0, 0);
         }
     };
 
     const handlePrev = () => {
         if (currentStep > 0) {
             setCurrentStep(prev => prev - 1);
+            window.scrollTo(0, 0);
         }
     };
 
