@@ -1,0 +1,87 @@
+.card {
+    background-color: var(--color-bg-card);
+    border-radius: var(--radius);
+    box-shadow: 0 2px 8px var(--color-shadow);
+    padding: 24px;
+    transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.clickable:hover {
+    box-shadow: 0 4px 16px var(--color-shadow);
+    transform: translateY(-2px);
+}
+
+/* Category variants for border accent */
+.grammar {
+    border-top: 3px solid var(--color-grammar);
+}
+
+.spoken {
+    border-top: 3px solid var(--color-spoken);
+}
+
+.writing {
+    border-top: 3px solid var(--color-writing);
+}
+
+/* Lesson card specific */
+.lessonCard {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 20px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.lessonIcon {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    font-size: 12px;
+}
+
+.lessonIconIncomplete {
+    background-color: var(--color-bg);
+    border: 2px solid var(--color-border);
+    color: var(--color-text-sub);
+}
+
+.lessonIconComplete {
+    background-color: var(--color-success);
+    color: white;
+}
+
+.lessonTitle {
+    flex: 1;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.lessonArrow {
+    color: var(--color-text-sub);
+    font-size: 14px;
+}
+
+/* Step card (for lesson content) */
+.stepCard {
+    padding: 32px;
+    max-width: var(--max-width-card);
+    margin: 0 auto;
+}
+
+@media (max-width: 640px) {
+    .stepCard {
+        padding: 24px 20px;
+        border-radius: 0;
+        box-shadow: none;
+    }
+}

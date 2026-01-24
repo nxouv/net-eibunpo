@@ -1,0 +1,73 @@
+.main {
+    min-height: calc(100vh - 120px);
+    padding-bottom: 40px;
+}
+
+.categorySection {
+    margin-bottom: 32px;
+}
+
+.categoryHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    padding: 0 4px;
+}
+
+.categoryTitle {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--color-text-main);
+}
+
+.categoryProgress {
+    font-size: 13px;
+    color: var(--color-text-sub);
+    font-family: var(--font-en);
+}
+
+.lessonGrid {
+    display: grid;
+    gap: 12px;
+}
+
+@media (min-width: 641px) {
+    .lessonGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.resetButton {
+    margin-top: 48px;
+    text-align: center;
+}
+
+.resetButtonInner {
+    background: transparent;
+    border: none;
+    color: var(--color-text-sub);
+    font-size: 13px;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: var(--radius-sm);
+    transition: all 0.2s;
+}
+
+.resetButtonInner:hover {
+    background-color: var(--color-border);
+    color: var(--color-text-main);
+}
+
+/* Category accent colors */
+.grammar .categoryTitle {
+    color: var(--color-grammar);
+}
+
+.spoken .categoryTitle {
+    color: var(--color-spoken);
+}
+
+.writing .categoryTitle {
+    color: var(--color-writing);
+}

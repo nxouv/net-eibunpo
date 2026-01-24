@@ -1,0 +1,119 @@
+[
+    {
+        "id": "flat-style",
+        "category": "writing",
+        "categoryLabel": "書くときのトーン",
+        "title": "淡々とした短文スタイル",
+        "order": 1,
+        "steps": [
+            {
+                "type": "summary",
+                "title": "ポイント",
+                "content": "感情を抑えた、無機質なトーンで書く。短い文を並べるだけで「こなれた」印象になる。"
+            },
+            {
+                "type": "nuance",
+                "title": "ニュアンス",
+                "points": [
+                    {
+                        "heading": "どういうスタイルか",
+                        "text": "感情的な表現を避け、事実や感想を短く述べるスタイル。日本語で言うと「〜だった。悪くない。」「試した。良かった。」のような、距離感のある書き方。"
+                    },
+                    {
+                        "heading": "与える印象",
+                        "text": "SNSで「冷静な人」「落ち着いてる」という印象を与える。逆に、親しみやすさやテンションの高さは出にくい。"
+                    }
+                ]
+            },
+            {
+                "type": "chunks",
+                "title": "よく使うフレーズ",
+                "items": [
+                    {
+                        "en": "Tried it. Not bad.",
+                        "ja": "試した。悪くない"
+                    },
+                    {
+                        "en": "Works fine.",
+                        "ja": "普通に動く"
+                    },
+                    {
+                        "en": "Interesting.",
+                        "ja": "興味深い"
+                    },
+                    {
+                        "en": "Makes sense.",
+                        "ja": "なるほど"
+                    },
+                    {
+                        "en": "Worth checking out.",
+                        "ja": "見る価値あり"
+                    },
+                    {
+                        "en": "Fair point.",
+                        "ja": "一理ある"
+                    },
+                    {
+                        "en": "Could be better.",
+                        "ja": "もっと良くなりそう"
+                    }
+                ]
+            },
+            {
+                "type": "examples",
+                "title": "例文",
+                "items": [
+                    {
+                        "en": "Finished the book. Good read.",
+                        "ja": "本読み終わった。良かった",
+                        "context": "ツイート"
+                    },
+                    {
+                        "en": "New update. Some bugs fixed. Nothing major.",
+                        "ja": "新アプデ。バグ修正。大したことない",
+                        "context": "ツイート"
+                    },
+                    {
+                        "en": "Tried the new cafe. Coffee was decent. Might go back.",
+                        "ja": "新しいカフェ行った。コーヒーまあまあ。また行くかも",
+                        "context": "ツイート"
+                    },
+                    {
+                        "en": "This works. Simple and clean.",
+                        "ja": "これいい。シンプルできれい",
+                        "context": "ツイート"
+                    }
+                ]
+            },
+            {
+                "type": "practice",
+                "title": "やってみよう",
+                "items": [
+                    {
+                        "type": "translate",
+                        "instruction": "淡々としたトーンで書いてみよう",
+                        "question": "新しいゲーム買った。面白い。",
+                        "answers": [
+                            "Got the new game. Pretty fun.",
+                            "Bought the new game. It's good.",
+                            "New game. Not bad."
+                        ],
+                        "explanation": "短い文を並べる。形容詞は控えめに。"
+                    },
+                    {
+                        "type": "convert",
+                        "instruction": "この文をより淡々とさせてみよう",
+                        "question": "I really loved this movie! It was absolutely amazing!",
+                        "answers": [
+                            "Good movie.",
+                            "Liked it.",
+                            "Worth watching.",
+                            "Not bad."
+                        ],
+                        "explanation": "really, absolutely, amazing などの強調を外す。短くする。"
+                    }
+                ]
+            }
+        ]
+    }
+]

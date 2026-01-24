@@ -1,0 +1,392 @@
+/* Shared step styles */
+.stepTitle {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--color-text-sub);
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.content {
+    font-size: 18px;
+    line-height: 1.8;
+    color: var(--color-text-main);
+}
+
+/* Summary step */
+.summaryContent {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    padding: 24px 0;
+}
+
+/* Form step */
+.pattern {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--color-grammar);
+    text-align: center;
+    padding: 20px;
+    background-color: var(--color-grammar-light);
+    border-radius: var(--radius-sm);
+    margin-bottom: 20px;
+    font-family: var(--font-en);
+}
+
+.patternSpoken {
+    color: var(--color-spoken);
+    background-color: var(--color-spoken-light);
+}
+
+.patternWriting {
+    color: var(--color-writing);
+    background-color: var(--color-writing-light);
+}
+
+.exampleList {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.exampleItem {
+    padding: 12px 16px;
+    border-left: 3px solid var(--color-border);
+    background-color: var(--color-bg);
+    border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+
+.exampleEn {
+    font-size: 16px;
+    font-family: var(--font-en);
+    color: var(--color-text-main);
+    margin-bottom: 4px;
+}
+
+.exampleJa {
+    font-size: 14px;
+    color: var(--color-text-sub);
+}
+
+/* Nuance step */
+.pointList {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.pointItem {
+    padding-left: 16px;
+    border-left: 3px solid var(--color-grammar);
+}
+
+.pointHeading {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--color-text-main);
+    margin-bottom: 8px;
+}
+
+.pointText {
+    font-size: 15px;
+    line-height: 1.8;
+    color: var(--color-text-sub);
+}
+
+/* Comparison step */
+.comparisonList {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.comparisonItem {
+    border-radius: var(--radius-sm);
+    overflow: hidden;
+    border: 1px solid var(--color-border);
+}
+
+.comparisonRow {
+    display: flex;
+    align-items: stretch;
+}
+
+.comparisonLabel {
+    width: 60px;
+    min-width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.comparisonTextbook {
+    background-color: var(--color-bg);
+    color: var(--color-text-sub);
+}
+
+.comparisonReal {
+    background-color: var(--color-grammar-light);
+    color: var(--color-grammar);
+}
+
+.comparisonText {
+    flex: 1;
+    padding: 12px 16px;
+    font-family: var(--font-en);
+    font-size: 15px;
+    background-color: var(--color-bg-card);
+    border-left: 1px solid var(--color-border);
+}
+
+.comparisonNote {
+    padding: 10px 16px;
+    background-color: var(--color-bg);
+    font-size: 13px;
+    color: var(--color-text-sub);
+    border-top: 1px solid var(--color-border);
+}
+
+/* Chunks step */
+.chunkList {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.chunkItem {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 16px;
+    background-color: var(--color-bg);
+    border-radius: var(--radius-sm);
+}
+
+.chunkEn {
+    font-family: var(--font-en);
+    font-weight: 600;
+    color: var(--color-text-main);
+    min-width: 140px;
+}
+
+.chunkJa {
+    font-size: 14px;
+    color: var(--color-text-sub);
+    flex: 1;
+}
+
+.speakButton {
+    flex-shrink: 0;
+}
+
+/* Examples step */
+.examplesListFull {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.exampleCard {
+    padding: 16px;
+    background-color: var(--color-bg);
+    border-radius: var(--radius-sm);
+}
+
+.exampleHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.exampleContext {
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 4px 8px;
+    border-radius: 4px;
+    background-color: var(--color-grammar-light);
+    color: var(--color-grammar);
+}
+
+.exampleEnFull {
+    font-size: 16px;
+    font-family: var(--font-en);
+    color: var(--color-text-main);
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+.exampleJaFull {
+    font-size: 14px;
+    color: var(--color-text-sub);
+}
+
+/* Practice step */
+.practiceContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.practiceItem {
+    padding: 20px;
+    background-color: var(--color-bg);
+    border-radius: var(--radius-sm);
+}
+
+.practiceInstruction {
+    font-size: 13px;
+    color: var(--color-text-sub);
+    margin-bottom: 12px;
+}
+
+.practiceQuestion {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--color-text-main);
+    margin-bottom: 16px;
+    padding: 12px 16px;
+    background-color: var(--color-bg-card);
+    border-radius: var(--radius-sm);
+}
+
+.practiceInput {
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 15px;
+    font-family: var(--font-en);
+    border: 2px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    background-color: var(--color-bg-card);
+    color: var(--color-text-main);
+    margin-bottom: 12px;
+    transition: border-color 0.2s;
+}
+
+.practiceInput:focus {
+    outline: none;
+    border-color: var(--color-grammar);
+}
+
+.practiceShowAnswer {
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    border-radius: var(--radius-sm);
+    background-color: var(--color-border);
+    color: var(--color-text-main);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.practiceShowAnswer:hover {
+    background-color: var(--color-text-sub);
+    color: var(--color-bg);
+}
+
+.practiceAnswer {
+    margin-top: 16px;
+    padding: 16px;
+    background-color: var(--color-bg-card);
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--color-success);
+}
+
+.practiceAnswerLabel {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--color-success);
+    margin-bottom: 8px;
+}
+
+.practiceAnswerList {
+    list-style: disc;
+    padding-left: 20px;
+    margin-bottom: 12px;
+}
+
+.practiceAnswerList li {
+    font-family: var(--font-en);
+    font-size: 15px;
+    color: var(--color-text-main);
+    margin-bottom: 4px;
+}
+
+.practiceExplanation {
+    font-size: 14px;
+    color: var(--color-text-sub);
+    line-height: 1.6;
+    padding-top: 12px;
+    border-top: 1px solid var(--color-border);
+}
+
+.practiceJudge {
+    display: flex;
+    gap: 8px;
+    margin-top: 12px;
+}
+
+.judgeButton {
+    flex: 1;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.judgeSuccess {
+    background-color: var(--color-success);
+    color: white;
+}
+
+.judgeRetry {
+    background-color: var(--color-border);
+    color: var(--color-text-main);
+}
+
+.judgeSuccess:hover,
+.judgeRetry:hover {
+    filter: brightness(1.1);
+}
+
+.practiceComplete {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 12px;
+    padding: 12px;
+    background-color: var(--color-bg);
+    border-radius: var(--radius-sm);
+}
+
+.practiceCompleteText {
+    color: var(--color-success);
+    font-weight: 500;
+}
+
+.practiceResetButton {
+    background: transparent;
+    border: 1px solid var(--color-border);
+    color: var(--color-text-sub);
+    padding: 6px 12px;
+    font-size: 13px;
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.practiceResetButton:hover {
+    background-color: var(--color-border);
+    color: var(--color-text-main);
+}

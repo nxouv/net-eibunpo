@@ -1,0 +1,36 @@
+.dots {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    padding: 16px 0;
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: var(--color-border);
+    transition: all 0.2s;
+}
+
+.active {
+    background-color: var(--color-grammar);
+    transform: scale(1.2);
+}
+
+.completed {
+    background-color: var(--color-success);
+}
+
+/* Category color variants */
+.grammar .active {
+    background-color: var(--color-grammar);
+}
+
+.spoken .active {
+    background-color: var(--color-spoken);
+}
+
+.writing .active {
+    background-color: var(--color-writing);
+}

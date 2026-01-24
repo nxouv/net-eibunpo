@@ -1,0 +1,119 @@
+[
+    {
+        "id": "contraction",
+        "category": "spoken",
+        "categoryLabel": "話し言葉の文法",
+        "title": "縮約・連結",
+        "order": 1,
+        "steps": [
+            {
+                "type": "summary",
+                "title": "ポイント",
+                "content": "カジュアルな場面で音が繋がる・縮まるパターン。知らないと聞き取れない原因になる。"
+            },
+            {
+                "type": "nuance",
+                "title": "ニュアンス",
+                "points": [
+                    {
+                        "heading": "なぜ縮約するのか",
+                        "text": "ネイティブの日常会話では単語がくっついたり縮んだりする。これは「正しくない英語」ではなく、カジュアルな場面での自然な話し方。"
+                    },
+                    {
+                        "heading": "使う場面",
+                        "text": "配信者やSNSでは当たり前に使われる。知らないと聞き取れない原因になる。ただし、フォーマルな場面（ビジネスメール等）では避ける。"
+                    }
+                ]
+            },
+            {
+                "type": "chunks",
+                "title": "よく使うフレーズ",
+                "items": [
+                    {
+                        "en": "gonna",
+                        "ja": "going to → 〜するつもり"
+                    },
+                    {
+                        "en": "wanna",
+                        "ja": "want to → 〜したい"
+                    },
+                    {
+                        "en": "gotta",
+                        "ja": "got to / have to → 〜しなきゃ"
+                    },
+                    {
+                        "en": "kinda",
+                        "ja": "kind of → ちょっと、なんか"
+                    },
+                    {
+                        "en": "dunno",
+                        "ja": "don't know → 知らない、わからない"
+                    },
+                    {
+                        "en": "lemme",
+                        "ja": "let me → ちょっと〜させて"
+                    },
+                    {
+                        "en": "gimme",
+                        "ja": "give me → 〜ちょうだい"
+                    }
+                ]
+            },
+            {
+                "type": "examples",
+                "title": "例文",
+                "items": [
+                    {
+                        "en": "I'm gonna grab some coffee.",
+                        "ja": "コーヒー買ってくる",
+                        "context": "会話"
+                    },
+                    {
+                        "en": "I wanna try that new place.",
+                        "ja": "あの新しい店行ってみたい",
+                        "context": "会話"
+                    },
+                    {
+                        "en": "I gotta go, talk later.",
+                        "ja": "行かなきゃ、また後で",
+                        "context": "会話"
+                    },
+                    {
+                        "en": "It's kinda weird, dunno.",
+                        "ja": "なんか変、わかんないけど",
+                        "context": "SNS"
+                    },
+                    {
+                        "en": "Lemme check real quick.",
+                        "ja": "ちょっと確認させて",
+                        "context": "配信"
+                    }
+                ]
+            },
+            {
+                "type": "practice",
+                "title": "やってみよう",
+                "items": [
+                    {
+                        "type": "expand",
+                        "instruction": "元の形に戻してみよう",
+                        "question": "I dunno what you're gonna do.",
+                        "answers": [
+                            "I don't know what you are going to do."
+                        ],
+                        "explanation": "dunno = don't know、gonna = going to"
+                    },
+                    {
+                        "type": "convert",
+                        "instruction": "カジュアルに言い換えてみよう",
+                        "question": "I want to know what happened.",
+                        "answers": [
+                            "I wanna know what happened."
+                        ],
+                        "explanation": "want to → wanna"
+                    }
+                ]
+            }
+        ]
+    }
+]

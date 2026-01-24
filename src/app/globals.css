@@ -1,26 +1,145 @@
-@import "tailwindcss";
+/* ========================================
+   ネット英文法 - グローバルスタイル
+   ======================================== */
 
+/* CSS変数定義 */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* ベースカラー（ライトモード） */
+  --color-bg: #F9FAFB;
+  --color-bg-card: #FFFFFF;
+  --color-text-main: #374151;
+  --color-text-sub: #6B7280;
+  --color-border: #E5E7EB;
+
+  /* カテゴリカラー */
+  --color-grammar: #32b4d9;
+  --color-grammar-light: #F0F9FB;
+  --color-spoken: #E879A0;
+  --color-spoken-light: #FDF2F5;
+  --color-writing: #5BBD8C;
+  --color-writing-light: #F2FAF6;
+
+  /* UI */
+  --color-success: #10B981;
+  --color-shadow: rgba(0, 0, 0, 0.08);
+
+  /* フォント */
+  --font-ja: 'Noto Sans JP', sans-serif;
+  --font-en: 'Nunito', sans-serif;
+
+  /* サイズ */
+  --max-width-card: 640px;
+  --radius: 12px;
+  --radius-sm: 8px;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/* ダークモード */
+[data-theme="dark"] {
+  --color-bg: #1F2937;
+  --color-bg-card: #374151;
+  --color-text-main: #F9FAFB;
+  --color-text-sub: #D1D5DB;
+  --color-border: #4B5563;
+  --color-shadow: rgba(0, 0, 0, 0.3);
+
+  /* カテゴリの薄い背景色（ダーク用） */
+  --color-grammar-light: #1a3a42;
+  --color-spoken-light: #3d2a32;
+  --color-writing-light: #253d30;
 }
 
+/* システムのダークモード設定に従う（初期値） */
 @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  :root:not([data-theme="light"]) {
+    --color-bg: #1F2937;
+    --color-bg-card: #374151;
+    --color-text-main: #F9FAFB;
+    --color-text-sub: #D1D5DB;
+    --color-border: #4B5563;
+    --color-shadow: rgba(0, 0, 0, 0.3);
+    --color-grammar-light: #1a3a42;
+    --color-spoken-light: #3d2a32;
+    --color-writing-light: #253d30;
   }
 }
 
+/* ========================================
+   リセット & ベース
+   ======================================== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text-main);
+  font-family: var(--font-ja);
+  line-height: 1.7;
+  min-height: 100vh;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* 英語テキストにはNunitoを適用 */
+.en-text {
+  font-family: var(--font-en);
+}
+
+/* ========================================
+   レイアウト
+   ======================================== */
+.container {
+  width: 100%;
+  max-width: calc(var(--max-width-card) + 40px);
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* ========================================
+   ユーティリティ
+   ======================================== */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* スマホ下部固定ボタン用パディング */
+.has-bottom-button {
+  padding-bottom: calc(80px + env(safe-area-inset-bottom, 0px));
+}
+
+/* レスポンシブヘルパー */
+@media (max-width: 640px) {
+  .hide-mobile {
+    display: none !important;
+  }
+}
+
+@media (min-width: 641px) {
+  .hide-desktop {
+    display: none !important;
+  }
+}
+
+/* Fluent Emoji - アニメーション停止用 */
+.fluent-emoji {
+  animation: none !important;
+  /* Prevent APNG animation by using canvas-based rendering */
+  image-rendering: auto;
 }
