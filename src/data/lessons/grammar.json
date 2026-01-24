@@ -14,11 +14,11 @@
       {
         "type": "form",
         "title": "基本のカタチ",
-        "intro": "「〜する」が肯定文、「〜しない」が否定文。否定するときは動詞の前に don't（または doesn't）を入れる。",
+        "intro": "「〜する」が肯定文、「〜しない」が否定文。否定するときは動詞の前に don't を入れる。",
         "breakdown": [
           {
             "part": "I",
-            "role": "誰が（主語）"
+            "role": "私は"
           },
           {
             "part": "don't",
@@ -26,7 +26,7 @@
           },
           {
             "part": "like",
-            "role": "好き（動詞）"
+            "role": "好き"
           },
           {
             "part": "this",
@@ -60,12 +60,12 @@
         "title": "ニュアンス",
         "points": [
           {
-            "heading": "否定の縮約が基本",
-            "text": "ネットや会話では「do not」なんてほぼ使わない。「don't」「doesn't」が当たり前。「I do not agree」より「I don't agree」、さらにカジュアルなら「Don't agree」と主語も省略される。"
+            "heading": "縮約が基本",
+            "text": "do not → don't、does not → doesn't。ネットではほぼ100%縮約形。"
           },
           {
-            "heading": "強調したいときだけフル形",
-            "text": "「I do NOT like this」のようにフル形で書くときは、強調の意図がある。普通の否定には使わない。"
+            "heading": "省略パターン",
+            "text": "「I don't know」→「Dunno」「idk」のように、さらに省略されることも。"
           }
         ]
       },
@@ -75,13 +75,13 @@
         "pairs": [
           {
             "textbook": "I do not understand.",
-            "real": "I don't understand. / Don't get it.",
-            "note": "縮約+主語省略がカジュアル"
+            "real": "I don't get it. / idk",
+            "note": "understand → get it でカジュアル"
           },
           {
-            "textbook": "She does not like coffee.",
-            "real": "She doesn't like coffee. / She's not into coffee.",
-            "note": "be into ~ でより口語的に"
+            "textbook": "She does not like it.",
+            "real": "She doesn't like it. / She's not into it.",
+            "note": "into で「興味ない」"
           }
         ]
       },
@@ -90,28 +90,24 @@
         "title": "よく使うフレーズ",
         "items": [
           {
+            "en": "I don't know",
+            "ja": "わからない"
+          },
+          {
             "en": "I don't think so",
             "ja": "そうは思わない"
           },
           {
-            "en": "I don't really ...",
-            "ja": "あんまり〜しない"
-          },
-          {
-            "en": "I'm not sure",
-            "ja": "よくわからない"
-          },
-          {
-            "en": "That doesn't make sense",
-            "ja": "それ意味わからん"
+            "en": "I don't care",
+            "ja": "どうでもいい"
           },
           {
             "en": "I don't mind",
-            "ja": "別にいいよ"
+            "ja": "気にしない"
           },
           {
-            "en": "It doesn't matter",
-            "ja": "どうでもいい"
+            "en": "I don't get it",
+            "ja": "理解できない"
           }
         ]
       },
@@ -120,29 +116,19 @@
         "title": "例文",
         "items": [
           {
-            "en": "I like this game but I don't play it much",
-            "ja": "このゲーム好きだけどあんまやらない",
-            "context": "SNS"
-          },
-          {
-            "en": "Don't think that's gonna work",
-            "ja": "それうまくいかないと思う",
+            "en": "I don't really watch TV anymore",
+            "ja": "もうあんまりテレビ見ない",
             "context": "会話"
           },
           {
-            "en": "She doesn't stream on weekends",
-            "ja": "彼女週末は配信しない",
+            "en": "idk what to do",
+            "ja": "何したらいいかわからん",
             "context": "SNS"
           },
           {
-            "en": "I don't get why people like this",
-            "ja": "なんでみんなこれ好きなのかわからん",
-            "context": "SNS"
-          },
-          {
-            "en": "Not gonna lie, I love this",
-            "ja": "正直これ好き",
-            "context": "配信"
+            "en": "I don't think that's a good idea",
+            "ja": "それいいアイデアじゃないと思う",
+            "context": "会話"
           }
         ]
       },
@@ -151,26 +137,14 @@
         "title": "やってみよう",
         "items": [
           {
-            "type": "translate",
-            "instruction": "日本語を英語にしてみよう",
-            "question": "あんまり好きじゃない",
-            "answers": [
-              "I don't really like it",
-              "Don't really like it",
-              "Not really into it"
-            ],
-            "explanation": "「あんまり」は really で表現。主語省略もOK。"
-          },
-          {
             "type": "convert",
             "instruction": "ネットっぽい言い方に変えてみよう",
-            "question": "I do not understand what you mean.",
+            "question": "I do not understand what you are saying.",
             "answers": [
-              "I don't get what you mean",
-              "Don't get what you mean",
-              "I don't understand what you mean"
+              "I don't get what you're saying.",
+              "idk what you mean"
             ],
-            "explanation": "do not → don't、understand → get でカジュアルに"
+            "explanation": "do not → don't、understand → get"
           }
         ]
       }
@@ -186,12 +160,41 @@
       {
         "type": "summary",
         "title": "ポイント",
-        "content": "Yes/No疑問文はネットだとめっちゃ省略される。Do you → You、Are you → You だけになることも。"
+        "content": "Yes/No疑問文は Do/Does/Did で始まる。ネットでは語尾に ? をつけるだけで疑問文になることも。"
       },
       {
         "type": "form",
         "title": "基本のカタチ",
-        "pattern": "Do/Does/Are/Is + 主語 + ... ?",
+        "intro": "疑問文を作るには Do/Does/Did を文頭に置く。ただし、be動詞の場合は be動詞を前に出す。",
+        "breakdown": [
+          {
+            "part": "Do",
+            "role": "〜する？"
+          },
+          {
+            "part": "you",
+            "role": "あなたは"
+          },
+          {
+            "part": "like",
+            "role": "好き"
+          },
+          {
+            "part": "this?",
+            "role": "これを"
+          }
+        ],
+        "pattern": [
+          {
+            "label": "一般動詞",
+            "pattern": "Do/Does/Did + 主語 + 動詞?"
+          },
+          {
+            "label": "be動詞",
+            "pattern": "Is/Are/Was/Were + 主語 + ...?",
+            "highlight": "Is/Are"
+          }
+        ],
         "examples": [
           {
             "en": "Do you like this?",
@@ -208,12 +211,12 @@
         "title": "ニュアンス",
         "points": [
           {
-            "heading": "Do you がよく消える",
-            "text": "カジュアルな場面では「Do you want this?」が「Want this?」や「You want this?」になる。イントネーションで疑問だとわかるから省略しても通じる。"
+            "heading": "Do を省略",
+            "text": "カジュアルな場面では「You coming?」のように Do を省略し、語尾を上げるだけで疑問文に。"
           },
           {
-            "heading": "文末の ? で判断",
-            "text": "テキストでは文末に「?」がついてれば疑問文。「You coming?」は「Are you coming?」と同じ意味。"
+            "heading": "? だけで疑問に",
+            "text": "テキストでは「You like it?」のように ? をつけるだけで疑問文として成立。"
           }
         ]
       },
@@ -222,14 +225,14 @@
         "title": "教科書 vs ネット",
         "pairs": [
           {
-            "textbook": "Do you want to join us?",
-            "real": "Wanna join? / You coming?",
-            "note": "Do you を省略、want to → wanna"
+            "textbook": "Do you want to come with us?",
+            "real": "Wanna come? / You coming?",
+            "note": "Do you want to → Wanna"
           },
           {
-            "textbook": "Are you okay?",
-            "real": "You okay? / U ok?",
-            "note": "Are を省略、スペルも縮める"
+            "textbook": "Did you finish your homework?",
+            "real": "You done with homework?",
+            "note": "Did you finish → You done with"
           }
         ]
       },
@@ -238,28 +241,24 @@
         "title": "よく使うフレーズ",
         "items": [
           {
-            "en": "You sure?",
-            "ja": "マジで？本当に？"
-          },
-          {
             "en": "You coming?",
             "ja": "来る？"
           },
           {
-            "en": "Got it?",
+            "en": "You okay?",
+            "ja": "大丈夫？"
+          },
+          {
+            "en": "You sure?",
+            "ja": "本当？"
+          },
+          {
+            "en": "You got it?",
             "ja": "わかった？"
           },
           {
-            "en": "Wanna try?",
-            "ja": "やってみる？"
-          },
-          {
-            "en": "You serious?",
-            "ja": "本気で言ってる？"
-          },
-          {
-            "en": "Need help?",
-            "ja": "手伝おうか？"
+            "en": "You ready?",
+            "ja": "準備できた？"
           }
         ]
       },
@@ -268,29 +267,1185 @@
         "title": "例文",
         "items": [
           {
-            "en": "You watching the stream tonight?",
-            "ja": "今夜の配信見る？",
+            "en": "You streaming tonight?",
+            "ja": "今夜配信する？",
             "context": "SNS"
           },
           {
-            "en": "Anyone else having this issue?",
-            "ja": "他にこの問題ある人いる？",
-            "context": "SNS"
-          },
-          {
-            "en": "You tried the new update yet?",
-            "ja": "新しいアプデもう試した？",
+            "en": "You tried the new update?",
+            "ja": "新アプデ試した？",
             "context": "会話"
           },
           {
-            "en": "This working for you?",
-            "ja": "これ動いてる？",
+            "en": "You know what I mean?",
+            "ja": "わかる？",
+            "context": "会話"
+          }
+        ]
+      },
+      {
+        "type": "practice",
+        "title": "やってみよう",
+        "items": [
+          {
+            "type": "convert",
+            "instruction": "カジュアルに言い換えてみよう",
+            "question": "Did you watch the stream?",
+            "answers": [
+              "You watch the stream?",
+              "You see the stream?"
+            ],
+            "explanation": "Did を省略して語尾に ? だけ"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wh-question",
+    "category": "grammar",
+    "categoryLabel": "基本の文法",
+    "title": "疑問文（5W1H）",
+    "order": 3,
+    "steps": [
+      {
+        "type": "summary",
+        "title": "ポイント",
+        "content": "What, When, Where, Who, Why, How で始まる疑問文。ネットでは wut, y, tho など略語も多い。"
+      },
+      {
+        "type": "form",
+        "title": "基本のカタチ",
+        "intro": "5W1H疑問文は疑問詞 + do/does/did + 主語 + 動詞 の順。be動詞の場合は疑問詞 + be動詞 + 主語。",
+        "breakdown": [
+          {
+            "part": "What",
+            "role": "何を"
+          },
+          {
+            "part": "do",
+            "role": "（助動詞）"
+          },
+          {
+            "part": "you",
+            "role": "あなたは"
+          },
+          {
+            "part": "think?",
+            "role": "思う？"
+          }
+        ],
+        "pattern": [
+          {
+            "label": "基本",
+            "pattern": "疑問詞 + do/does/did + 主語 + 動詞?"
+          },
+          {
+            "label": "省略",
+            "pattern": "疑問詞 + 主語 + 動詞?",
+            "highlight": "疑問詞"
+          }
+        ],
+        "examples": [
+          {
+            "en": "What do you think?",
+            "ja": "どう思う？"
+          },
+          {
+            "en": "Where are you?",
+            "ja": "どこにいる？"
+          }
+        ]
+      },
+      {
+        "type": "nuance",
+        "title": "ニュアンス",
+        "points": [
+          {
+            "heading": "do を省略",
+            "text": "「What you doing?」のように助動詞を省略するのがカジュアル。"
+          },
+          {
+            "heading": "略語",
+            "text": "wut = what、y = why、whr = where など、SNSでの略し方を知っておくと便利。"
+          }
+        ]
+      },
+      {
+        "type": "comparison",
+        "title": "教科書 vs ネット",
+        "pairs": [
+          {
+            "textbook": "What are you doing?",
+            "real": "What you doing? / Whatcha doin?",
+            "note": "are を省略、doing → doin"
+          },
+          {
+            "textbook": "Why did you do that?",
+            "real": "Why'd you do that? / Y tho?",
+            "note": "did → 'd、why → y"
+          }
+        ]
+      },
+      {
+        "type": "chunks",
+        "title": "よく使うフレーズ",
+        "items": [
+          {
+            "en": "What's up?",
+            "ja": "どうした？/元気？"
+          },
+          {
+            "en": "What happened?",
+            "ja": "何があった？"
+          },
+          {
+            "en": "Why tho?",
+            "ja": "なんで？"
+          },
+          {
+            "en": "How come?",
+            "ja": "どうして？"
+          },
+          {
+            "en": "When's that?",
+            "ja": "それいつ？"
+          }
+        ]
+      },
+      {
+        "type": "examples",
+        "title": "例文",
+        "items": [
+          {
+            "en": "What you playing rn?",
+            "ja": "今何やってる？",
             "context": "配信"
           },
           {
-            "en": "You guys ready?",
-            "ja": "みんな準備できた？",
+            "en": "Why'd you do that lol",
+            "ja": "なんでそれやったの笑",
+            "context": "SNS"
+          },
+          {
+            "en": "Where'd you get that?",
+            "ja": "それどこで手に入れた？",
+            "context": "会話"
+          }
+        ]
+      },
+      {
+        "type": "practice",
+        "title": "やってみよう",
+        "items": [
+          {
+            "type": "translate",
+            "instruction": "日本語を英語にしてみよう",
+            "question": "なんでそう思うの？",
+            "answers": [
+              "Why do you think that?",
+              "Why you think that?",
+              "Why tho?"
+            ],
+            "explanation": "カジュアルには do を省略"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "imperative",
+    "category": "grammar",
+    "categoryLabel": "基本の文法",
+    "title": "命令文",
+    "order": 4,
+    "steps": [
+      {
+        "type": "summary",
+        "title": "ポイント",
+        "content": "命令文は動詞の原形で始める。ネットでは pls をつけて柔らかくしたり、Just + 動詞 で促したり。"
+      },
+      {
+        "type": "form",
+        "title": "基本のカタチ",
+        "intro": "主語なしで動詞の原形から始める。否定命令は Don't + 動詞。",
+        "breakdown": [
+          {
+            "part": "Just",
+            "role": "（強調）"
+          },
+          {
+            "part": "do",
+            "role": "やれ"
+          },
+          {
+            "part": "it",
+            "role": "それを"
+          }
+        ],
+        "pattern": [
+          {
+            "label": "肯定",
+            "pattern": "動詞の原形 + ..."
+          },
+          {
+            "label": "否定",
+            "pattern": "Don't + 動詞の原形",
+            "highlight": "Don't"
+          }
+        ],
+        "examples": [
+          {
+            "en": "Just do it.",
+            "ja": "とにかくやれ"
+          },
+          {
+            "en": "Don't do that.",
+            "ja": "それやめて"
+          }
+        ]
+      },
+      {
+        "type": "nuance",
+        "title": "ニュアンス",
+        "points": [
+          {
+            "heading": "Just で柔らかく",
+            "text": "「Just try it」のように Just を入れると「とりあえず〜してみて」という気軽なニュアンスに。"
+          },
+          {
+            "heading": "pls/plz",
+            "text": "please → pls/plz と略して「〜してね」と柔らかくする。「pls help」など。"
+          }
+        ]
+      },
+      {
+        "type": "comparison",
+        "title": "教科書 vs ネット",
+        "pairs": [
+          {
+            "textbook": "Please be careful.",
+            "real": "Be careful. / Careful.",
+            "note": "シンプルに短く"
+          },
+          {
+            "textbook": "Do not forget to...",
+            "real": "Don't forget to... / Remember to...",
+            "note": "Don't またはポジティブに言い換え"
+          }
+        ]
+      },
+      {
+        "type": "chunks",
+        "title": "よく使うフレーズ",
+        "items": [
+          {
+            "en": "Just do it",
+            "ja": "とにかくやれ"
+          },
+          {
+            "en": "Don't worry",
+            "ja": "心配すんな"
+          },
+          {
+            "en": "Let me know",
+            "ja": "教えて"
+          },
+          {
+            "en": "Try it",
+            "ja": "試してみて"
+          },
+          {
+            "en": "Check this out",
+            "ja": "これ見て"
+          }
+        ]
+      },
+      {
+        "type": "examples",
+        "title": "例文",
+        "items": [
+          {
+            "en": "Just try it, trust me",
+            "ja": "とりあえず試して、信じて",
+            "context": "会話"
+          },
+          {
+            "en": "Don't @ me",
+            "ja": "絡んでくんな",
+            "context": "SNS"
+          },
+          {
+            "en": "Check out my new video pls",
+            "ja": "新しい動画見てね",
+            "context": "SNS"
+          }
+        ]
+      },
+      {
+        "type": "practice",
+        "title": "やってみよう",
+        "items": [
+          {
+            "type": "translate",
+            "instruction": "日本語を英語にしてみよう",
+            "question": "心配しないで、大丈夫だよ",
+            "answers": [
+              "Don't worry, it's fine",
+              "No worries, you're good"
+            ],
+            "explanation": "Don't worry または No worries"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "exclamation",
+    "category": "grammar",
+    "categoryLabel": "基本の文法",
+    "title": "感嘆文・リアクション表現",
+    "order": 5,
+    "steps": [
+      {
+        "type": "summary",
+        "title": "ポイント",
+        "content": "感嘆文は「なんて〜なんだ！」という驚き。ネットでは How/What より直接的なリアクション表現が多い。"
+      },
+      {
+        "type": "form",
+        "title": "基本のカタチ",
+        "intro": "What a...! や How...! で驚きを表すが、実際はもっとシンプルな表現が使われる。",
+        "breakdown": [
+          {
+            "part": "What",
+            "role": "なんて"
+          },
+          {
+            "part": "a",
+            "role": "（冠詞）"
+          },
+          {
+            "part": "nice",
+            "role": "素敵な"
+          },
+          {
+            "part": "day!",
+            "role": "日だ！"
+          }
+        ],
+        "pattern": [
+          {
+            "label": "What型",
+            "pattern": "What (a/an) + 形容詞 + 名詞 !"
+          },
+          {
+            "label": "How型",
+            "pattern": "How + 形容詞 !",
+            "highlight": "How"
+          }
+        ],
+        "examples": [
+          {
+            "en": "What a nice day!",
+            "ja": "なんていい日だ！"
+          },
+          {
+            "en": "How cute!",
+            "ja": "なんて可愛いの！"
+          }
+        ]
+      },
+      {
+        "type": "nuance",
+        "title": "ニュアンス",
+        "points": [
+          {
+            "heading": "シンプルに",
+            "text": "「What a beautiful sunset!」より「So beautiful!」「This is insane!」の方がネットでは自然。"
+          },
+          {
+            "heading": "リアクション系",
+            "text": "「No way!」「OMG!」「This is crazy!」など直接的な感情表現の方がSNSでは多い。"
+          }
+        ]
+      },
+      {
+        "type": "comparison",
+        "title": "教科書 vs ネット",
+        "pairs": [
+          {
+            "textbook": "What a wonderful performance!",
+            "real": "This is amazing! / So good!",
+            "note": "直接的な表現に"
+          },
+          {
+            "textbook": "How surprising!",
+            "real": "No way! / Wait what?!",
+            "note": "リアクション系"
+          }
+        ]
+      },
+      {
+        "type": "chunks",
+        "title": "よく使うフレーズ",
+        "items": [
+          {
+            "en": "So good!",
+            "ja": "めっちゃいい！"
+          },
+          {
+            "en": "This is insane!",
+            "ja": "これやばい！"
+          },
+          {
+            "en": "No way!",
+            "ja": "ありえない！"
+          },
+          {
+            "en": "OMG!",
+            "ja": "まじか！"
+          },
+          {
+            "en": "That's crazy!",
+            "ja": "やばっ！"
+          }
+        ]
+      },
+      {
+        "type": "examples",
+        "title": "例文",
+        "items": [
+          {
+            "en": "OMG this is so good",
+            "ja": "やばこれめっちゃいい",
+            "context": "SNS"
+          },
+          {
+            "en": "No way! Did that just happen?!",
+            "ja": "うそ！今の！？",
             "context": "配信"
+          },
+          {
+            "en": "This is actually insane",
+            "ja": "これガチでやばい",
+            "context": "SNS"
+          }
+        ]
+      },
+      {
+        "type": "practice",
+        "title": "やってみよう",
+        "items": [
+          {
+            "type": "translate",
+            "instruction": "日本語を英語にしてみよう",
+            "question": "これめっちゃやばい！",
+            "answers": [
+              "This is so crazy!",
+              "This is insane!",
+              "OMG this is crazy!"
+            ],
+            "explanation": "シンプルな感嘆表現"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "present-tense",
+    "category": "grammar",
+    "categoryLabel": "基本の文法",
+    "title": "現在形",
+    "order": 6,
+    "steps": [
+      {
+        "type": "summary",
+        "title": "ポイント",
+        "content": "現在形は習慣や事実を表す。「今していること」ではない点に注意。"
+      },
+      {
+        "type": "form",
+        "title": "基本のカタチ",
+        "intro": "主語が三人称単数の時は動詞に -(e)s をつける。それ以外は動詞の原形。",
+        "breakdown": [
+          {
+            "part": "I",
+            "role": "私は"
+          },
+          {
+            "part": "play",
+            "role": "やる"
+          },
+          {
+            "part": "games",
+            "role": "ゲームを"
+          },
+          {
+            "part": "every day",
+            "role": "毎日"
+          }
+        ],
+        "pattern": [
+          {
+            "label": "I/You/We/They",
+            "pattern": "主語 + 動詞の原形"
+          },
+          {
+            "label": "He/She/It",
+            "pattern": "主語 + 動詞-s",
+            "highlight": "-s"
+          }
+        ],
+        "examples": [
+          {
+            "en": "I play games every day.",
+            "ja": "毎日ゲームする"
+          },
+          {
+            "en": "She streams on weekends.",
+            "ja": "彼女は週末に配信する"
+          }
+        ]
+      },
+      {
+        "type": "nuance",
+        "title": "ニュアンス",
+        "points": [
+          {
+            "heading": "習慣・事実を表す",
+            "text": "「I play Valorant」は「（普段から）Valorantやってる」という習慣。今やってるなら進行形を使う。"
+          },
+          {
+            "heading": "三単現の s",
+            "text": "カジュアルな場面でも三単現の s は省略しない。省略すると間違いに聞こえる。"
+          }
+        ]
+      },
+      {
+        "type": "comparison",
+        "title": "教科書 vs ネット",
+        "pairs": [
+          {
+            "textbook": "I study English every day.",
+            "real": "I study English daily. / I'm learning English.",
+            "note": "every day → daily でシンプルに"
+          }
+        ]
+      },
+      {
+        "type": "chunks",
+        "title": "よく使うフレーズ",
+        "items": [
+          {
+            "en": "I usually ...",
+            "ja": "普段〜する"
+          },
+          {
+            "en": "I always ...",
+            "ja": "いつも〜する"
+          },
+          {
+            "en": "It happens",
+            "ja": "そういうこともある"
+          },
+          {
+            "en": "It works",
+            "ja": "それでいける"
+          }
+        ]
+      },
+      {
+        "type": "examples",
+        "title": "例文",
+        "items": [
+          {
+            "en": "I stream every Friday",
+            "ja": "毎週金曜に配信してる",
+            "context": "SNS"
+          },
+          {
+            "en": "She always does this",
+            "ja": "彼女いつもこうする",
+            "context": "会話"
+          },
+          {
+            "en": "It happens to everyone",
+            "ja": "誰にでもあること",
+            "context": "会話"
+          }
+        ]
+      },
+      {
+        "type": "practice",
+        "title": "やってみよう",
+        "items": [
+          {
+            "type": "translate",
+            "instruction": "日本語を英語にしてみよう",
+            "question": "毎朝コーヒー飲む",
+            "answers": [
+              "I drink coffee every morning",
+              "I have coffee every morning"
+            ],
+            "explanation": "習慣は現在形"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "past-tense",
+    "category": "grammar",
+    "categoryLabel": "基本の文法",
+    "title": "過去形",
+    "order": 7,
+    "steps": [
+      {
+        "type": "summary",
+        "title": "ポイント",
+        "content": "過去形は過去の出来事を表す。不規則動詞は覚えるしかない。"
+      },
+      {
+        "type": "form",
+        "title": "基本のカタチ",
+        "intro": "規則動詞は -ed をつける。不規則動詞は変化を覚える（go→went、see→saw など）。",
+        "breakdown": [
+          {
+            "part": "I",
+            "role": "私は"
+          },
+          {
+            "part": "played",
+            "role": "やった"
+          },
+          {
+            "part": "the game",
+            "role": "ゲームを"
+          },
+          {
+            "part": "yesterday",
+            "role": "昨日"
+          }
+        ],
+        "pattern": [
+          {
+            "label": "規則",
+            "pattern": "主語 + 動詞-ed"
+          },
+          {
+            "label": "不規則",
+            "pattern": "主語 + 過去形",
+            "highlight": "過去形"
+          }
+        ],
+        "examples": [
+          {
+            "en": "I watched that movie.",
+            "ja": "その映画見た"
+          },
+          {
+            "en": "I went there yesterday.",
+            "ja": "昨日そこ行った"
+          }
+        ]
+      },
+      {
+        "type": "nuance",
+        "title": "ニュアンス",
+        "points": [
+          {
+            "heading": "完結した過去",
+            "text": "過去形は「終わったこと」。今と繋がりがあるなら現在完了を使う傾向。"
+          },
+          {
+            "heading": "did の強調",
+            "text": "「I did try it」のように did を入れると「本当にやった」と強調できる。"
+          }
+        ]
+      },
+      {
+        "type": "comparison",
+        "title": "教科書 vs ネット",
+        "pairs": [
+          {
+            "textbook": "I watched a movie yesterday.",
+            "real": "I saw a movie yesterday. / Watched a movie.",
+            "note": "主語省略もあり"
+          }
+        ]
+      },
+      {
+        "type": "chunks",
+        "title": "よく使うフレーズ",
+        "items": [
+          {
+            "en": "I went to ...",
+            "ja": "〜に行った"
+          },
+          {
+            "en": "I saw ...",
+            "ja": "〜を見た"
+          },
+          {
+            "en": "I got ...",
+            "ja": "〜を手に入れた"
+          },
+          {
+            "en": "It was ...",
+            "ja": "〜だった"
+          },
+          {
+            "en": "I did it",
+            "ja": "やったよ"
+          }
+        ]
+      },
+      {
+        "type": "examples",
+        "title": "例文",
+        "items": [
+          {
+            "en": "I went there last week",
+            "ja": "先週そこ行った",
+            "context": "会話"
+          },
+          {
+            "en": "That was fun",
+            "ja": "楽しかった",
+            "context": "SNS"
+          },
+          {
+            "en": "I totally forgot",
+            "ja": "完全に忘れてた",
+            "context": "会話"
+          }
+        ]
+      },
+      {
+        "type": "practice",
+        "title": "やってみよう",
+        "items": [
+          {
+            "type": "translate",
+            "instruction": "日本語を英語にしてみよう",
+            "question": "昨日配信見た",
+            "answers": [
+              "I watched the stream yesterday",
+              "Watched the stream yesterday"
+            ],
+            "explanation": "watched で過去形"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "progressive",
+    "category": "grammar",
+    "categoryLabel": "基本の文法",
+    "title": "進行形",
+    "order": 8,
+    "steps": [
+      {
+        "type": "summary",
+        "title": "ポイント",
+        "content": "進行形は「今〜している」。be動詞 + 動詞-ing で作る。"
+      },
+      {
+        "type": "form",
+        "title": "基本のカタチ",
+        "intro": "be動詞（am/is/are）+ 動詞-ing で「〜している最中」を表す。",
+        "breakdown": [
+          {
+            "part": "I'm",
+            "role": "私は"
+          },
+          {
+            "part": "playing",
+            "role": "している"
+          },
+          {
+            "part": "a game",
+            "role": "ゲームを"
+          },
+          {
+            "part": "rn",
+            "role": "今"
+          }
+        ],
+        "pattern": [
+          {
+            "label": "現在",
+            "pattern": "am/is/are + 動詞-ing"
+          },
+          {
+            "label": "過去",
+            "pattern": "was/were + 動詞-ing",
+            "highlight": "was/were"
+          }
+        ],
+        "examples": [
+          {
+            "en": "I'm playing right now.",
+            "ja": "今やってる"
+          },
+          {
+            "en": "I was watching when it happened.",
+            "ja": "起きた時見てた"
+          }
+        ]
+      },
+      {
+        "type": "nuance",
+        "title": "ニュアンス",
+        "points": [
+          {
+            "heading": "略語 rn",
+            "text": "right now → rn と略す。「playing rn」で「今やってる」。"
+          },
+          {
+            "heading": "be動詞の省略",
+            "text": "カジュアルには「(I'm) Just chilling」のように be動詞を省略することも。"
+          }
+        ]
+      },
+      {
+        "type": "comparison",
+        "title": "教科書 vs ネット",
+        "pairs": [
+          {
+            "textbook": "I am currently watching a video.",
+            "real": "Watching a video rn.",
+            "note": "I am currently → 省略、right now → rn"
+          }
+        ]
+      },
+      {
+        "type": "chunks",
+        "title": "よく使うフレーズ",
+        "items": [
+          {
+            "en": "I'm doing ...",
+            "ja": "〜してる"
+          },
+          {
+            "en": "Just chilling",
+            "ja": "まったりしてる"
+          },
+          {
+            "en": "I'm coming",
+            "ja": "今行く"
+          },
+          {
+            "en": "What are you doing?",
+            "ja": "何してる？"
+          }
+        ]
+      },
+      {
+        "type": "examples",
+        "title": "例文",
+        "items": [
+          {
+            "en": "I'm streaming rn",
+            "ja": "今配信中",
+            "context": "SNS"
+          },
+          {
+            "en": "Just watching some videos",
+            "ja": "動画見てるだけ",
+            "context": "会話"
+          },
+          {
+            "en": "I was sleeping when you called",
+            "ja": "電話来た時寝てた",
+            "context": "会話"
+          }
+        ]
+      },
+      {
+        "type": "practice",
+        "title": "やってみよう",
+        "items": [
+          {
+            "type": "convert",
+            "instruction": "ネットっぽく言い換えてみよう",
+            "question": "I am currently playing the game.",
+            "answers": [
+              "Playing rn",
+              "Just playing"
+            ],
+            "explanation": "I am currently → 省略、right now → rn"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "future",
+    "category": "grammar",
+    "categoryLabel": "基本の文法",
+    "title": "未来表現",
+    "order": 9,
+    "steps": [
+      {
+        "type": "summary",
+        "title": "ポイント",
+        "content": "未来は will / be going to / gonna で表す。gonna が圧倒的に多い。"
+      },
+      {
+        "type": "form",
+        "title": "基本のカタチ",
+        "intro": "will は「〜するだろう」、be going to は「〜する予定」。カジュアルには gonna。",
+        "breakdown": [
+          {
+            "part": "I'm",
+            "role": "私は"
+          },
+          {
+            "part": "gonna",
+            "role": "〜する予定"
+          },
+          {
+            "part": "try",
+            "role": "試す"
+          },
+          {
+            "part": "it",
+            "role": "それを"
+          }
+        ],
+        "pattern": [
+          {
+            "label": "will",
+            "pattern": "主語 + will/'ll + 動詞"
+          },
+          {
+            "label": "gonna",
+            "pattern": "主語 + 'm gonna + 動詞",
+            "highlight": "gonna"
+          }
+        ],
+        "examples": [
+          {
+            "en": "I'll check it out.",
+            "ja": "見てみるね"
+          },
+          {
+            "en": "I'm gonna try it.",
+            "ja": "試してみる"
+          }
+        ]
+      },
+      {
+        "type": "nuance",
+        "title": "ニュアンス",
+        "points": [
+          {
+            "heading": "gonna が自然",
+            "text": "going to → gonna と縮約するのがカジュアルな場面では普通。"
+          },
+          {
+            "heading": "will は約束・意志",
+            "text": "「I'll do it」は「やるよ」という意志。その場で決めたこと。"
+          }
+        ]
+      },
+      {
+        "type": "comparison",
+        "title": "教科書 vs ネット",
+        "pairs": [
+          {
+            "textbook": "I am going to watch it later.",
+            "real": "I'm gonna watch it later. / Gonna watch it later.",
+            "note": "going to → gonna"
+          }
+        ]
+      },
+      {
+        "type": "chunks",
+        "title": "よく使うフレーズ",
+        "items": [
+          {
+            "en": "I'm gonna ...",
+            "ja": "〜するつもり"
+          },
+          {
+            "en": "I'll be back",
+            "ja": "戻ってくる"
+          },
+          {
+            "en": "I'll let you know",
+            "ja": "知らせるね"
+          },
+          {
+            "en": "Gonna try it",
+            "ja": "試してみる"
+          }
+        ]
+      },
+      {
+        "type": "examples",
+        "title": "例文",
+        "items": [
+          {
+            "en": "I'm gonna stream later",
+            "ja": "後で配信する",
+            "context": "SNS"
+          },
+          {
+            "en": "I'll check that out",
+            "ja": "見てみるわ",
+            "context": "会話"
+          },
+          {
+            "en": "Gonna be fun",
+            "ja": "楽しくなりそう",
+            "context": "SNS"
+          }
+        ]
+      },
+      {
+        "type": "practice",
+        "title": "やってみよう",
+        "items": [
+          {
+            "type": "translate",
+            "instruction": "日本語を英語にしてみよう",
+            "question": "明日やってみる",
+            "answers": [
+              "I'm gonna try it tomorrow",
+              "Gonna try it tomorrow",
+              "I'll try it tomorrow"
+            ],
+            "explanation": "gonna または will"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "present-perfect",
+    "category": "grammar",
+    "categoryLabel": "基本の文法",
+    "title": "現在完了形",
+    "order": 10,
+    "steps": [
+      {
+        "type": "summary",
+        "title": "ポイント",
+        "content": "現在完了形は「今までに〜した」「〜したことがある」。have を省略することも多い。"
+      },
+      {
+        "type": "form",
+        "title": "基本のカタチ",
+        "intro": "have/has + 過去分詞 で「経験」「完了」「継続」を表す。",
+        "breakdown": [
+          {
+            "part": "I've",
+            "role": "私は"
+          },
+          {
+            "part": "played",
+            "role": "やった"
+          },
+          {
+            "part": "this",
+            "role": "これを"
+          },
+          {
+            "part": "before",
+            "role": "前に"
+          }
+        ],
+        "pattern": [
+          {
+            "label": "基本",
+            "pattern": "主語 + have/has + 過去分詞"
+          },
+          {
+            "label": "省略",
+            "pattern": "主語've + 過去分詞",
+            "highlight": "'ve"
+          }
+        ],
+        "examples": [
+          {
+            "en": "I've seen this before.",
+            "ja": "これ前に見た"
+          },
+          {
+            "en": "Have you ever tried...?",
+            "ja": "〜したことある？"
+          }
+        ]
+      },
+      {
+        "type": "nuance",
+        "title": "ニュアンス",
+        "points": [
+          {
+            "heading": "have を省略",
+            "text": "「You seen this?」のように Have を省略するのがカジュアル。"
+          },
+          {
+            "heading": "経験を聞く",
+            "text": "「Have you ever...?」→「You ever...?」「Ever...?」のように省略。"
+          }
+        ]
+      },
+      {
+        "type": "comparison",
+        "title": "教科書 vs ネット",
+        "pairs": [
+          {
+            "textbook": "Have you ever played this game?",
+            "real": "You played this before? / Ever tried this?",
+            "note": "Have を省略"
+          }
+        ]
+      },
+      {
+        "type": "chunks",
+        "title": "よく使うフレーズ",
+        "items": [
+          {
+            "en": "I've been ...",
+            "ja": "ずっと〜してた"
+          },
+          {
+            "en": "I've never ...",
+            "ja": "一度も〜ない"
+          },
+          {
+            "en": "Have you tried ...?",
+            "ja": "〜試した？"
+          },
+          {
+            "en": "I've heard of it",
+            "ja": "聞いたことある"
+          }
+        ]
+      },
+      {
+        "type": "examples",
+        "title": "例文",
+        "items": [
+          {
+            "en": "I've been waiting for this",
+            "ja": "これずっと待ってた",
+            "context": "SNS"
+          },
+          {
+            "en": "You seen the new trailer?",
+            "ja": "新予告見た？",
+            "context": "会話"
+          },
+          {
+            "en": "Never tried it before",
+            "ja": "やったことない",
+            "context": "会話"
           }
         ]
       },
@@ -303,22 +1458,2660 @@
             "instruction": "日本語を英語にしてみよう",
             "question": "これ見たことある？",
             "answers": [
-              "You seen this?",
               "Have you seen this?",
-              "Seen this before?"
+              "You seen this?",
+              "Ever seen this?"
             ],
-            "explanation": "Have you を省略するパターンが多い"
+            "explanation": "Have を省略するパターンが多い"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "present-perfect-progressive",
+    "category": "grammar",
+    "categoryLabel": "基本の文法",
+    "title": "現在完了進行形",
+    "order": 11,
+    "steps": [
+      {
+        "type": "summary",
+        "title": "ポイント",
+        "content": "現在完了進行形は「ずっと〜している」。継続を強調したい時に使う。"
+      },
+      {
+        "type": "form",
+        "title": "基本のカタチ",
+        "intro": "have been + 動詞-ing で過去から今まで続いている動作を表す。",
+        "breakdown": [
+          {
+            "part": "I've",
+            "role": "私は"
           },
           {
-            "type": "convert",
-            "instruction": "ネットっぽい言い方に変えてみよう",
-            "question": "Do you want to play together?",
+            "part": "been",
+            "role": "ずっと"
+          },
+          {
+            "part": "playing",
+            "role": "している"
+          },
+          {
+            "part": "for 3 hours",
+            "role": "3時間"
+          }
+        ],
+        "pattern": [
+          {
+            "label": "基本",
+            "pattern": "主語 + have been + 動詞-ing"
+          }
+        ],
+        "examples": [
+          {
+            "en": "I've been playing for 3 hours.",
+            "ja": "3時間やってる"
+          },
+          {
+            "en": "I've been waiting forever.",
+            "ja": "永遠に待ってる"
+          }
+        ]
+      },
+      {
+        "type": "nuance",
+        "title": "ニュアンス",
+        "points": [
+          {
+            "heading": "継続を強調",
+            "text": "「I've been waiting」は「ずっと待ってる」という継続のニュアンス。"
+          },
+          {
+            "heading": "疲れも表現",
+            "text": "「I've been working all day」は「一日中働いてた（疲れた）」というニュアンスも。"
+          }
+        ]
+      },
+      {
+        "type": "comparison",
+        "title": "教科書 vs ネット",
+        "pairs": [
+          {
+            "textbook": "I have been studying for five hours.",
+            "real": "Been studying for 5 hours. Dead.",
+            "note": "I have → 省略、5 → 数字"
+          }
+        ]
+      },
+      {
+        "type": "chunks",
+        "title": "よく使うフレーズ",
+        "items": [
+          {
+            "en": "I've been meaning to ...",
+            "ja": "ずっと〜しようと思ってた"
+          },
+          {
+            "en": "I've been trying to ...",
+            "ja": "ずっと〜しようとしてる"
+          },
+          {
+            "en": "I've been thinking about ...",
+            "ja": "ずっと〜考えてた"
+          }
+        ]
+      },
+      {
+        "type": "examples",
+        "title": "例文",
+        "items": [
+          {
+            "en": "I've been grinding this game all week",
+            "ja": "今週ずっとこのゲームやりこんでる",
+            "context": "SNS"
+          },
+          {
+            "en": "Been waiting for this update forever",
+            "ja": "このアプデずっと待ってた",
+            "context": "SNS"
+          }
+        ]
+      },
+      {
+        "type": "practice",
+        "title": "やってみよう",
+        "items": [
+          {
+            "type": "translate",
+            "instruction": "日本語を英語にしてみよう",
+            "question": "2時間待ってるんだけど",
             "answers": [
-              "Wanna play?",
-              "You wanna play together?",
-              "Down to play?"
+              "I've been waiting for 2 hours",
+              "Been waiting for 2 hours"
             ],
-            "explanation": "Want to → wanna、Do you を省略"
+            "explanation": "継続を強調する時は完了進行形"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "modal-can-could",
+    "category": "grammar",
+    "categoryLabel": "基本の文法",
+    "title": "助動詞（can / could）",
+    "order": 12,
+    "steps": [
+      {
+        "type": "summary",
+        "title": "ポイント",
+        "content": "can は「できる」、could は「できた」「〜してもらえますか」。can't が圧倒的に多い。"
+      },
+      {
+        "type": "form",
+        "title": "基本のカタチ",
+        "intro": "can は能力や可能性を表す。could は can の過去形、または丁寧なお願い。",
+        "breakdown": [
+          {
+            "part": "I",
+            "role": "私は"
+          },
+          {
+            "part": "can't",
+            "role": "できない"
+          },
+          {
+            "part": "believe",
+            "role": "信じる"
+          },
+          {
+            "part": "this",
+            "role": "これを"
+          }
+        ],
+        "pattern": [
+          {
+            "label": "肯定",
+            "pattern": "主語 + can + 動詞"
+          },
+          {
+            "label": "否定",
+            "pattern": "主語 + can't + 動詞",
+            "highlight": "can't"
+          }
+        ],
+        "examples": [
+          {
+            "en": "I can do it.",
+            "ja": "できるよ"
+          },
+          {
+            "en": "I can't believe this.",
+            "ja": "信じられない"
+          }
+        ]
+      },
+      {
+        "type": "nuance",
+        "title": "ニュアンス",
+        "points": [
+          {
+            "heading": "can't が超多い",
+            "text": "「I can't」「Can't believe」「Can't even」など、驚きや感情表現で can't がめっちゃ使われる。"
+          },
+          {
+            "heading": "could で丁寧に",
+            "text": "「Could you...?」は「Can you...?」より丁寧。"
+          }
+        ]
+      },
+      {
+        "type": "comparison",
+        "title": "教科書 vs ネット",
+        "pairs": [
+          {
+            "textbook": "I am unable to comprehend this.",
+            "real": "I can't even. / I literally can't.",
+            "note": "can't even = 理解不能"
+          }
+        ]
+      },
+      {
+        "type": "chunks",
+        "title": "よく使うフレーズ",
+        "items": [
+          {
+            "en": "I can't believe ...",
+            "ja": "信じられない"
+          },
+          {
+            "en": "I can't even",
+            "ja": "もう無理"
+          },
+          {
+            "en": "Can't wait",
+            "ja": "待ちきれない"
+          },
+          {
+            "en": "Could be",
+            "ja": "かもね"
+          }
+        ]
+      },
+      {
+        "type": "examples",
+        "title": "例文",
+        "items": [
+          {
+            "en": "I can't believe they did that",
+            "ja": "信じられない",
+            "context": "SNS"
+          },
+          {
+            "en": "Can't wait for this",
+            "ja": "これ楽しみすぎる",
+            "context": "SNS"
+          },
+          {
+            "en": "I literally can't with this game",
+            "ja": "このゲームマジ無理",
+            "context": "配信"
+          }
+        ]
+      },
+      {
+        "type": "practice",
+        "title": "やってみよう",
+        "items": [
+          {
+            "type": "translate",
+            "instruction": "日本語を英語にしてみよう",
+            "question": "これ待ちきれない",
+            "answers": [
+              "Can't wait for this",
+              "I can't wait"
+            ],
+            "explanation": "Can't wait が定番"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "modal-will-would",
+    "category": "grammar",
+    "categoryLabel": "基本の文法",
+    "title": "助動詞（will / would）",
+    "order": 13,
+    "steps": [
+      {
+        "type": "summary",
+        "title": "ポイント",
+        "content": "will は「〜するだろう」、would は「〜だろう」「〜したい」。丁寧さの違いが重要。"
+      },
+      {
+        "type": "form",
+        "title": "基本のカタチ",
+        "intro": "will は未来や意志を表す。would は仮定や丁寧な表現。",
+        "breakdown": [
+          {
+            "part": "I",
+            "role": "私は"
+          },
+          {
+            "part": "would",
+            "role": "〜だろう"
+          },
+          {
+            "part": "love",
+            "role": "大好き"
+          },
+          {
+            "part": "that",
+            "role": "それ"
+          }
+        ],
+        "pattern": [
+          {
+            "label": "will",
+            "pattern": "主語 + will/'ll + 動詞"
+          },
+          {
+            "label": "would",
+            "pattern": "主語 + would/'d + 動詞",
+            "highlight": "'d"
+          }
+        ],
+        "examples": [
+          {
+            "en": "I'll check it out.",
+            "ja": "見てみるね"
+          },
+          {
+            "en": "I would love that.",
+            "ja": "それ嬉しい"
+          }
+        ]
+      },
+      {
+        "type": "nuance",
+        "title": "ニュアンス",
+        "points": [
+          {
+            "heading": "would で柔らかく",
+            "text": "「I want」より「I would like」「I'd love」の方が柔らかい。"
+          },
+          {
+            "heading": "woulda の略",
+            "text": "would have → woulda と略されることがある。"
+          }
+        ]
+      },
+      {
+        "type": "comparison",
+        "title": "教科書 vs ネット",
+        "pairs": [
+          {
+            "textbook": "I would be grateful if you could assist me.",
+            "real": "That would be great. / I'd appreciate it.",
+            "note": "シンプルに"
+          }
+        ]
+      },
+      {
+        "type": "chunks",
+        "title": "よく使うフレーズ",
+        "items": [
+          {
+            "en": "I'll be back",
+            "ja": "戻ってくる"
+          },
+          {
+            "en": "I'd love to",
+            "ja": "ぜひ"
+          },
+          {
+            "en": "That would be great",
+            "ja": "それ嬉しい"
+          },
+          {
+            "en": "Who would've thought",
+            "ja": "誰が予想した？"
+          }
+        ]
+      },
+      {
+        "type": "examples",
+        "title": "例文",
+        "items": [
+          {
+            "en": "I'll def check that out",
+            "ja": "絶対見てみる",
+            "context": "会話"
+          },
+          {
+            "en": "I'd totally watch that",
+            "ja": "絶対見る",
+            "context": "SNS"
+          }
+        ]
+      },
+      {
+        "type": "practice",
+        "title": "やってみよう",
+        "items": [
+          {
+            "type": "translate",
+            "instruction": "日本語を英語にしてみよう",
+            "question": "それ嬉しいな",
+            "answers": [
+              "That would be great",
+              "I'd love that"
+            ],
+            "explanation": "would で柔らかく表現"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "modal-may-might",
+    "category": "grammar",
+    "categoryLabel": "基本の文法",
+    "title": "助動詞（may / might）",
+    "order": 14,
+    "steps": [
+      {
+        "type": "summary",
+        "title": "ポイント",
+        "content": "may と might は「〜かもしれない」。might の方がカジュアル。"
+      },
+      {
+        "type": "form",
+        "title": "基本のカタチ",
+        "intro": "may と might はどちらも可能性を表す。実際はほぼ同じ意味で使われる。",
+        "breakdown": [
+          {
+            "part": "This",
+            "role": "これは"
+          },
+          {
+            "part": "might",
+            "role": "〜かも"
+          },
+          {
+            "part": "work",
+            "role": "うまくいく"
+          }
+        ],
+        "pattern": [
+          {
+            "label": "may",
+            "pattern": "主語 + may + 動詞"
+          },
+          {
+            "label": "might",
+            "pattern": "主語 + might + 動詞",
+            "highlight": "might"
+          }
+        ],
+        "examples": [
+          {
+            "en": "This might work.",
+            "ja": "これうまくいくかも"
+          },
+          {
+            "en": "I may be wrong.",
+            "ja": "間違ってるかも"
+          }
+        ]
+      },
+      {
+        "type": "nuance",
+        "title": "ニュアンス",
+        "points": [
+          {
+            "heading": "might がカジュアル",
+            "text": "ネットでは might の方がよく使われる。may はフォーマル。"
+          },
+          {
+            "heading": "許可の may",
+            "text": "「May I...?」は「〜してもいい？」という丁寧な許可。"
+          }
+        ]
+      },
+      {
+        "type": "comparison",
+        "title": "教科書 vs ネット",
+        "pairs": [
+          {
+            "textbook": "May I ask you a question?",
+            "real": "Can I ask something? / Quick question.",
+            "note": "May → Can でカジュアル"
+          }
+        ]
+      },
+      {
+        "type": "chunks",
+        "title": "よく使うフレーズ",
+        "items": [
+          {
+            "en": "Might be",
+            "ja": "かもね"
+          },
+          {
+            "en": "That might work",
+            "ja": "それいけるかも"
+          },
+          {
+            "en": "Might as well",
+            "ja": "せっかくだし"
+          }
+        ]
+      },
+      {
+        "type": "examples",
+        "title": "例文",
+        "items": [
+          {
+            "en": "This might take a while",
+            "ja": "これ時間かかるかも",
+            "context": "配信"
+          },
+          {
+            "en": "I might stream later",
+            "ja": "後で配信するかも",
+            "context": "SNS"
+          }
+        ]
+      },
+      {
+        "type": "practice",
+        "title": "やってみよう",
+        "items": [
+          {
+            "type": "translate",
+            "instruction": "日本語を英語にしてみよう",
+            "question": "それ良いかもね",
+            "answers": [
+              "That might be good",
+              "Might be good"
+            ],
+            "explanation": "might でカジュアルに可能性を表現"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "modal-must-have-to",
+    "category": "grammar",
+    "categoryLabel": "基本の文法",
+    "title": "助動詞（must / have to）",
+    "order": 15,
+    "steps": [
+      {
+        "type": "summary",
+        "title": "ポイント",
+        "content": "must は「〜しなければ」「〜に違いない」。have to は義務。gotta がカジュアル。"
+      },
+      {
+        "type": "form",
+        "title": "基本のカタチ",
+        "intro": "must は義務や確信。have to も義務だが、より客観的。",
+        "breakdown": [
+          {
+            "part": "You",
+            "role": "あなたは"
+          },
+          {
+            "part": "gotta",
+            "role": "〜しなきゃ"
+          },
+          {
+            "part": "try",
+            "role": "試す"
+          },
+          {
+            "part": "this",
+            "role": "これを"
+          }
+        ],
+        "pattern": [
+          {
+            "label": "must",
+            "pattern": "主語 + must + 動詞"
+          },
+          {
+            "label": "gotta",
+            "pattern": "主語 + gotta + 動詞",
+            "highlight": "gotta"
+          }
+        ],
+        "examples": [
+          {
+            "en": "You gotta try this.",
+            "ja": "これ試さなきゃ"
+          },
+          {
+            "en": "This must be it.",
+            "ja": "これに違いない"
+          }
+        ]
+      },
+      {
+        "type": "nuance",
+        "title": "ニュアンス",
+        "points": [
+          {
+            "heading": "gotta がカジュアル",
+            "text": "have to → have got to → gotta と縮約。ネットでは gotta が超頻出。"
+          },
+          {
+            "heading": "確信の must",
+            "text": "「This must be it」「You must be tired」のように確信を表すことも。"
+          }
+        ]
+      },
+      {
+        "type": "comparison",
+        "title": "教科書 vs ネット",
+        "pairs": [
+          {
+            "textbook": "You have to try this.",
+            "real": "You gotta try this. / Gotta try this.",
+            "note": "have to → gotta"
+          }
+        ]
+      },
+      {
+        "type": "chunks",
+        "title": "よく使うフレーズ",
+        "items": [
+          {
+            "en": "I gotta go",
+            "ja": "行かなきゃ"
+          },
+          {
+            "en": "You gotta see this",
+            "ja": "これ見なきゃ"
+          },
+          {
+            "en": "Must be nice",
+            "ja": "いいなあ（皮肉）"
+          }
+        ]
+      },
+      {
+        "type": "examples",
+        "title": "例文",
+        "items": [
+          {
+            "en": "I gotta go, brb",
+            "ja": "ちょっと行かなきゃ、すぐ戻る",
+            "context": "配信"
+          },
+          {
+            "en": "This must be a bug",
+            "ja": "これバグでしょ",
+            "context": "配信"
+          }
+        ]
+      },
+      {
+        "type": "practice",
+        "title": "やってみよう",
+        "items": [
+          {
+            "type": "translate",
+            "instruction": "日本語を英語にしてみよう",
+            "question": "もう行かなきゃ",
+            "answers": [
+              "I gotta go",
+              "Gotta go",
+              "I have to go"
+            ],
+            "explanation": "gotta がカジュアル"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "modal-should",
+    "category": "grammar",
+    "categoryLabel": "基本の文法",
+    "title": "助動詞（should）",
+    "order": 16,
+    "steps": [
+      {
+        "type": "summary",
+        "title": "ポイント",
+        "content": "should は「〜べき」「〜したほうがいい」。柔らかいアドバイスに使う。"
+      },
+      {
+        "type": "form",
+        "title": "基本のカタチ",
+        "intro": "should はアドバイスや提案に使う。must より柔らかい。",
+        "breakdown": [
+          {
+            "part": "You",
+            "role": "あなたは"
+          },
+          {
+            "part": "should",
+            "role": "〜すべき"
+          },
+          {
+            "part": "try",
+            "role": "試す"
+          },
+          {
+            "part": "it",
+            "role": "それを"
+          }
+        ],
+        "pattern": [
+          {
+            "label": "should",
+            "pattern": "主語 + should + 動詞"
+          },
+          {
+            "label": "should've",
+            "pattern": "主語 + should've + 過去分詞",
+            "highlight": "should've"
+          }
+        ],
+        "examples": [
+          {
+            "en": "You should try this.",
+            "ja": "これ試した方がいいよ"
+          },
+          {
+            "en": "I should've saved earlier.",
+            "ja": "もっと早くセーブすればよかった"
+          }
+        ]
+      },
+      {
+        "type": "nuance",
+        "title": "ニュアンス",
+        "points": [
+          {
+            "heading": "柔らかい提案",
+            "text": "「You should try it」は「試してみたら？」程度。押し付けがましくない。"
+          },
+          {
+            "heading": "後悔を表す",
+            "text": "「should have + 過去分詞」で「〜すればよかった」という後悔。shoulda と略す。"
+          }
+        ]
+      },
+      {
+        "type": "comparison",
+        "title": "教科書 vs ネット",
+        "pairs": [
+          {
+            "textbook": "You ought to consider this option.",
+            "real": "You should check this out.",
+            "note": "ought to → should"
+          }
+        ]
+      },
+      {
+        "type": "chunks",
+        "title": "よく使うフレーズ",
+        "items": [
+          {
+            "en": "You should ...",
+            "ja": "〜した方がいいよ"
+          },
+          {
+            "en": "I should've ...",
+            "ja": "〜すればよかった"
+          },
+          {
+            "en": "We should ...",
+            "ja": "〜しよう"
+          }
+        ]
+      },
+      {
+        "type": "examples",
+        "title": "例文",
+        "items": [
+          {
+            "en": "You should def try this",
+            "ja": "絶対これ試して",
+            "context": "SNS"
+          },
+          {
+            "en": "I shoulda saved earlier",
+            "ja": "もっと早くセーブすべきだった",
+            "context": "配信"
+          }
+        ]
+      },
+      {
+        "type": "practice",
+        "title": "やってみよう",
+        "items": [
+          {
+            "type": "translate",
+            "instruction": "日本語を英語にしてみよう",
+            "question": "もっと早く始めればよかった",
+            "answers": [
+              "I should've started earlier",
+              "Should've started sooner"
+            ],
+            "explanation": "should have で後悔を表す"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "infinitive",
+    "category": "grammar",
+    "categoryLabel": "基本の文法",
+    "title": "to不定詞",
+    "order": 17,
+    "steps": [
+      {
+        "type": "summary",
+        "title": "ポイント",
+        "content": "to不定詞は「〜すること」「〜するために」。wanna/gonna など縮約も多い。"
+      },
+      {
+        "type": "form",
+        "title": "基本のカタチ",
+        "intro": "to + 動詞の原形で「〜すること」「〜するために」を表す。",
+        "breakdown": [
+          {
+            "part": "I",
+            "role": "私は"
+          },
+          {
+            "part": "wanna",
+            "role": "〜したい"
+          },
+          {
+            "part": "try",
+            "role": "試す"
+          },
+          {
+            "part": "this",
+            "role": "これを"
+          }
+        ],
+        "pattern": [
+          {
+            "label": "基本",
+            "pattern": "to + 動詞の原形"
+          },
+          {
+            "label": "縮約",
+            "pattern": "wanna/gonna + 動詞",
+            "highlight": "wanna"
+          }
+        ],
+        "examples": [
+          {
+            "en": "I want to try this.",
+            "ja": "これ試したい"
+          },
+          {
+            "en": "I wanna try this.",
+            "ja": "これ試したい"
+          }
+        ]
+      },
+      {
+        "type": "nuance",
+        "title": "ニュアンス",
+        "points": [
+          {
+            "heading": "wanna/gonna",
+            "text": "want to → wanna、going to → gonna のように to が縮約されることが多い。"
+          }
+        ]
+      },
+      {
+        "type": "comparison",
+        "title": "教科書 vs ネット",
+        "pairs": [
+          {
+            "textbook": "I want to participate in this.",
+            "real": "I wanna join.",
+            "note": "want to → wanna"
+          }
+        ]
+      },
+      {
+        "type": "chunks",
+        "title": "よく使うフレーズ",
+        "items": [
+          {
+            "en": "I wanna ...",
+            "ja": "〜したい"
+          },
+          {
+            "en": "I need to ...",
+            "ja": "〜しなきゃ"
+          },
+          {
+            "en": "I forgot to ...",
+            "ja": "〜し忘れた"
+          }
+        ]
+      },
+      {
+        "type": "examples",
+        "title": "例文",
+        "items": [
+          {
+            "en": "I came here to say this",
+            "ja": "これ言いに来た",
+            "context": "SNS"
+          },
+          {
+            "en": "I wanna try the new update",
+            "ja": "新アプデ試したい",
+            "context": "SNS"
+          }
+        ]
+      },
+      {
+        "type": "practice",
+        "title": "やってみよう",
+        "items": [
+          {
+            "type": "translate",
+            "instruction": "日本語を英語にしてみよう",
+            "question": "質問しに来ました",
+            "answers": [
+              "I came to ask a question",
+              "I'm here to ask something"
+            ],
+            "explanation": "to で目的を表す"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gerund",
+    "category": "grammar",
+    "categoryLabel": "基本の文法",
+    "title": "動名詞",
+    "order": 18,
+    "steps": [
+      {
+        "type": "summary",
+        "title": "ポイント",
+        "content": "動名詞（動詞-ing）は「〜すること」。enjoy, keep などは動名詞だけを取る。"
+      },
+      {
+        "type": "form",
+        "title": "基本のカタチ",
+        "intro": "動詞に -ing をつけて「〜すること」を表す。主語や目的語として使える。",
+        "breakdown": [
+          {
+            "part": "I",
+            "role": "私は"
+          },
+          {
+            "part": "enjoy",
+            "role": "楽しむ"
+          },
+          {
+            "part": "playing",
+            "role": "することを"
+          },
+          {
+            "part": "games",
+            "role": "ゲームを"
+          }
+        ],
+        "pattern": [
+          {
+            "label": "基本",
+            "pattern": "動詞-ing"
+          }
+        ],
+        "examples": [
+          {
+            "en": "I enjoy playing games.",
+            "ja": "ゲームするの楽しい"
+          },
+          {
+            "en": "Playing games is fun.",
+            "ja": "ゲームするの楽しい"
+          }
+        ]
+      },
+      {
+        "type": "nuance",
+        "title": "ニュアンス",
+        "points": [
+          {
+            "heading": "動名詞だけ取る動詞",
+            "text": "enjoy, finish, stop, keep, avoid などは動名詞だけを取る。"
+          }
+        ]
+      },
+      {
+        "type": "comparison",
+        "title": "教科書 vs ネット",
+        "pairs": [
+          {
+            "textbook": "I finished reading the book.",
+            "real": "Done reading it.",
+            "note": "finished → done"
+          }
+        ]
+      },
+      {
+        "type": "chunks",
+        "title": "よく使うフレーズ",
+        "items": [
+          {
+            "en": "I enjoy ...",
+            "ja": "〜するのを楽しむ"
+          },
+          {
+            "en": "I keep ...",
+            "ja": "〜し続ける"
+          },
+          {
+            "en": "Stop doing that",
+            "ja": "それやめて"
+          }
+        ]
+      },
+      {
+        "type": "examples",
+        "title": "例文",
+        "items": [
+          {
+            "en": "I keep forgetting",
+            "ja": "何度も忘れちゃう",
+            "context": "会話"
+          },
+          {
+            "en": "Stop spamming",
+            "ja": "スパムやめろ",
+            "context": "配信"
+          }
+        ]
+      },
+      {
+        "type": "practice",
+        "title": "やってみよう",
+        "items": [
+          {
+            "type": "translate",
+            "instruction": "日本語を英語にしてみよう",
+            "question": "ずっとやり続けてる",
+            "answers": [
+              "I keep playing",
+              "I keep doing it"
+            ],
+            "explanation": "keep + 動名詞"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "infinitive-vs-gerund",
+    "category": "grammar",
+    "categoryLabel": "基本の文法",
+    "title": "不定詞 vs 動名詞",
+    "order": 19,
+    "steps": [
+      {
+        "type": "summary",
+        "title": "ポイント",
+        "content": "動詞によって to不定詞を取るか動名詞を取るかが決まっている。意味が変わるものもある。"
+      },
+      {
+        "type": "form",
+        "title": "基本のカタチ",
+        "intro": "want, decide, plan → to不定詞。enjoy, finish, stop → 動名詞。意味が変わるものもある。",
+        "breakdown": [
+          {
+            "part": "I",
+            "role": "私は"
+          },
+          {
+            "part": "stopped",
+            "role": "やめた"
+          },
+          {
+            "part": "playing",
+            "role": "すること"
+          }
+        ],
+        "pattern": [
+          {
+            "label": "to不定詞",
+            "pattern": "want/decide/plan + to + 動詞"
+          },
+          {
+            "label": "動名詞",
+            "pattern": "enjoy/finish/stop + 動詞-ing",
+            "highlight": "-ing"
+          }
+        ],
+        "examples": [
+          {
+            "en": "I stopped playing.",
+            "ja": "やるのをやめた"
+          },
+          {
+            "en": "I stopped to play.",
+            "ja": "やるために立ち止まった"
+          }
+        ]
+      },
+      {
+        "type": "nuance",
+        "title": "ニュアンス",
+        "points": [
+          {
+            "heading": "意味が変わる動詞",
+            "text": "stop to do = 〜するために止まる。stop doing = 〜するのをやめる。forget, remember, try も同様。"
+          },
+          {
+            "heading": "迷ったら",
+            "text": "ネイティブでも迷うことがある。文脈で判断することが多い。"
+          }
+        ]
+      },
+      {
+        "type": "comparison",
+        "title": "教科書 vs ネット",
+        "pairs": [
+          {
+            "textbook": "I tried to open it.",
+            "real": "I tried opening it.",
+            "note": "tried to = 開けようとした、tried -ing = 開けてみた"
+          }
+        ]
+      },
+      {
+        "type": "chunks",
+        "title": "よく使うフレーズ",
+        "items": [
+          {
+            "en": "I forgot to ...",
+            "ja": "〜し忘れた"
+          },
+          {
+            "en": "I forgot doing ...",
+            "ja": "〜したのを忘れた"
+          },
+          {
+            "en": "I tried to ...",
+            "ja": "〜しようとした"
+          }
+        ]
+      },
+      {
+        "type": "examples",
+        "title": "例文",
+        "items": [
+          {
+            "en": "I forgot to save",
+            "ja": "セーブし忘れた",
+            "context": "配信"
+          },
+          {
+            "en": "I stopped playing for a bit",
+            "ja": "ちょっとやるのやめた",
+            "context": "会話"
+          }
+        ]
+      },
+      {
+        "type": "practice",
+        "title": "やってみよう",
+        "items": [
+          {
+            "type": "translate",
+            "instruction": "日本語を英語にしてみよう",
+            "question": "試しにやってみた",
+            "answers": [
+              "I tried doing it",
+              "I tried it out"
+            ],
+            "explanation": "tried doing = 試しにやってみた"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "conjunction-coordinating",
+    "category": "grammar",
+    "categoryLabel": "基本の文法",
+    "title": "等位接続詞（and, but, or, so）",
+    "order": 20,
+    "steps": [
+      {
+        "type": "summary",
+        "title": "ポイント",
+        "content": "and は「そして」、but は「でも」、or は「または」、so は「だから」。超基本だけど超重要。"
+      },
+      {
+        "type": "form",
+        "title": "基本のカタチ",
+        "intro": "2つの文や単語をつなげる。and は追加、but は対比、or は選択、so は結果。",
+        "breakdown": [
+          {
+            "part": "I tried",
+            "role": "試した"
+          },
+          {
+            "part": "but",
+            "role": "でも"
+          },
+          {
+            "part": "it didn't work",
+            "role": "うまくいかなかった"
+          }
+        ],
+        "pattern": [
+          {
+            "label": "追加",
+            "pattern": "A and B"
+          },
+          {
+            "label": "対比",
+            "pattern": "A but B",
+            "highlight": "but"
+          },
+          {
+            "label": "選択",
+            "pattern": "A or B"
+          },
+          {
+            "label": "結果",
+            "pattern": "A so B"
+          }
+        ],
+        "examples": [
+          {
+            "en": "I like it but it's expensive.",
+            "ja": "好きだけど高い"
+          },
+          {
+            "en": "Do this or that.",
+            "ja": "これかあれやって"
+          }
+        ]
+      },
+      {
+        "type": "nuance",
+        "title": "ニュアンス",
+        "points": [
+          {
+            "heading": "But で始める",
+            "text": "「But...」で文を始めるのはカジュアルではよくある。"
+          },
+          {
+            "heading": "or something",
+            "text": "「or something」で「〜とか」という曖昧さを出せる。"
+          }
+        ]
+      },
+      {
+        "type": "comparison",
+        "title": "教科書 vs ネット",
+        "pairs": [
+          {
+            "textbook": "However, I disagree.",
+            "real": "But I don't agree.",
+            "note": "However → But"
+          }
+        ]
+      },
+      {
+        "type": "chunks",
+        "title": "よく使うフレーズ",
+        "items": [
+          {
+            "en": "... but still",
+            "ja": "でもやっぱり"
+          },
+          {
+            "en": "... or something",
+            "ja": "〜とか"
+          },
+          {
+            "en": "... and stuff",
+            "ja": "〜とか"
+          }
+        ]
+      },
+      {
+        "type": "examples",
+        "title": "例文",
+        "items": [
+          {
+            "en": "I wanted to go but I was busy",
+            "ja": "行きたかったけど忙しかった",
+            "context": "会話"
+          },
+          {
+            "en": "I was tired so I went home",
+            "ja": "疲れてたから帰った",
+            "context": "会話"
+          }
+        ]
+      },
+      {
+        "type": "practice",
+        "title": "やってみよう",
+        "items": [
+          {
+            "type": "translate",
+            "instruction": "日本語を英語にしてみよう",
+            "question": "やりたいけど時間ない",
+            "answers": [
+              "I wanna do it but I don't have time",
+              "Wanna but no time"
+            ],
+            "explanation": "but で対比"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "conjunction-subordinating",
+    "category": "grammar",
+    "categoryLabel": "基本の文法",
+    "title": "従属接続詞（when, if, because, though）",
+    "order": 21,
+    "steps": [
+      {
+        "type": "summary",
+        "title": "ポイント",
+        "content": "when は「〜の時」、if は「もし〜なら」、because は「なぜなら」、though は「〜だけど」。"
+      },
+      {
+        "type": "form",
+        "title": "基本のカタチ",
+        "intro": "従属節と主節をつなげる。時・条件・理由・譲歩を表す。",
+        "breakdown": [
+          {
+            "part": "I did it",
+            "role": "やった"
+          },
+          {
+            "part": "because",
+            "role": "なぜなら"
+          },
+          {
+            "part": "I wanted to",
+            "role": "やりたかったから"
+          }
+        ],
+        "pattern": [
+          {
+            "label": "時",
+            "pattern": "when + 主語 + 動詞"
+          },
+          {
+            "label": "条件",
+            "pattern": "if + 主語 + 動詞",
+            "highlight": "if"
+          },
+          {
+            "label": "理由",
+            "pattern": "because + 主語 + 動詞"
+          },
+          {
+            "label": "譲歩",
+            "pattern": "though + 主語 + 動詞"
+          }
+        ],
+        "examples": [
+          {
+            "en": "I left when it ended.",
+            "ja": "終わった時帰った"
+          },
+          {
+            "en": "I'll go if you go.",
+            "ja": "君が行くなら行く"
+          }
+        ]
+      },
+      {
+        "type": "nuance",
+        "title": "ニュアンス",
+        "points": [
+          {
+            "heading": "cuz/cos",
+            "text": "because → cuz/cos と略す。「I did it cuz I wanted to」。"
+          },
+          {
+            "heading": "tho",
+            "text": "though → tho と略す。「Good game tho」。"
+          }
+        ]
+      },
+      {
+        "type": "comparison",
+        "title": "教科書 vs ネット",
+        "pairs": [
+          {
+            "textbook": "Although it was difficult, I succeeded.",
+            "real": "It was hard tho. Made it.",
+            "note": "although → tho"
+          }
+        ]
+      },
+      {
+        "type": "chunks",
+        "title": "よく使うフレーズ",
+        "items": [
+          {
+            "en": "... cuz/cos",
+            "ja": "〜だから"
+          },
+          {
+            "en": "... tho",
+            "ja": "〜だけど"
+          },
+          {
+            "en": "When I was ...",
+            "ja": "〜してた時"
+          }
+        ]
+      },
+      {
+        "type": "examples",
+        "title": "例文",
+        "items": [
+          {
+            "en": "I'm late cuz traffic was bad",
+            "ja": "渋滞で遅れた",
+            "context": "会話"
+          },
+          {
+            "en": "It's buggy but fun tho",
+            "ja": "バグいけど楽しい",
+            "context": "SNS"
+          }
+        ]
+      },
+      {
+        "type": "practice",
+        "title": "やってみよう",
+        "items": [
+          {
+            "type": "translate",
+            "instruction": "日本語を英語にしてみよう",
+            "question": "難しかったけど楽しかった",
+            "answers": [
+              "It was hard but fun tho",
+              "Hard but fun"
+            ],
+            "explanation": "tho で「〜だけど」"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "relative-pronoun",
+    "category": "grammar",
+    "categoryLabel": "基本の文法",
+    "title": "関係代名詞（who, which, that）",
+    "order": 22,
+    "steps": [
+      {
+        "type": "summary",
+        "title": "ポイント",
+        "content": "関係代名詞は2つの文をつなげる。ネットでは省略されることが多い。"
+      },
+      {
+        "type": "form",
+        "title": "基本のカタチ",
+        "intro": "who は人、which はもの、that は両方に使える。目的格では省略可能。",
+        "breakdown": [
+          {
+            "part": "The game",
+            "role": "ゲーム"
+          },
+          {
+            "part": "that",
+            "role": "（関係代名詞）"
+          },
+          {
+            "part": "I played",
+            "role": "私がやった"
+          }
+        ],
+        "pattern": [
+          {
+            "label": "人",
+            "pattern": "名詞 + who + 動詞"
+          },
+          {
+            "label": "もの",
+            "pattern": "名詞 + that/which + 動詞",
+            "highlight": "that"
+          }
+        ],
+        "examples": [
+          {
+            "en": "The game that I played.",
+            "ja": "私がやったゲーム"
+          },
+          {
+            "en": "The person who said that.",
+            "ja": "それ言った人"
+          }
+        ]
+      },
+      {
+        "type": "nuance",
+        "title": "ニュアンス",
+        "points": [
+          {
+            "heading": "that が万能",
+            "text": "カジュアルでは who も which も that で代用されることが多い。"
+          },
+          {
+            "heading": "省略できる",
+            "text": "目的格なら省略可能。「The game I played」。ネットではほぼ省略。"
+          }
+        ]
+      },
+      {
+        "type": "comparison",
+        "title": "教科書 vs ネット",
+        "pairs": [
+          {
+            "textbook": "The person whom I met was kind.",
+            "real": "The person I met was nice.",
+            "note": "whom → 省略"
+          }
+        ]
+      },
+      {
+        "type": "chunks",
+        "title": "よく使うフレーズ",
+        "items": [
+          {
+            "en": "The one that ...",
+            "ja": "〜するやつ"
+          },
+          {
+            "en": "Someone who ...",
+            "ja": "〜する人"
+          },
+          {
+            "en": "The thing is ...",
+            "ja": "問題は〜"
+          }
+        ]
+      },
+      {
+        "type": "examples",
+        "title": "例文",
+        "items": [
+          {
+            "en": "The one I was talking about",
+            "ja": "さっき言ってたやつ",
+            "context": "会話"
+          },
+          {
+            "en": "This is the video I saw",
+            "ja": "これ見た動画",
+            "context": "SNS"
+          }
+        ]
+      },
+      {
+        "type": "practice",
+        "title": "やってみよう",
+        "items": [
+          {
+            "type": "translate",
+            "instruction": "日本語を英語にしてみよう",
+            "question": "昨日見た配信",
+            "answers": [
+              "The stream I watched yesterday",
+              "The stream that I saw yesterday"
+            ],
+            "explanation": "that は省略可"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "comparison",
+    "category": "grammar",
+    "categoryLabel": "基本の文法",
+    "title": "比較表現",
+    "order": 23,
+    "steps": [
+      {
+        "type": "summary",
+        "title": "ポイント",
+        "content": "比較級は -er / more、最上級は -est / most。way や like を使って強調するのがネット流。"
+      },
+      {
+        "type": "form",
+        "title": "基本のカタチ",
+        "intro": "2つを比べる時は比較級 + than、一番を表す時は the + 最上級。",
+        "breakdown": [
+          {
+            "part": "This",
+            "role": "これは"
+          },
+          {
+            "part": "is",
+            "role": "〜だ"
+          },
+          {
+            "part": "way",
+            "role": "めっちゃ"
+          },
+          {
+            "part": "better",
+            "role": "より良い"
+          }
+        ],
+        "pattern": [
+          {
+            "label": "比較級",
+            "pattern": "A is + 比較級 + than B"
+          },
+          {
+            "label": "最上級",
+            "pattern": "A is the + 最上級",
+            "highlight": "the"
+          }
+        ],
+        "examples": [
+          {
+            "en": "This is better than that.",
+            "ja": "これあれより良い"
+          },
+          {
+            "en": "This is the best.",
+            "ja": "これが一番"
+          }
+        ]
+      },
+      {
+        "type": "nuance",
+        "title": "ニュアンス",
+        "points": [
+          {
+            "heading": "way で強調",
+            "text": "「way better」「way more」で「ずっと〜」と強調。much より way がカジュアル。"
+          },
+          {
+            "heading": "like で曖昧に",
+            "text": "「like 5 times better」のように like をつけて曖昧にすることも。"
+          }
+        ]
+      },
+      {
+        "type": "comparison",
+        "title": "教科書 vs ネット",
+        "pairs": [
+          {
+            "textbook": "This is much better.",
+            "real": "This is way better.",
+            "note": "much → way"
+          }
+        ]
+      },
+      {
+        "type": "chunks",
+        "title": "よく使うフレーズ",
+        "items": [
+          {
+            "en": "way better",
+            "ja": "めっちゃ良い"
+          },
+          {
+            "en": "the best",
+            "ja": "最高"
+          },
+          {
+            "en": "the worst",
+            "ja": "最悪"
+          },
+          {
+            "en": "even better",
+            "ja": "もっと良い"
+          }
+        ]
+      },
+      {
+        "type": "examples",
+        "title": "例文",
+        "items": [
+          {
+            "en": "This is way better than before",
+            "ja": "前よりめっちゃ良い",
+            "context": "SNS"
+          },
+          {
+            "en": "This is the best thing ever",
+            "ja": "今まで最高",
+            "context": "SNS"
+          }
+        ]
+      },
+      {
+        "type": "practice",
+        "title": "やってみよう",
+        "items": [
+          {
+            "type": "translate",
+            "instruction": "日本語を英語にしてみよう",
+            "question": "これめっちゃ簡単",
+            "answers": [
+              "This is way easier",
+              "This is so much easier"
+            ],
+            "explanation": "way で強調"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "adjective-adverb",
+    "category": "grammar",
+    "categoryLabel": "基本の文法",
+    "title": "形容詞・副詞の基本",
+    "order": 24,
+    "steps": [
+      {
+        "type": "summary",
+        "title": "ポイント",
+        "content": "形容詞は名詞を修飾、副詞は動詞・形容詞を修飾。ネットでは -ly を省略することも。"
+      },
+      {
+        "type": "form",
+        "title": "基本のカタチ",
+        "intro": "形容詞は「良い」「大きい」など、副詞は「速く」「とても」など。副詞は形容詞 + ly で作ることが多い。",
+        "breakdown": [
+          {
+            "part": "It",
+            "role": "それは"
+          },
+          {
+            "part": "looks",
+            "role": "見える"
+          },
+          {
+            "part": "really",
+            "role": "本当に"
+          },
+          {
+            "part": "good",
+            "role": "良い"
+          }
+        ],
+        "pattern": [
+          {
+            "label": "形容詞",
+            "pattern": "be動詞 + 形容詞"
+          },
+          {
+            "label": "副詞",
+            "pattern": "動詞 + 副詞",
+            "highlight": "副詞"
+          }
+        ],
+        "examples": [
+          {
+            "en": "It looks good.",
+            "ja": "良さそう"
+          },
+          {
+            "en": "It works really well.",
+            "ja": "すごくうまくいく"
+          }
+        ]
+      },
+      {
+        "type": "nuance",
+        "title": "ニュアンス",
+        "points": [
+          {
+            "heading": "-ly を省略",
+            "text": "カジュアルでは「real good」のように ly を省略することがある（文法的には正しくないが）。"
+          },
+          {
+            "heading": "super/pretty",
+            "text": "very より super や pretty がカジュアル。「super easy」「pretty good」。"
+          }
+        ]
+      },
+      {
+        "type": "comparison",
+        "title": "教科書 vs ネット",
+        "pairs": [
+          {
+            "textbook": "It is extremely good.",
+            "real": "It's super good.",
+            "note": "extremely → super"
+          }
+        ]
+      },
+      {
+        "type": "chunks",
+        "title": "よく使うフレーズ",
+        "items": [
+          {
+            "en": "pretty good",
+            "ja": "まあまあ良い"
+          },
+          {
+            "en": "super easy",
+            "ja": "超簡単"
+          },
+          {
+            "en": "really cool",
+            "ja": "マジかっこいい"
+          }
+        ]
+      },
+      {
+        "type": "examples",
+        "title": "例文",
+        "items": [
+          {
+            "en": "That's actually super cool",
+            "ja": "それ実際めっちゃかっこいい",
+            "context": "SNS"
+          },
+          {
+            "en": "It's pretty hard ngl",
+            "ja": "正直かなり難しい",
+            "context": "配信"
+          }
+        ]
+      },
+      {
+        "type": "practice",
+        "title": "やってみよう",
+        "items": [
+          {
+            "type": "translate",
+            "instruction": "日本語を英語にしてみよう",
+            "question": "これ超簡単",
+            "answers": [
+              "This is super easy",
+              "This is really easy"
+            ],
+            "explanation": "super や really で強調"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "passive",
+    "category": "grammar",
+    "categoryLabel": "基本の文法",
+    "title": "受動態",
+    "order": 25,
+    "steps": [
+      {
+        "type": "summary",
+        "title": "ポイント",
+        "content": "受動態は「〜される」。be + 過去分詞で作る。ネットでは能動態の方が多い。"
+      },
+      {
+        "type": "form",
+        "title": "基本のカタチ",
+        "intro": "主語が動作を「される」側になる。be動詞 + 過去分詞。",
+        "breakdown": [
+          {
+            "part": "It",
+            "role": "それは"
+          },
+          {
+            "part": "was",
+            "role": "〜された"
+          },
+          {
+            "part": "released",
+            "role": "リリース"
+          },
+          {
+            "part": "yesterday",
+            "role": "昨日"
+          }
+        ],
+        "pattern": [
+          {
+            "label": "基本",
+            "pattern": "主語 + be動詞 + 過去分詞"
+          },
+          {
+            "label": "by",
+            "pattern": "+ by 〜（誰によって）",
+            "highlight": "by"
+          }
+        ],
+        "examples": [
+          {
+            "en": "It was released yesterday.",
+            "ja": "昨日リリースされた"
+          },
+          {
+            "en": "It was made by...",
+            "ja": "〜によって作られた"
+          }
+        ]
+      },
+      {
+        "type": "nuance",
+        "title": "ニュアンス",
+        "points": [
+          {
+            "heading": "能動態の方が多い",
+            "text": "ネットでは「They released it」のように能動態が好まれる傾向。受動態はフォーマル寄り。"
+          },
+          {
+            "heading": "got + 過去分詞",
+            "text": "「got released」のように got を使うとカジュアルに。"
+          }
+        ]
+      },
+      {
+        "type": "comparison",
+        "title": "教科書 vs ネット",
+        "pairs": [
+          {
+            "textbook": "The update was released.",
+            "real": "They dropped the update.",
+            "note": "受動態 → 能動態"
+          }
+        ]
+      },
+      {
+        "type": "chunks",
+        "title": "よく使うフレーズ",
+        "items": [
+          {
+            "en": "It was made by...",
+            "ja": "〜が作った"
+          },
+          {
+            "en": "It got fixed",
+            "ja": "直った"
+          },
+          {
+            "en": "It was leaked",
+            "ja": "リークされた"
+          }
+        ]
+      },
+      {
+        "type": "examples",
+        "title": "例文",
+        "items": [
+          {
+            "en": "It just got released",
+            "ja": "今出たばかり",
+            "context": "SNS"
+          },
+          {
+            "en": "The trailer was leaked",
+            "ja": "予告がリークされた",
+            "context": "SNS"
+          }
+        ]
+      },
+      {
+        "type": "practice",
+        "title": "やってみよう",
+        "items": [
+          {
+            "type": "translate",
+            "instruction": "日本語を英語にしてみよう",
+            "question": "昨日リリースされた",
+            "answers": [
+              "It was released yesterday",
+              "It got released yesterday"
+            ],
+            "explanation": "got でカジュアルに"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "there-is-are",
+    "category": "grammar",
+    "categoryLabel": "基本の文法",
+    "title": "There is/are",
+    "order": 26,
+    "steps": [
+      {
+        "type": "summary",
+        "title": "ポイント",
+        "content": "There is/are は「〜がある/いる」。ネットでは There's で統一されがち。"
+      },
+      {
+        "type": "form",
+        "title": "基本のカタチ",
+        "intro": "何かが「ある」「いる」ことを伝える時に使う。単数なら There is、複数なら There are。",
+        "breakdown": [
+          {
+            "part": "There's",
+            "role": "（形式主語）"
+          },
+          {
+            "part": "a",
+            "role": "（冠詞）"
+          },
+          {
+            "part": "problem",
+            "role": "問題が"
+          }
+        ],
+        "pattern": [
+          {
+            "label": "単数",
+            "pattern": "There is + 単数名詞"
+          },
+          {
+            "label": "複数",
+            "pattern": "There are + 複数名詞",
+            "highlight": "are"
+          }
+        ],
+        "examples": [
+          {
+            "en": "There is a problem.",
+            "ja": "問題がある"
+          },
+          {
+            "en": "There are many options.",
+            "ja": "選択肢がたくさんある"
+          }
+        ]
+      },
+      {
+        "type": "nuance",
+        "title": "ニュアンス",
+        "points": [
+          {
+            "heading": "There's で統一",
+            "text": "カジュアルな場面では複数でも There's を使う人が多い。「There's two ways」など。"
+          },
+          {
+            "heading": "省略パターン",
+            "text": "「Got a problem」のように There's すら省略して got で代用することも。"
+          }
+        ]
+      },
+      {
+        "type": "comparison",
+        "title": "教科書 vs ネット",
+        "pairs": [
+          {
+            "textbook": "There are many people here.",
+            "real": "There's a lot of people here.",
+            "note": "There are → There's"
+          }
+        ]
+      },
+      {
+        "type": "chunks",
+        "title": "よく使うフレーズ",
+        "items": [
+          {
+            "en": "There's no way",
+            "ja": "ありえない"
+          },
+          {
+            "en": "There's a problem",
+            "ja": "問題がある"
+          },
+          {
+            "en": "Is there...?",
+            "ja": "〜ある？"
+          }
+        ]
+      },
+      {
+        "type": "examples",
+        "title": "例文",
+        "items": [
+          {
+            "en": "There's no way I can do this",
+            "ja": "これ絶対無理",
+            "context": "配信"
+          },
+          {
+            "en": "There's a bug somewhere",
+            "ja": "どこかにバグがある",
+            "context": "配信"
+          }
+        ]
+      },
+      {
+        "type": "practice",
+        "title": "やってみよう",
+        "items": [
+          {
+            "type": "translate",
+            "instruction": "日本語を英語にしてみよう",
+            "question": "問題がある",
+            "answers": [
+              "There's a problem",
+              "There is a problem",
+              "Got a problem"
+            ],
+            "explanation": "There's が一番自然"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pronouns",
+    "category": "grammar",
+    "categoryLabel": "基本の文法",
+    "title": "代名詞（it, one, they, thisなど）",
+    "order": 27,
+    "steps": [
+      {
+        "type": "summary",
+        "title": "ポイント",
+        "content": "代名詞は名詞の代わり。it, this, that, one, they など。they は単数で「その人」の意味でも使う。"
+      },
+      {
+        "type": "form",
+        "title": "基本のカタチ",
+        "intro": "一度出てきた名詞を繰り返さないために使う。it は「それ」、this は「これ」、they は「彼ら」または「その人」。",
+        "breakdown": [
+          {
+            "part": "This",
+            "role": "これは"
+          },
+          {
+            "part": "is",
+            "role": "〜だ"
+          },
+          {
+            "part": "so",
+            "role": "とても"
+          },
+          {
+            "part": "good",
+            "role": "良い"
+          }
+        ],
+        "pattern": [
+          {
+            "label": "it",
+            "pattern": "It is... / it works"
+          },
+          {
+            "label": "they",
+            "pattern": "They said... / They're...",
+            "highlight": "They"
+          }
+        ],
+        "examples": [
+          {
+            "en": "It works.",
+            "ja": "動くよ"
+          },
+          {
+            "en": "They said it's coming.",
+            "ja": "来るって言ってた"
+          }
+        ]
+      },
+      {
+        "type": "nuance",
+        "title": "ニュアンス",
+        "points": [
+          {
+            "heading": "単数 they",
+            "text": "性別不明な人や、ジェンダーニュートラルで「they」を使う。「Someone left their bag」など。"
+          },
+          {
+            "heading": "this + 形容詞",
+            "text": "「This is so good」「This is it」のように this を多用。"
+          }
+        ]
+      },
+      {
+        "type": "comparison",
+        "title": "教科書 vs ネット",
+        "pairs": [
+          {
+            "textbook": "He or she left a message.",
+            "real": "They left a message.",
+            "note": "he or she → they"
+          }
+        ]
+      },
+      {
+        "type": "chunks",
+        "title": "よく使うフレーズ",
+        "items": [
+          {
+            "en": "This is it",
+            "ja": "これだ"
+          },
+          {
+            "en": "That's the one",
+            "ja": "それそれ"
+          },
+          {
+            "en": "They said...",
+            "ja": "〜って言ってた"
+          }
+        ]
+      },
+      {
+        "type": "examples",
+        "title": "例文",
+        "items": [
+          {
+            "en": "This is actually insane",
+            "ja": "これガチでやばい",
+            "context": "SNS"
+          },
+          {
+            "en": "They announced it today",
+            "ja": "今日発表された",
+            "context": "SNS"
+          }
+        ]
+      },
+      {
+        "type": "practice",
+        "title": "やってみよう",
+        "items": [
+          {
+            "type": "translate",
+            "instruction": "日本語を英語にしてみよう",
+            "question": "これがそれだ",
+            "answers": [
+              "This is it",
+              "That's the one"
+            ],
+            "explanation": "this/that で指示"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "prepositions",
+    "category": "grammar",
+    "categoryLabel": "基本の文法",
+    "title": "前置詞",
+    "order": 28,
+    "steps": [
+      {
+        "type": "summary",
+        "title": "ポイント",
+        "content": "前置詞は in, on, at, to, for など。場所や時間、方向を表す。"
+      },
+      {
+        "type": "form",
+        "title": "基本のカタチ",
+        "intro": "前置詞 + 名詞で場所や時間を表す。in は「中」、on は「上」、at は「点」のイメージ。",
+        "breakdown": [
+          {
+            "part": "I'm",
+            "role": "私は"
+          },
+          {
+            "part": "at",
+            "role": "〜に"
+          },
+          {
+            "part": "home",
+            "role": "家"
+          }
+        ],
+        "pattern": [
+          {
+            "label": "場所",
+            "pattern": "in / on / at + 場所"
+          },
+          {
+            "label": "時間",
+            "pattern": "at / on / in + 時間",
+            "highlight": "at"
+          }
+        ],
+        "examples": [
+          {
+            "en": "I'm at home.",
+            "ja": "家にいる"
+          },
+          {
+            "en": "See you on Friday.",
+            "ja": "金曜日に会おう"
+          }
+        ]
+      },
+      {
+        "type": "nuance",
+        "title": "ニュアンス",
+        "points": [
+          {
+            "heading": "前置詞の省略",
+            "text": "「(on) Monday」「(at) 5pm」のように前置詞が省略されることがある。"
+          },
+          {
+            "heading": "句動詞",
+            "text": "「look up」「check out」「figure out」など、動詞 + 前置詞の組み合わせ（句動詞）が超重要。"
+          }
+        ]
+      },
+      {
+        "type": "comparison",
+        "title": "教科書 vs ネット",
+        "pairs": [
+          {
+            "textbook": "I will see you on Monday.",
+            "real": "See you Monday.",
+            "note": "on を省略"
+          }
+        ]
+      },
+      {
+        "type": "chunks",
+        "title": "よく使うフレーズ",
+        "items": [
+          {
+            "en": "at home",
+            "ja": "家で"
+          },
+          {
+            "en": "on stream",
+            "ja": "配信中"
+          },
+          {
+            "en": "in a sec",
+            "ja": "すぐ"
+          },
+          {
+            "en": "for real",
+            "ja": "マジで"
+          }
+        ]
+      },
+      {
+        "type": "examples",
+        "title": "例文",
+        "items": [
+          {
+            "en": "I'll be on stream later",
+            "ja": "後で配信する",
+            "context": "SNS"
+          },
+          {
+            "en": "Be there in a sec",
+            "ja": "すぐ行く",
+            "context": "会話"
+          }
+        ]
+      },
+      {
+        "type": "practice",
+        "title": "やってみよう",
+        "items": [
+          {
+            "type": "translate",
+            "instruction": "日本語を英語にしてみよう",
+            "question": "すぐ行く",
+            "answers": [
+              "Be there in a sec",
+              "I'll be there in a sec"
+            ],
+            "explanation": "in a sec で「すぐ」"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "conditional",
+    "category": "grammar",
+    "categoryLabel": "基本の文法",
+    "title": "仮定法（基本）",
+    "order": 29,
+    "steps": [
+      {
+        "type": "summary",
+        "title": "ポイント",
+        "content": "仮定法は「もし〜なら」。if + 過去形 で現実と違う仮定を表す。"
+      },
+      {
+        "type": "form",
+        "title": "基本のカタチ",
+        "intro": "if節が条件、主節が結果。仮定法は if + 過去形、主節は would + 動詞。",
+        "breakdown": [
+          {
+            "part": "If",
+            "role": "もし"
+          },
+          {
+            "part": "I were",
+            "role": "私が〜なら"
+          },
+          {
+            "part": "you",
+            "role": "あなた"
+          },
+          {
+            "part": "I would...",
+            "role": "〜するのに"
+          }
+        ],
+        "pattern": [
+          {
+            "label": "現実的",
+            "pattern": "if + 現在形, will + 動詞"
+          },
+          {
+            "label": "仮定",
+            "pattern": "if + 過去形, would + 動詞",
+            "highlight": "would"
+          }
+        ],
+        "examples": [
+          {
+            "en": "If I were you, I would...",
+            "ja": "もし私があなたなら〜"
+          },
+          {
+            "en": "If I had time, I would...",
+            "ja": "時間があったら〜"
+          }
+        ]
+      },
+      {
+        "type": "nuance",
+        "title": "ニュアンス",
+        "points": [
+          {
+            "heading": "I were vs I was",
+            "text": "正式には「If I were」だが、カジュアルでは「If I was」も使われる。"
+          },
+          {
+            "heading": "woulda",
+            "text": "would have → woulda と略される。「If I knew, I woulda said something」。"
+          }
+        ]
+      },
+      {
+        "type": "comparison",
+        "title": "教科書 vs ネット",
+        "pairs": [
+          {
+            "textbook": "If I were in your position...",
+            "real": "If I was you...",
+            "note": "were → was"
+          }
+        ]
+      },
+      {
+        "type": "chunks",
+        "title": "よく使うフレーズ",
+        "items": [
+          {
+            "en": "If I were you...",
+            "ja": "私だったら〜"
+          },
+          {
+            "en": "I would...",
+            "ja": "〜するのに"
+          },
+          {
+            "en": "What if...?",
+            "ja": "もし〜だったら？"
+          }
+        ]
+      },
+      {
+        "type": "examples",
+        "title": "例文",
+        "items": [
+          {
+            "en": "If I was you I'd try it",
+            "ja": "私だったら試す",
+            "context": "会話"
+          },
+          {
+            "en": "What if it doesn't work?",
+            "ja": "動かなかったらどうする？",
+            "context": "配信"
+          }
+        ]
+      },
+      {
+        "type": "practice",
+        "title": "やってみよう",
+        "items": [
+          {
+            "type": "translate",
+            "instruction": "日本語を英語にしてみよう",
+            "question": "私だったらやめる",
+            "answers": [
+              "If I were you I'd stop",
+              "If I was you I'd quit"
+            ],
+            "explanation": "If I were/was you + would"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "causative-perception",
+    "category": "grammar",
+    "categoryLabel": "基本の文法",
+    "title": "使役・知覚動詞（基本）",
+    "order": 30,
+    "steps": [
+      {
+        "type": "summary",
+        "title": "ポイント",
+        "content": "使役動詞（make, let, have）と知覚動詞（see, hear, feel）は原形不定詞を取る。"
+      },
+      {
+        "type": "form",
+        "title": "基本のカタチ",
+        "intro": "make は「〜させる」、let は「〜させてあげる」。see/hear + 目的語 + 動詞の原形で「〜が〜するのを見る/聞く」。",
+        "breakdown": [
+          {
+            "part": "Let",
+            "role": "〜させて"
+          },
+          {
+            "part": "me",
+            "role": "私に"
+          },
+          {
+            "part": "know",
+            "role": "知らせて"
+          }
+        ],
+        "pattern": [
+          {
+            "label": "使役",
+            "pattern": "make/let/have + 人 + 動詞の原形"
+          },
+          {
+            "label": "知覚",
+            "pattern": "see/hear + 人 + 動詞の原形",
+            "highlight": "原形"
+          }
+        ],
+        "examples": [
+          {
+            "en": "Let me know.",
+            "ja": "教えて"
+          },
+          {
+            "en": "I saw him do it.",
+            "ja": "彼がするの見た"
+          }
+        ]
+      },
+      {
+        "type": "nuance",
+        "title": "ニュアンス",
+        "points": [
+          {
+            "heading": "lemme",
+            "text": "let me → lemme と縮約。「Lemme check」「Lemme think」。"
+          },
+          {
+            "heading": "have + 人 + do",
+            "text": "「I'll have him do it」で「彼にやらせる」。ビジネスでも使う。"
+          }
+        ]
+      },
+      {
+        "type": "comparison",
+        "title": "教科書 vs ネット",
+        "pairs": [
+          {
+            "textbook": "Let me explain.",
+            "real": "Lemme explain real quick.",
+            "note": "let me → lemme"
+          }
+        ]
+      },
+      {
+        "type": "chunks",
+        "title": "よく使うフレーズ",
+        "items": [
+          {
+            "en": "Let me know",
+            "ja": "教えて"
+          },
+          {
+            "en": "Lemme check",
+            "ja": "ちょっと確認させて"
+          },
+          {
+            "en": "Make me laugh",
+            "ja": "笑わせて"
+          }
+        ]
+      },
+      {
+        "type": "examples",
+        "title": "例文",
+        "items": [
+          {
+            "en": "Lemme know what you think",
+            "ja": "どう思うか教えて",
+            "context": "SNS"
+          },
+          {
+            "en": "This made me cry",
+            "ja": "これ泣いた",
+            "context": "SNS"
+          }
+        ]
+      },
+      {
+        "type": "practice",
+        "title": "やってみよう",
+        "items": [
+          {
+            "type": "translate",
+            "instruction": "日本語を英語にしてみよう",
+            "question": "ちょっと確認させて",
+            "answers": [
+              "Lemme check",
+              "Let me check"
+            ],
+            "explanation": "let me → lemme がカジュアル"
           }
         ]
       }

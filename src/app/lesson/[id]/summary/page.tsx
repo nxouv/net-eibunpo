@@ -80,7 +80,11 @@ export default function SummaryPage() {
                                 基本のカタチ
                             </h2>
                             <div className={styles.pattern}>
-                                {formStep.pattern}
+                                {typeof formStep.pattern === 'string'
+                                    ? formStep.pattern
+                                    : formStep.pattern.map((p, i) => (
+                                        <div key={i}>{p.label}: {p.pattern}</div>
+                                    ))}
                             </div>
                         </section>
                     )}

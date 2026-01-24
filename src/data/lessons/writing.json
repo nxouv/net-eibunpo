@@ -1,15 +1,296 @@
 [
     {
-        "id": "flat-style",
+        "id": "opinion-expression",
         "category": "writing",
         "categoryLabel": "書くときのトーン",
-        "title": "淡々とした短文スタイル",
+        "title": "意見・感想の表現",
         "order": 1,
         "steps": [
             {
                 "type": "summary",
                 "title": "ポイント",
-                "content": "感情を抑えた、無機質なトーンで書く。短い文を並べるだけで「こなれた」印象になる。"
+                "content": "I think / I feel like / seems like など、自分の意見を柔らかく表現する方法。"
+            },
+            {
+                "type": "nuance",
+                "title": "ニュアンス",
+                "points": [
+                    {
+                        "heading": "断定を避ける",
+                        "text": "英語圏では自分の意見を述べる時に「I think」「I feel like」を入れることで、押し付けがましさを避ける。"
+                    },
+                    {
+                        "heading": "seems like",
+                        "text": "「〜っぽい」「〜みたい」というニュアンス。確信がない時に使う。"
+                    }
+                ]
+            },
+            {
+                "type": "chunks",
+                "title": "よく使うフレーズ",
+                "items": [
+                    {
+                        "en": "I think...",
+                        "ja": "〜だと思う"
+                    },
+                    {
+                        "en": "I feel like...",
+                        "ja": "〜な気がする"
+                    },
+                    {
+                        "en": "seems like...",
+                        "ja": "〜っぽい"
+                    },
+                    {
+                        "en": "looks like...",
+                        "ja": "〜みたい"
+                    },
+                    {
+                        "en": "imo (in my opinion)",
+                        "ja": "個人的には"
+                    },
+                    {
+                        "en": "tbh (to be honest)",
+                        "ja": "正直"
+                    }
+                ]
+            },
+            {
+                "type": "examples",
+                "title": "例文",
+                "items": [
+                    {
+                        "en": "I feel like this could work",
+                        "ja": "これいけそうな気がする",
+                        "context": "SNS"
+                    },
+                    {
+                        "en": "Seems like everyone's hyped",
+                        "ja": "みんな盛り上がってるっぽい",
+                        "context": "SNS"
+                    },
+                    {
+                        "en": "This looks cool imo",
+                        "ja": "個人的にこれかっこいいと思う",
+                        "context": "SNS"
+                    }
+                ]
+            },
+            {
+                "type": "practice",
+                "title": "やってみよう",
+                "items": [
+                    {
+                        "type": "translate",
+                        "instruction": "日本語を英語にしてみよう",
+                        "question": "正直これいいと思う",
+                        "answers": [
+                            "Tbh I think this is good",
+                            "I think this is good tbh"
+                        ],
+                        "explanation": "tbh + I think で柔らかく意見"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "avoiding-certainty",
+        "category": "writing",
+        "categoryLabel": "書くときのトーン",
+        "title": "断定を避ける表現",
+        "order": 2,
+        "steps": [
+            {
+                "type": "summary",
+                "title": "ポイント",
+                "content": "might, probably, maybe, I guess など、確信の度合いを調整する表現。"
+            },
+            {
+                "type": "nuance",
+                "title": "ニュアンス",
+                "points": [
+                    {
+                        "heading": "確信度の使い分け",
+                        "text": "definitely > probably > maybe > might の順で確信度が下がる。"
+                    },
+                    {
+                        "heading": "I guess",
+                        "text": "「〜かな」「たぶん」という控えめなニュアンス。よく文末に置かれる。"
+                    }
+                ]
+            },
+            {
+                "type": "chunks",
+                "title": "よく使うフレーズ",
+                "items": [
+                    {
+                        "en": "might",
+                        "ja": "〜かも"
+                    },
+                    {
+                        "en": "probably",
+                        "ja": "たぶん"
+                    },
+                    {
+                        "en": "maybe",
+                        "ja": "もしかしたら"
+                    },
+                    {
+                        "en": "I guess",
+                        "ja": "〜かな"
+                    },
+                    {
+                        "en": "not sure",
+                        "ja": "わからない"
+                    },
+                    {
+                        "en": "could be",
+                        "ja": "〜かもね"
+                    }
+                ]
+            },
+            {
+                "type": "examples",
+                "title": "例文",
+                "items": [
+                    {
+                        "en": "This might take a while",
+                        "ja": "これ時間かかるかも",
+                        "context": "配信"
+                    },
+                    {
+                        "en": "Probably gonna be late",
+                        "ja": "たぶん遅れる",
+                        "context": "SNS"
+                    },
+                    {
+                        "en": "Good game, I guess",
+                        "ja": "まあ良いゲームだったかな",
+                        "context": "SNS"
+                    }
+                ]
+            },
+            {
+                "type": "practice",
+                "title": "やってみよう",
+                "items": [
+                    {
+                        "type": "translate",
+                        "instruction": "日本語を英語にしてみよう",
+                        "question": "たぶんそれ正解",
+                        "answers": [
+                            "That's probably right",
+                            "Probably that's it"
+                        ],
+                        "explanation": "probably で「たぶん」"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "it-construction",
+        "category": "writing",
+        "categoryLabel": "書くときのトーン",
+        "title": "無生物主語・It構文",
+        "order": 3,
+        "steps": [
+            {
+                "type": "summary",
+                "title": "ポイント",
+                "content": "It works. / This makes sense. など、物や状況を主語にした表現。客観的で淡々とした印象。"
+            },
+            {
+                "type": "nuance",
+                "title": "ニュアンス",
+                "points": [
+                    {
+                        "heading": "主語を物にする",
+                        "text": "日本語では「私がわかった」と言うところを「This makes sense」と物を主語にすると英語らしくなる。"
+                    },
+                    {
+                        "heading": "客観的な響き",
+                        "text": "「It works」「This helps」のように、物事がどうであるかを述べる形式は客観的で落ち着いた印象を与える。"
+                    }
+                ]
+            },
+            {
+                "type": "chunks",
+                "title": "よく使うフレーズ",
+                "items": [
+                    {
+                        "en": "It works",
+                        "ja": "うまくいく"
+                    },
+                    {
+                        "en": "This makes sense",
+                        "ja": "なるほど"
+                    },
+                    {
+                        "en": "It happens",
+                        "ja": "そういうこともある"
+                    },
+                    {
+                        "en": "This helps",
+                        "ja": "これ助かる"
+                    },
+                    {
+                        "en": "It depends",
+                        "ja": "場合による"
+                    }
+                ]
+            },
+            {
+                "type": "examples",
+                "title": "例文",
+                "items": [
+                    {
+                        "en": "This actually makes sense",
+                        "ja": "これ実際納得いく",
+                        "context": "SNS"
+                    },
+                    {
+                        "en": "It works for me",
+                        "ja": "自分はこれでいける",
+                        "context": "会話"
+                    },
+                    {
+                        "en": "It depends on the situation",
+                        "ja": "状況による",
+                        "context": "SNS"
+                    }
+                ]
+            },
+            {
+                "type": "practice",
+                "title": "やってみよう",
+                "items": [
+                    {
+                        "type": "translate",
+                        "instruction": "日本語を英語にしてみよう",
+                        "question": "これで動くよ",
+                        "answers": [
+                            "This works",
+                            "It works"
+                        ],
+                        "explanation": "物を主語にして it/this + works"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "flat-style",
+        "category": "writing",
+        "categoryLabel": "書くときのトーン",
+        "title": "淡々とした短文スタイル",
+        "order": 4,
+        "steps": [
+            {
+                "type": "summary",
+                "title": "ポイント",
+                "content": "Tried it. Not bad. のように、感情を抑えた短い文を並べるスタイル。"
             },
             {
                 "type": "nuance",
@@ -17,11 +298,11 @@
                 "points": [
                     {
                         "heading": "どういうスタイルか",
-                        "text": "感情的な表現を避け、事実や感想を短く述べるスタイル。日本語で言うと「〜だった。悪くない。」「試した。良かった。」のような、距離感のある書き方。"
+                        "text": "感情的な表現を避け、事実や感想を短く述べる。「〜だった。悪くない。」のような距離感のある書き方。"
                     },
                     {
                         "heading": "与える印象",
-                        "text": "SNSで「冷静な人」「落ち着いてる」という印象を与える。逆に、親しみやすさやテンションの高さは出にくい。"
+                        "text": "「冷静な人」「落ち着いてる」という印象を与える。親しみやすさは出にくい。"
                     }
                 ]
             },
@@ -46,10 +327,6 @@
                         "ja": "なるほど"
                     },
                     {
-                        "en": "Worth checking out.",
-                        "ja": "見る価値あり"
-                    },
-                    {
                         "en": "Fair point.",
                         "ja": "一理ある"
                     },
@@ -66,22 +343,17 @@
                     {
                         "en": "Finished the book. Good read.",
                         "ja": "本読み終わった。良かった",
-                        "context": "ツイート"
+                        "context": "SNS"
                     },
                     {
                         "en": "New update. Some bugs fixed. Nothing major.",
                         "ja": "新アプデ。バグ修正。大したことない",
-                        "context": "ツイート"
+                        "context": "SNS"
                     },
                     {
-                        "en": "Tried the new cafe. Coffee was decent. Might go back.",
-                        "ja": "新しいカフェ行った。コーヒーまあまあ。また行くかも",
-                        "context": "ツイート"
-                    },
-                    {
-                        "en": "This works. Simple and clean.",
-                        "ja": "これいい。シンプルできれい",
-                        "context": "ツイート"
+                        "en": "Tried the new cafe. Coffee was decent.",
+                        "ja": "新しいカフェ行った。コーヒーまあまあ",
+                        "context": "SNS"
                     }
                 ]
             },
@@ -90,19 +362,8 @@
                 "title": "やってみよう",
                 "items": [
                     {
-                        "type": "translate",
-                        "instruction": "淡々としたトーンで書いてみよう",
-                        "question": "新しいゲーム買った。面白い。",
-                        "answers": [
-                            "Got the new game. Pretty fun.",
-                            "Bought the new game. It's good.",
-                            "New game. Not bad."
-                        ],
-                        "explanation": "短い文を並べる。形容詞は控えめに。"
-                    },
-                    {
                         "type": "convert",
-                        "instruction": "この文をより淡々とさせてみよう",
+                        "instruction": "淡々としたトーンに変えてみよう",
                         "question": "I really loved this movie! It was absolutely amazing!",
                         "answers": [
                             "Good movie.",
@@ -110,7 +371,7 @@
                             "Worth watching.",
                             "Not bad."
                         ],
-                        "explanation": "really, absolutely, amazing などの強調を外す。短くする。"
+                        "explanation": "強調を外して短くする"
                     }
                 ]
             }
