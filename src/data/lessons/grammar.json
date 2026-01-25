@@ -61,11 +61,11 @@
         "points": [
           {
             "heading": "縮約が基本",
-            "text": "do not → don't、does not → doesn't。ネットではほぼ100%縮約形。"
+            "text": "do not → don't、does not → doesn't。ネットではほぼ100%縮約形が使われる。"
           },
           {
             "heading": "省略パターン",
-            "text": "「I don't know」→「Dunno」「idk」のように、さらに省略されることも。"
+            "text": "「I don't know」→「Dunno」「idk」のように、さらに省略されることもある。"
           }
         ]
       },
@@ -149,7 +149,7 @@
         ]
       }
     ],
-    "netTip": "縮約が基本。do not → don't、does not → doesn't。ネットではほぼ100%縮約形。"
+    "netTip": "縮約が基本。do not → don't、does not → doesn't。ネットではほぼ100%縮約形が使われる。"
   },
   {
     "id": "yes-no-question",
@@ -161,7 +161,7 @@
       {
         "type": "summary",
         "title": "ポイント",
-        "content": "Yes/No疑問文は Do/Does/Did で始まる。ネットでは語尾に ? をつけるだけで疑問文になることも。"
+        "content": "Yes/No疑問文は Do/Does/Did で始まる。ネットでは語尾に ? をつけるだけで疑問文になることもある。"
       },
       {
         "type": "form",
@@ -1113,7 +1113,7 @@
           },
           {
             "heading": "be動詞の省略",
-            "text": "カジュアルには「(I'm) Just chilling」のように be動詞を省略することも。"
+            "text": "カジュアルには「(I'm) Just chilling」のように be動詞を省略することもある。"
           }
         ]
       },
@@ -1535,7 +1535,7 @@
         "points": [
           {
             "heading": "継続を強調",
-            "text": "「I've been waiting」は「ずっと待ってる」という継続のニュアンス。"
+            "text": "「I've been waiting」は「ずっと待ってる」という継続のニュアンスがある。"
           },
           {
             "heading": "疲れも表現",
@@ -1605,7 +1605,7 @@
         ]
       }
     ],
-    "netTip": "継続を強調。「I've been waiting」は「ずっと待ってる」という継続のニュアンス。"
+    "netTip": "継続を強調。「I've been waiting」は「ずっと待ってる」という継続のニュアンスがある。"
   },
   {
     "id": "modal-can-could",
@@ -2084,7 +2084,7 @@
           },
           {
             "heading": "確信の must",
-            "text": "「This must be it」「You must be tired」のように確信を表すことも。"
+            "text": "「This must be it」「You must be tired」のように確信を表すこともある。"
           }
         ]
       },
@@ -3160,7 +3160,7 @@
           },
           {
             "heading": "like で曖昧に",
-            "text": "「like 5 times better」のように like をつけて曖昧にすることも。"
+            "text": "「like 5 times better」のように like をつけて曖昧にすることもある。"
           }
         ]
       },
@@ -3242,7 +3242,7 @@
       {
         "type": "summary",
         "title": "ポイント",
-        "content": "形容詞は名詞を修飾、副詞は動詞・形容詞を修飾。ネットでは -ly を省略することも。"
+        "content": "形容詞は名詞を修飾、副詞は動詞・形容詞を修飾。ネットでは -ly を省略することもある。"
       },
       {
         "type": "form",
@@ -3562,7 +3562,7 @@
           },
           {
             "heading": "省略パターン",
-            "text": "「Got a problem」のように There's すら省略して got で代用することも。"
+            "text": "「Got a problem」のように There's すら省略して got で代用することもある。"
           }
         ]
       },
