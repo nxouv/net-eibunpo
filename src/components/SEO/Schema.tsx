@@ -60,16 +60,12 @@ interface ArticleSchemaProps {
     headline: string;
     description: string;
     url: string;
-    datePublished?: string;
-    dateModified?: string;
 }
 
 export function ArticleSchema({
     headline,
     description,
     url,
-    datePublished = '2026-01-19',
-    dateModified = '2026-01-25',
 }: ArticleSchemaProps) {
     const schema = {
         '@context': 'https://schema.org',
@@ -77,8 +73,6 @@ export function ArticleSchema({
         headline,
         description,
         url,
-        datePublished,
-        dateModified,
         inLanguage: 'ja',
         author: {
             '@type': 'Person',
@@ -150,8 +144,6 @@ export function LessonArticleSchema({ title, description, lessonId, category }: 
         description,
         url,
         inLanguage: 'ja',
-        datePublished: '2026-01-19',
-        dateModified: '2026-01-25',
         author: {
             '@type': 'Person',
             name: 'なな太郎',
