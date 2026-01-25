@@ -188,6 +188,7 @@
     font-size: 14px;
     color: var(--color-text-main);
     line-height: 1.6;
+    white-space: pre-line;
 }
 
 .actions {
