@@ -9,7 +9,7 @@
       {
         "type": "summary",
         "title": "ポイント",
-        "content": "I think / I feel like / seems like など、自分の意見を柔らかく表現する方法"
+        "content": "I think / I feel like / seems like など、自分の意見を柔らかく表現する方法。"
       },
       {
         "type": "nuance",
@@ -17,11 +17,11 @@
         "points": [
           {
             "heading": "断定を避ける",
-            "text": "英語圏では自分の意見を述べる時に「I think」「I feel like」を入れることで、押し付けがましさを避けるのが無難"
+            "text": "英語圏では自分の意見を述べる時に「I think」「I feel like」を入れることで、押し付けがましさを避けるのが無難。"
           },
           {
             "heading": "seems like",
-            "text": "「〜っぽい」「〜みたい」というニュアンス\n確信がない時に使う"
+            "text": "「〜っぽい」「〜みたい」というニュアンス。確信がない時に使う。"
           }
         ]
       },
@@ -93,7 +93,7 @@
         ]
       }
     ],
-    "netTip": "断定を避けるのが無難\n英語圏では自分の意見を述べる時に「I think」「I feel like」を入れることで、押し付けがましさを避けるのが無難"
+    "netTip": "断定を避けるのが無難。英語圏では自分の意見を述べる時に「I think」「I feel like」を入れることで、押し付けがましさを避けるのが無難。"
   },
   {
     "id": "avoiding-certainty",
@@ -105,7 +105,7 @@
       {
         "type": "summary",
         "title": "ポイント",
-        "content": "might, probably, maybe, I guess など、確信の度合いを調整する表現"
+        "content": "might, probably, maybe, I guess など、確信の度合いを調整する表現。"
       },
       {
         "type": "nuance",
@@ -113,11 +113,11 @@
         "points": [
           {
             "heading": "確信度の使い分け",
-            "text": "definitely > probably > maybe > might の順で確信度が下がる"
+            "text": "definitely > probably > maybe > might の順で確信度が下がる。"
           },
           {
             "heading": "I guess",
-            "text": "「〜かな」「たぶん」という控えめなニュアンスになる\nよく文末に置かれる"
+            "text": "「〜かな」「たぶん」という控えめなニュアンスになる。よく文末に置かれる。"
           }
         ]
       },
@@ -189,7 +189,7 @@
         ]
       }
     ],
-    "netTip": "確信度の使い分け\ndefinitely > probably > maybe > might の順で確信度が下がる"
+    "netTip": "確信度の使い分け。definitely > probably > maybe > might の順で確信度が下がる。"
   },
   {
     "id": "it-construction",
@@ -201,7 +201,7 @@
       {
         "type": "summary",
         "title": "ポイント",
-        "content": "It works. / This makes sense. など、物や状況を主語にした表現\n客観的で淡々とした印象"
+        "content": "It works. / This makes sense. など、物や状況を主語にした表現。客観的で淡々とした印象。"
       },
       {
         "type": "nuance",
@@ -209,11 +209,11 @@
         "points": [
           {
             "heading": "主語を物にする",
-            "text": "日本語では「私がわかった」と言うところを「This makes sense」と物を主語にすると英語らしくなる"
+            "text": "日本語では「私がわかった」と言うところを「This makes sense」と物を主語にすると英語らしくなる。"
           },
           {
             "heading": "客観的な響き",
-            "text": "「It works」「This helps」のように、物事がどうであるかを述べる形式は客観的で落ち着いた印象を与える"
+            "text": "「It works」「This helps」のように、物事がどうであるかを述べる形式は客観的で落ち着いた印象を与える。"
           }
         ]
       },
@@ -281,7 +281,7 @@
         ]
       }
     ],
-    "netTip": "主語を物にする\n日本語では「私がわかった」と言うところを「This makes sense」と物を主語にすると英語らしくなる"
+    "netTip": "主語を物にする。日本語では「私がわかった」と言うところを「This makes sense」と物を主語にすると英語らしくなる。"
   },
   {
     "id": "flat-style",
@@ -293,7 +293,7 @@
       {
         "type": "summary",
         "title": "ポイント",
-        "content": "Tried it. Not bad. のように、感情を抑えた短い文を並べるスタイル"
+        "content": "Tried it. Not bad. のように、感情を抑えた短い文を並べるスタイル。"
       },
       {
         "type": "nuance",
@@ -301,11 +301,11 @@
         "points": [
           {
             "heading": "どういうスタイルか",
-            "text": "感情的な表現を避け、事実や感想を短く述べる\n「〜だった\n悪くない\n」のような距離感のある書き方"
+            "text": "感情的な表現を避け、事実や感想を短く述べる。「〜だった。悪くない。」のような距離感のある書き方。"
           },
           {
             "heading": "与える印象",
-            "text": "「冷静な人」「落ち着いてる」という印象を与える\n親しみやすさは出にくい"
+            "text": "「冷静な人」「落ち着いてる」という印象を与える。親しみやすさは出にくい。"
           }
         ]
       },
@@ -379,6 +379,6 @@
         ]
       }
     ],
-    "netTip": "どういうスタイルか\n感情的な表現を避け、事実や感想を短く述べる\n「〜だった\n悪くない\n」のような距離感のある書き方"
+    "netTip": "どういうスタイルか。感情的な表現を避け、事実や感想を短く述べる。「〜だった。悪くない。」のような距離感のある書き方。"
   }
 ]

@@ -9,12 +9,12 @@
       {
         "type": "summary",
         "title": "ポイント",
-        "content": "肯定文と否定文は英語の基本\nネットでは省略や縮約がめちゃくちゃ多い"
+        "content": "肯定文と否定文は英語の基本。ネットでは省略や縮約がめちゃくちゃ多い。"
       },
       {
         "type": "form",
         "title": "基本のカタチ",
-        "intro": "「〜する」が肯定文、「〜しない」が否定文\n否定するときは動詞の前に don't を入れる",
+        "intro": "「〜する」が肯定文、「〜しない」が否定文。否定するときは動詞の前に don't を入れる。",
         "breakdown": [
           {
             "part": "I",
@@ -61,11 +61,11 @@
         "points": [
           {
             "heading": "縮約が基本",
-            "text": "do not → don't、does not → doesn't\nネットではほぼ100%縮約形が使われる"
+            "text": "do not → don't、does not → doesn't。ネットではほぼ100%縮約形が使われる。"
           },
           {
             "heading": "省略パターン",
-            "text": "「I don't know」→「Dunno」「idk」のように、さらに省略されることもある"
+            "text": "「I don't know」→「Dunno」「idk」のように、さらに省略されることもある。"
           }
         ]
       },
@@ -149,7 +149,7 @@
         ]
       }
     ],
-    "netTip": "縮約が基本\ndo not → don't、does not → doesn't\nネットではほぼ100%縮約形が使われる"
+    "netTip": "縮約が基本。do not → don't、does not → doesn't。ネットではほぼ100%縮約形が使われる。"
   },
   {
     "id": "yes-no-question",
@@ -161,12 +161,12 @@
       {
         "type": "summary",
         "title": "ポイント",
-        "content": "Yes/No疑問文は Do/Does/Did で始まる\nネットでは語尾に ? をつけるだけで疑問文になることもある"
+        "content": "Yes/No疑問文は Do/Does/Did で始まる。ネットでは語尾に ? をつけるだけで疑問文になることもある。"
       },
       {
         "type": "form",
         "title": "基本のカタチ",
-        "intro": "疑問文を作るには Do/Does/Did を文頭に置く\nただし、be動詞の場合は be動詞を前に出す",
+        "intro": "疑問文を作るには Do/Does/Did を文頭に置く。ただし、be動詞の場合は be動詞を前に出す。",
         "breakdown": [
           {
             "part": "Do",
@@ -213,11 +213,11 @@
         "points": [
           {
             "heading": "Do を省略",
-            "text": "カジュアルな場面では「You coming?」のように Do を省略し、語尾を上げるだけで疑問文に"
+            "text": "カジュアルな場面では「You coming?」のように Do を省略し、語尾を上げるだけで疑問文に。"
           },
           {
             "heading": "? だけで疑問に",
-            "text": "テキストでは「You like it?」のように ? をつけるだけで疑問文として成立"
+            "text": "テキストでは「You like it?」のように ? をつけるだけで疑問文として成立。"
           }
         ]
       },
@@ -301,7 +301,7 @@
         ]
       }
     ],
-    "netTip": "Do を省略\nカジュアルな場面では「You coming?」のように Do を省略し、語尾を上げるだけで疑問文に"
+    "netTip": "Do を省略。カジュアルな場面では「You coming?」のように Do を省略し、語尾を上げるだけで疑問文に。"
   },
   {
     "id": "wh-question",
@@ -313,12 +313,12 @@
       {
         "type": "summary",
         "title": "ポイント",
-        "content": "What, When, Where, Who, Why, How で始まる疑問文\nネットでは wut, y, tho など略語も多い"
+        "content": "What, When, Where, Who, Why, How で始まる疑問文。ネットでは wut, y, tho など略語も多い。"
       },
       {
         "type": "form",
         "title": "基本のカタチ",
-        "intro": "5W1H疑問文は疑問詞 + do/does/did + 主語 + 動詞 の順\nbe動詞の場合は疑問詞 + be動詞 + 主語",
+        "intro": "5W1H疑問文は疑問詞 + do/does/did + 主語 + 動詞 の順。be動詞の場合は疑問詞 + be動詞 + 主語。",
         "breakdown": [
           {
             "part": "What",
@@ -365,11 +365,11 @@
         "points": [
           {
             "heading": "do を省略",
-            "text": "「What you doing?」のように助動詞を省略するのがカジュアル"
+            "text": "「What you doing?」のように助動詞を省略するのがカジュアル。"
           },
           {
             "heading": "略語",
-            "text": "wut = what、y = why、whr = where など、SNSでの略し方を知っておくと便利"
+            "text": "wut = what、y = why、whr = where など、SNSでの略し方を知っておくと便利。"
           }
         ]
       },
@@ -454,7 +454,7 @@
         ]
       }
     ],
-    "netTip": "do を省略\n「What you doing?」のように助動詞を省略するのがカジュアル"
+    "netTip": "do を省略。「What you doing?」のように助動詞を省略するのがカジュアル。"
   },
   {
     "id": "imperative",
@@ -466,12 +466,12 @@
       {
         "type": "summary",
         "title": "ポイント",
-        "content": "命令文は動詞の原形で始める\nネットでは pls をつけて柔らかくしたり、Just + 動詞 で促したり"
+        "content": "命令文は動詞の原形で始める。ネットでは pls をつけて柔らかくしたり、Just + 動詞 で促したり。"
       },
       {
         "type": "form",
         "title": "基本のカタチ",
-        "intro": "主語なしで動詞の原形から始める\n否定命令は Don't + 動詞",
+        "intro": "主語なしで動詞の原形から始める。否定命令は Don't + 動詞。",
         "breakdown": [
           {
             "part": "Just",
@@ -514,11 +514,11 @@
         "points": [
           {
             "heading": "Just で柔らかく",
-            "text": "「Just try it」のように Just を入れると「とりあえず〜してみて」という気軽なニュアンスに"
+            "text": "「Just try it」のように Just を入れると「とりあえず〜してみて」という気軽なニュアンスに。"
           },
           {
             "heading": "pls/plz",
-            "text": "please → pls/plz と略して「〜してね」と柔らかくする\n「pls help」など"
+            "text": "please → pls/plz と略して「〜してね」と柔らかくする。「pls help」など。"
           }
         ]
       },
@@ -602,7 +602,7 @@
         ]
       }
     ],
-    "netTip": "Just で柔らかく\n「Just try it」のように Just を入れると「とりあえず〜してみて」という気軽なニュアンスに"
+    "netTip": "Just で柔らかく。「Just try it」のように Just を入れると「とりあえず〜してみて」という気軽なニュアンスに。"
   },
   {
     "id": "exclamation",
@@ -614,12 +614,12 @@
       {
         "type": "summary",
         "title": "ポイント",
-        "content": "感嘆文は「なんて〜なんだ！」という驚き\nネットでは How/What より直接的なリアクション表現が多い"
+        "content": "感嘆文は「なんて〜なんだ！」という驚き。ネットでは How/What より直接的なリアクション表現が多い。"
       },
       {
         "type": "form",
         "title": "基本のカタチ",
-        "intro": "What a...! や How...! で驚きを表すが、実際はもっとシンプルな表現が使われる",
+        "intro": "What a...! や How...! で驚きを表すが、実際はもっとシンプルな表現が使われる。",
         "breakdown": [
           {
             "part": "What",
@@ -666,11 +666,11 @@
         "points": [
           {
             "heading": "シンプルに",
-            "text": "「What a beautiful sunset!」より「So beautiful!」「This is insane!」の方がネットでは自然"
+            "text": "「What a beautiful sunset!」より「So beautiful!」「This is insane!」の方がネットでは自然。"
           },
           {
             "heading": "リアクション系",
-            "text": "「No way!」「OMG!」「This is crazy!」など直接的な感情表現の方がSNSでは多い"
+            "text": "「No way!」「OMG!」「This is crazy!」など直接的な感情表現の方がSNSでは多い。"
           }
         ]
       },
@@ -755,7 +755,7 @@
         ]
       }
     ],
-    "netTip": "シンプルに\n「What a beautiful sunset!」より「So beautiful!」「This is insane!」の方がネットでは自然"
+    "netTip": "シンプルに。「What a beautiful sunset!」より「So beautiful!」「This is insane!」の方がネットでは自然。"
   },
   {
     "id": "present-tense",
@@ -767,12 +767,12 @@
       {
         "type": "summary",
         "title": "ポイント",
-        "content": "現在形は習慣や事実を表す\n「今していること」は進行形\nプロフィール紹介などで多用"
+        "content": "現在形は習慣や事実を表す。「今していること」は進行形。プロフィール紹介などで多用。"
       },
       {
         "type": "form",
         "title": "基本のカタチ",
-        "intro": "主語が三人称単数の時は動詞に -(e)s をつける\nそれ以外は動詞の原形",
+        "intro": "主語が三人称単数の時は動詞に -(e)s をつける。それ以外は動詞の原形。",
         "breakdown": [
           {
             "part": "I",
@@ -819,11 +819,11 @@
         "points": [
           {
             "heading": "習慣・事実を表す",
-            "text": "「I play Valorant」は「（普段から）Valorantやってる」という習慣\n今やってるなら進行形を使う"
+            "text": "「I play Valorant」は「（普段から）Valorantやってる」という習慣。今やってるなら進行形を使う。"
           },
           {
             "heading": "三単現の s",
-            "text": "カジュアルな場面でも三単現の s は省略しない\n省略すると間違いに聞こえる"
+            "text": "カジュアルな場面でも三単現の s は省略しない。省略すると間違いに聞こえる。"
           }
         ]
       },
@@ -898,7 +898,7 @@
         ]
       }
     ],
-    "netTip": "習慣・事実を表す\n「I play Valorant」は「（普段から）Valorantやってる」という習慣\n今やってるなら進行形を使う"
+    "netTip": "習慣・事実を表す。「I play Valorant」は「（普段から）Valorantやってる」という習慣。今やってるなら進行形を使う。"
   },
   {
     "id": "past-tense",
@@ -910,12 +910,12 @@
       {
         "type": "summary",
         "title": "ポイント",
-        "content": "過去形は終わった出来事を表す\nネットでは主語省略も多い（Watched it yesterday）"
+        "content": "過去形は終わった出来事を表す。ネットでは主語省略も多い（Watched it yesterday）。"
       },
       {
         "type": "form",
         "title": "基本のカタチ",
-        "intro": "規則動詞は -ed をつける\n不規則動詞は変化を覚える（go→went、see→saw など）",
+        "intro": "規則動詞は -ed をつける。不規則動詞は変化を覚える（go→went、see→saw など）。",
         "breakdown": [
           {
             "part": "I",
@@ -962,11 +962,11 @@
         "points": [
           {
             "heading": "完結した過去",
-            "text": "過去形は「終わったこと」\n今と繋がりがあるなら現在完了を使う傾向"
+            "text": "過去形は「終わったこと」。今と繋がりがあるなら現在完了を使う傾向。"
           },
           {
             "heading": "did の強調",
-            "text": "「I did try it」のように did を入れると「本当にやった」と強調できる"
+            "text": "「I did try it」のように did を入れると「本当にやった」と強調できる。"
           }
         ]
       },
@@ -1045,7 +1045,7 @@
         ]
       }
     ],
-    "netTip": "完結した過去\n過去形は「終わったこと」\n今と繋がりがあるなら現在完了を使う傾向"
+    "netTip": "完結した過去。過去形は「終わったこと」。今と繋がりがあるなら現在完了を使う傾向。"
   },
   {
     "id": "progressive",
@@ -1057,12 +1057,12 @@
       {
         "type": "summary",
         "title": "ポイント",
-        "content": "進行形は「今〜している」\nbe動詞 + 動詞-ing で作る\nrn（right now）とセットで超頻出"
+        "content": "進行形は「今〜している」。be動詞 + 動詞-ing で作る。rn（right now）とセットで超頻出。"
       },
       {
         "type": "form",
         "title": "基本のカタチ",
-        "intro": "be動詞（am/is/are）+ 動詞-ing で「〜している最中」を表す",
+        "intro": "be動詞（am/is/are）+ 動詞-ing で「〜している最中」を表す。",
         "breakdown": [
           {
             "part": "I'm",
@@ -1109,11 +1109,11 @@
         "points": [
           {
             "heading": "略語 rn",
-            "text": "right now → rn と略す\n「playing rn」で「今やってる」"
+            "text": "right now → rn と略す。「playing rn」で「今やってる」。"
           },
           {
             "heading": "be動詞の省略",
-            "text": "カジュアルには「(I'm) Just chilling」のように be動詞を省略することもある"
+            "text": "カジュアルには「(I'm) Just chilling」のように be動詞を省略することもある。"
           }
         ]
       },
@@ -1188,7 +1188,7 @@
         ]
       }
     ],
-    "netTip": "略語 rn\nright now → rn と略す\n「playing rn」で「今やってる」"
+    "netTip": "略語 rn。right now → rn と略す。「playing rn」で「今やってる」。"
   },
   {
     "id": "future",
@@ -1200,12 +1200,12 @@
       {
         "type": "summary",
         "title": "ポイント",
-        "content": "未来は will / be going to / gonna で表す\ngonna が圧倒的に多い"
+        "content": "未来は will / be going to / gonna で表す。gonna が圧倒的に多い。"
       },
       {
         "type": "form",
         "title": "基本のカタチ",
-        "intro": "will は「〜するだろう」、be going to は「〜する予定」\nカジュアルには gonna",
+        "intro": "will は「〜するだろう」、be going to は「〜する予定」。カジュアルには gonna。",
         "breakdown": [
           {
             "part": "I'm",
@@ -1252,11 +1252,11 @@
         "points": [
           {
             "heading": "gonna が自然",
-            "text": "going to → gonna と縮約するのがカジュアルな場面では普通"
+            "text": "going to → gonna と縮約するのがカジュアルな場面では普通。"
           },
           {
             "heading": "will は約束・意志",
-            "text": "「I'll do it」は「やるよ」という意志\nその場で決めたこと"
+            "text": "「I'll do it」は「やるよ」という意志。その場で決めたこと。"
           }
         ]
       },
@@ -1332,7 +1332,7 @@
         ]
       }
     ],
-    "netTip": "gonna が自然\ngoing to → gonna と縮約するのがカジュアルな場面では普通"
+    "netTip": "gonna が自然。going to → gonna と縮約するのがカジュアルな場面では普通。"
   },
   {
     "id": "present-perfect",
@@ -1344,12 +1344,12 @@
       {
         "type": "summary",
         "title": "ポイント",
-        "content": "現在完了形は「今までに〜した」「〜したことがある」\nhave を省略することも多い"
+        "content": "現在完了形は「今までに〜した」「〜したことがある」。have を省略することも多い。"
       },
       {
         "type": "form",
         "title": "基本のカタチ",
-        "intro": "have/has + 過去分詞 で「経験」「完了」「継続」を表す",
+        "intro": "have/has + 過去分詞 で「経験」「完了」「継続」を表す。",
         "breakdown": [
           {
             "part": "I've",
@@ -1396,11 +1396,11 @@
         "points": [
           {
             "heading": "have を省略",
-            "text": "「You seen this?」のように Have を省略するのがカジュアル"
+            "text": "「You seen this?」のように Have を省略するのがカジュアル。"
           },
           {
             "heading": "経験を聞く",
-            "text": "「Have you ever...?」→「You ever...?」「Ever...?」のように省略"
+            "text": "「Have you ever...?」→「You ever...?」「Ever...?」のように省略。"
           }
         ]
       },
@@ -1476,7 +1476,7 @@
         ]
       }
     ],
-    "netTip": "have を省略\n「You seen this?」のように Have を省略するのがカジュアル"
+    "netTip": "have を省略。「You seen this?」のように Have を省略するのがカジュアル。"
   },
   {
     "id": "present-perfect-progressive",
@@ -1488,12 +1488,12 @@
       {
         "type": "summary",
         "title": "ポイント",
-        "content": "現在完了進行形は「ずっと〜している」\n継続を強調したい時に使う"
+        "content": "現在完了進行形は「ずっと〜している」。継続を強調したい時に使う。"
       },
       {
         "type": "form",
         "title": "基本のカタチ",
-        "intro": "have been + 動詞-ing で過去から今まで続いている動作を表す",
+        "intro": "have been + 動詞-ing で過去から今まで続いている動作を表す。",
         "breakdown": [
           {
             "part": "I've",
@@ -1535,11 +1535,11 @@
         "points": [
           {
             "heading": "継続を強調",
-            "text": "「I've been waiting」は「ずっと待ってる」という継続のニュアンスになる"
+            "text": "「I've been waiting」は「ずっと待ってる」という継続のニュアンスになる。"
           },
           {
             "heading": "疲れも表現",
-            "text": "「I've been working all day」は「一日中働いてた（疲れた）」というニュアンスも"
+            "text": "「I've been working all day」は「一日中働いてた（疲れた）」というニュアンスも。"
           }
         ]
       },
@@ -1605,7 +1605,7 @@
         ]
       }
     ],
-    "netTip": "継続を強調\n「I've been waiting」は「ずっと待ってる」という継続のニュアンスになる"
+    "netTip": "継続を強調。「I've been waiting」は「ずっと待ってる」という継続のニュアンスになる。"
   },
   {
     "id": "modal-can-could",
@@ -1617,12 +1617,12 @@
       {
         "type": "summary",
         "title": "ポイント",
-        "content": "can は「できる」、could は「できた」「〜してもらえますか」\ncan't が圧倒的に多い"
+        "content": "can は「できる」、could は「できた」「〜してもらえますか」。can't が圧倒的に多い。"
       },
       {
         "type": "form",
         "title": "基本のカタチ",
-        "intro": "can は能力や可能性を表す\ncould は can の過去形、または丁寧なお願い",
+        "intro": "can は能力や可能性を表す。could は can の過去形、または丁寧なお願い。",
         "breakdown": [
           {
             "part": "I",
@@ -1669,11 +1669,11 @@
         "points": [
           {
             "heading": "can't が超多い",
-            "text": "「I can't」「Can't believe」「Can't even」など、驚きや感情表現で can't がめっちゃ使われる"
+            "text": "「I can't」「Can't believe」「Can't even」など、驚きや感情表現で can't がめっちゃ使われる。"
           },
           {
             "heading": "could で丁寧に",
-            "text": "「Could you...?」は「Can you...?」より丁寧"
+            "text": "「Could you...?」は「Can you...?」より丁寧。"
           }
         ]
       },
@@ -1748,7 +1748,7 @@
         ]
       }
     ],
-    "netTip": "can't が超多い\n「I can't」「Can't believe」「Can't even」など、驚きや感情表現で can't がめっちゃ使われる"
+    "netTip": "can't が超多い。「I can't」「Can't believe」「Can't even」など、驚きや感情表現で can't がめっちゃ使われる。"
   },
   {
     "id": "modal-will-would",
@@ -1760,12 +1760,12 @@
       {
         "type": "summary",
         "title": "ポイント",
-        "content": "will は「〜するだろう」、would は「〜だろう」「〜したい」\n丁寧さの違いが重要"
+        "content": "will は「〜するだろう」、would は「〜だろう」「〜したい」。丁寧さの違いが重要。"
       },
       {
         "type": "form",
         "title": "基本のカタチ",
-        "intro": "will は未来や意志を表す\nwould は仮定や丁寧な表現",
+        "intro": "will は未来や意志を表す。would は仮定や丁寧な表現。",
         "breakdown": [
           {
             "part": "I",
@@ -1812,11 +1812,11 @@
         "points": [
           {
             "heading": "would で柔らかく",
-            "text": "「I want」より「I would like」「I'd love」の方が柔らかい"
+            "text": "「I want」より「I would like」「I'd love」の方が柔らかい。"
           },
           {
             "heading": "woulda の略",
-            "text": "would have → woulda と略されることがある"
+            "text": "would have → woulda と略されることがある。"
           }
         ]
       },
@@ -1886,7 +1886,7 @@
         ]
       }
     ],
-    "netTip": "would で柔らかく\n「I want」より「I would like」「I'd love」の方が柔らかい"
+    "netTip": "would で柔らかく。「I want」より「I would like」「I'd love」の方が柔らかい。"
   },
   {
     "id": "modal-may-might",
@@ -1898,12 +1898,12 @@
       {
         "type": "summary",
         "title": "ポイント",
-        "content": "may と might は「〜かもしれない」\nmight の方がカジュアル"
+        "content": "may と might は「〜かもしれない」。might の方がカジュアル。"
       },
       {
         "type": "form",
         "title": "基本のカタチ",
-        "intro": "may と might はどちらも可能性を表す\n実際はほぼ同じ意味で使われる",
+        "intro": "may と might はどちらも可能性を表す。実際はほぼ同じ意味で使われる。",
         "breakdown": [
           {
             "part": "This",
@@ -1946,11 +1946,11 @@
         "points": [
           {
             "heading": "might がカジュアル",
-            "text": "ネットでは might の方がよく使われる\nmay はフォーマル"
+            "text": "ネットでは might の方がよく使われる。may はフォーマル。"
           },
           {
             "heading": "許可の may",
-            "text": "「May I...?」は「〜してもいい？」という丁寧な許可"
+            "text": "「May I...?」は「〜してもいい？」という丁寧な許可。"
           }
         ]
       },
@@ -2016,7 +2016,7 @@
         ]
       }
     ],
-    "netTip": "might がカジュアル\nネットでは might の方がよく使われる\nmay はフォーマル"
+    "netTip": "might がカジュアル。ネットでは might の方がよく使われる。may はフォーマル。"
   },
   {
     "id": "modal-must-have-to",
@@ -2028,12 +2028,12 @@
       {
         "type": "summary",
         "title": "ポイント",
-        "content": "must は「〜しなければ」「〜に違いない」\nhave to は義務\ngotta がカジュアル"
+        "content": "must は「〜しなければ」「〜に違いない」。have to は義務。gotta がカジュアル。"
       },
       {
         "type": "form",
         "title": "基本のカタチ",
-        "intro": "must は義務や確信\nhave to も義務だが、より客観的",
+        "intro": "must は義務や確信。have to も義務だが、より客観的。",
         "breakdown": [
           {
             "part": "You",
@@ -2080,11 +2080,11 @@
         "points": [
           {
             "heading": "gotta がカジュアル",
-            "text": "have to → have got to → gotta と縮約\nネットでは gotta が超頻出"
+            "text": "have to → have got to → gotta と縮約。ネットでは gotta が超頻出。"
           },
           {
             "heading": "確信の must",
-            "text": "「This must be it」「You must be tired」のように確信を表すこともある"
+            "text": "「This must be it」「You must be tired」のように確信を表すこともある。"
           }
         ]
       },
@@ -2151,7 +2151,7 @@
         ]
       }
     ],
-    "netTip": "gotta がカジュアル\nhave to → have got to → gotta と縮約\nネットでは gotta が超頻出"
+    "netTip": "gotta がカジュアル。have to → have got to → gotta と縮約。ネットでは gotta が超頻出。"
   },
   {
     "id": "modal-should",
@@ -2163,12 +2163,12 @@
       {
         "type": "summary",
         "title": "ポイント",
-        "content": "should は「〜べき」「〜したほうがいい」\n柔らかいアドバイスに使う"
+        "content": "should は「〜べき」「〜したほうがいい」。柔らかいアドバイスに使う。"
       },
       {
         "type": "form",
         "title": "基本のカタチ",
-        "intro": "should はアドバイスや提案に使う\nmust より柔らかい",
+        "intro": "should はアドバイスや提案に使う。must より柔らかい。",
         "breakdown": [
           {
             "part": "You",
@@ -2215,11 +2215,11 @@
         "points": [
           {
             "heading": "柔らかい提案",
-            "text": "「You should try it」は「試してみたら？」程度\n押し付けがましくない"
+            "text": "「You should try it」は「試してみたら？」程度。押し付けがましくない。"
           },
           {
             "heading": "後悔を表す",
-            "text": "「should have + 過去分詞」で「〜すればよかった」という後悔\nshoulda と略す"
+            "text": "「should have + 過去分詞」で「〜すればよかった」という後悔。shoulda と略す。"
           }
         ]
       },
@@ -2285,7 +2285,7 @@
         ]
       }
     ],
-    "netTip": "柔らかい提案\n「You should try it」は「試してみたら？」程度\n押し付けがましくない"
+    "netTip": "柔らかい提案。「You should try it」は「試してみたら？」程度。押し付けがましくない。"
   },
   {
     "id": "infinitive",
@@ -2297,12 +2297,12 @@
       {
         "type": "summary",
         "title": "ポイント",
-        "content": "to不定詞は「〜すること」「〜するために」\nwanna/gonna など縮約も多い"
+        "content": "to不定詞は「〜すること」「〜するために」。wanna/gonna など縮約も多い。"
       },
       {
         "type": "form",
         "title": "基本のカタチ",
-        "intro": "to + 動詞の原形で「〜すること」「〜するために」を表す",
+        "intro": "to + 動詞の原形で「〜すること」「〜するために」を表す。",
         "breakdown": [
           {
             "part": "I",
@@ -2349,15 +2349,15 @@
         "points": [
           {
             "heading": "目的を表す",
-            "text": "「I came here to say this」のように「〜するために」という目的を表せる\nネットでよく使う"
+            "text": "「I came here to say this」のように「〜するために」という目的を表せる。ネットでよく使う。"
           },
           {
             "heading": "wanna/gonna",
-            "text": "want to → wanna、going to → gonna のように to が縮約されることが多い"
+            "text": "want to → wanna、going to → gonna のように to が縮約されることが多い。"
           },
           {
             "heading": "forget/remember の違い",
-            "text": "「I forgot to save」は「セーブし忘れた」\n「I forgot saving」は「セーブしたこと忘れてた」\nto は未来、-ing は過去"
+            "text": "「I forgot to save」は「セーブし忘れた」。「I forgot saving」は「セーブしたこと忘れてた」。to は未来、-ing は過去。"
           }
         ]
       },
@@ -2423,7 +2423,7 @@
         ]
       }
     ],
-    "netTip": "目的を表す\n「I came here to say this」のように「〜するために」という目的を表せる\nネットでよく使う"
+    "netTip": "目的を表す。「I came here to say this」のように「〜するために」という目的を表せる。ネットでよく使う。"
   },
   {
     "id": "gerund",
@@ -2435,12 +2435,12 @@
       {
         "type": "summary",
         "title": "ポイント",
-        "content": "動名詞（動詞-ing）は「〜すること」\nenjoy, keep などは動名詞だけを取る"
+        "content": "動名詞（動詞-ing）は「〜すること」。enjoy, keep などは動名詞だけを取る。"
       },
       {
         "type": "form",
         "title": "基本のカタチ",
-        "intro": "動詞に -ing をつけて「〜すること」を表す\n主語や目的語として使える",
+        "intro": "動詞に -ing をつけて「〜すること」を表す。主語や目的語として使える。",
         "breakdown": [
           {
             "part": "I",
@@ -2482,15 +2482,15 @@
         "points": [
           {
             "heading": "動名詞だけ取る動詞",
-            "text": "enjoy, finish, stop, keep, avoid などは動名詞だけを取る"
+            "text": "enjoy, finish, stop, keep, avoid などは動名詞だけを取る。"
           },
           {
             "heading": "一般的・繰り返しの行為",
-            "text": "「I enjoy playing games」のように、一般的・習慣的な行為には動名詞が自然"
+            "text": "「I enjoy playing games」のように、一般的・習慣的な行為には動名詞が自然。"
           },
           {
             "heading": "Done + 動名詞",
-            "text": "「Done playing」「Done eating」のように「〜し終わった」はネットでよく使う"
+            "text": "「Done playing」「Done eating」のように「〜し終わった」はネットでよく使う。"
           }
         ]
       },
@@ -2556,7 +2556,7 @@
         ]
       }
     ],
-    "netTip": "動名詞だけ取る動詞\nenjoy, finish, stop, keep, avoid などは動名詞だけを取る"
+    "netTip": "動名詞だけ取る動詞。enjoy, finish, stop, keep, avoid などは動名詞だけを取る。"
   },
   {
     "id": "infinitive-vs-gerund",
@@ -2568,12 +2568,12 @@
       {
         "type": "summary",
         "title": "ポイント",
-        "content": "動詞によって to不定詞を取るか動名詞を取るかが決まっている\n意味が変わるものもある"
+        "content": "動詞によって to不定詞を取るか動名詞を取るかが決まっている。意味が変わるものもある。"
       },
       {
         "type": "form",
         "title": "基本のカタチ",
-        "intro": "want, decide, plan → to不定詞\nenjoy, finish, stop → 動名詞\n意味が変わるものもある",
+        "intro": "want, decide, plan → to不定詞。enjoy, finish, stop → 動名詞。意味が変わるものもある。",
         "breakdown": [
           {
             "part": "I",
@@ -2616,11 +2616,11 @@
         "points": [
           {
             "heading": "意味が変わる動詞",
-            "text": "stop to do = 〜するために止まる\nstop doing = 〜するのをやめる\nforget, remember, try も同様"
+            "text": "stop to do = 〜するために止まる。stop doing = 〜するのをやめる。forget, remember, try も同様。"
           },
           {
             "heading": "迷ったら",
-            "text": "ネイティブでも迷うことがある\n文脈で判断することが多い"
+            "text": "ネイティブでも迷うことがある。文脈で判断することが多い。"
           }
         ]
       },
@@ -2686,7 +2686,7 @@
         ]
       }
     ],
-    "netTip": "意味が変わる動詞\nstop to do = 〜するために止まる\nstop doing = 〜するのをやめる\nforget, remember, try も同様"
+    "netTip": "意味が変わる動詞。stop to do = 〜するために止まる。stop doing = 〜するのをやめる。forget, remember, try も同様。"
   },
   {
     "id": "conjunction-coordinating",
@@ -2698,12 +2698,12 @@
       {
         "type": "summary",
         "title": "ポイント",
-        "content": "and は「そして」、but は「でも」、or は「または」、so は「だから」\n超基本だけど超重要"
+        "content": "and は「そして」、but は「でも」、or は「または」、so は「だから」。超基本だけど超重要。"
       },
       {
         "type": "form",
         "title": "基本のカタチ",
-        "intro": "2つの文や単語をつなげる\nand は追加、but は対比、or は選択、so は結果",
+        "intro": "2つの文や単語をつなげる。and は追加、but は対比、or は選択、so は結果。",
         "breakdown": [
           {
             "part": "I tried",
@@ -2754,11 +2754,11 @@
         "points": [
           {
             "heading": "But で始める",
-            "text": "「But...」で文を始めるのはカジュアルではよくある"
+            "text": "「But...」で文を始めるのはカジュアルではよくある。"
           },
           {
             "heading": "or something",
-            "text": "「or something」で「〜とか」という曖昧さを出せる"
+            "text": "「or something」で「〜とか」という曖昧さを出せる。"
           }
         ]
       },
@@ -2824,7 +2824,7 @@
         ]
       }
     ],
-    "netTip": "But で始める\n「But...」で文を始めるのはカジュアルではよくある"
+    "netTip": "But で始める。「But...」で文を始めるのはカジュアルではよくある。"
   },
   {
     "id": "conjunction-subordinating",
@@ -2836,12 +2836,12 @@
       {
         "type": "summary",
         "title": "ポイント",
-        "content": "when は「〜の時」、if は「もし〜なら」、because は「なぜなら」、though は「〜だけど」"
+        "content": "when は「〜の時」、if は「もし〜なら」、because は「なぜなら」、though は「〜だけど」。"
       },
       {
         "type": "form",
         "title": "基本のカタチ",
-        "intro": "従属節と主節をつなげる\n時・条件・理由・譲歩を表す",
+        "intro": "従属節と主節をつなげる。時・条件・理由・譲歩を表す。",
         "breakdown": [
           {
             "part": "I did it",
@@ -2892,11 +2892,11 @@
         "points": [
           {
             "heading": "cuz/cos",
-            "text": "because → cuz/cos と略す\n「I did it cuz I wanted to」"
+            "text": "because → cuz/cos と略す。「I did it cuz I wanted to」。"
           },
           {
             "heading": "tho",
-            "text": "though → tho と略す\n「Good game tho」"
+            "text": "though → tho と略す。「Good game tho」。"
           }
         ]
       },
@@ -2962,7 +2962,7 @@
         ]
       }
     ],
-    "netTip": "cuz/cos\nbecause → cuz/cos と略す\n「I did it cuz I wanted to」"
+    "netTip": "cuz/cos。because → cuz/cos と略す。「I did it cuz I wanted to」。"
   },
   {
     "id": "relative-pronoun",
@@ -2974,12 +2974,12 @@
       {
         "type": "summary",
         "title": "ポイント",
-        "content": "関係代名詞は2つの文をつなげる\nネットでは省略されることが多い"
+        "content": "関係代名詞は2つの文をつなげる。ネットでは省略されることが多い。"
       },
       {
         "type": "form",
         "title": "基本のカタチ",
-        "intro": "who は人、which はもの、that は両方に使える\n目的格では省略可能",
+        "intro": "who は人、which はもの、that は両方に使える。目的格では省略可能。",
         "breakdown": [
           {
             "part": "The game",
@@ -3022,11 +3022,11 @@
         "points": [
           {
             "heading": "that が万能",
-            "text": "カジュアルでは who も which も that で代用されることが多い"
+            "text": "カジュアルでは who も which も that で代用されることが多い。"
           },
           {
             "heading": "省略できる",
-            "text": "目的格なら省略可能\n「The game I played」\nネットではほぼ省略"
+            "text": "目的格なら省略可能。「The game I played」。ネットではほぼ省略。"
           }
         ]
       },
@@ -3092,7 +3092,7 @@
         ]
       }
     ],
-    "netTip": "that が万能\nカジュアルでは who も which も that で代用されることが多い"
+    "netTip": "that が万能。カジュアルでは who も which も that で代用されることが多い。"
   },
   {
     "id": "comparison",
@@ -3104,12 +3104,12 @@
       {
         "type": "summary",
         "title": "ポイント",
-        "content": "比較級は -er / more、最上級は -est / most\nway や like を使って強調するのがネット流"
+        "content": "比較級は -er / more、最上級は -est / most。way や like を使って強調するのがネット流。"
       },
       {
         "type": "form",
         "title": "基本のカタチ",
-        "intro": "2つを比べる時は比較級 + than、一番を表す時は the + 最上級",
+        "intro": "2つを比べる時は比較級 + than、一番を表す時は the + 最上級。",
         "breakdown": [
           {
             "part": "This",
@@ -3156,11 +3156,11 @@
         "points": [
           {
             "heading": "way で強調",
-            "text": "「way better」「way more」で「ずっと〜」と強調\nmuch より way がカジュアル"
+            "text": "「way better」「way more」で「ずっと〜」と強調。much より way がカジュアル。"
           },
           {
             "heading": "like で曖昧に",
-            "text": "「like 5 times better」のように like をつけて曖昧にすることもある"
+            "text": "「like 5 times better」のように like をつけて曖昧にすることもある。"
           }
         ]
       },
@@ -3230,7 +3230,7 @@
         ]
       }
     ],
-    "netTip": "way で強調\n「way better」「way more」で「ずっと〜」と強調\nmuch より way がカジュアル"
+    "netTip": "way で強調。「way better」「way more」で「ずっと〜」と強調。much より way がカジュアル。"
   },
   {
     "id": "adjective-adverb",
@@ -3242,12 +3242,12 @@
       {
         "type": "summary",
         "title": "ポイント",
-        "content": "形容詞は名詞を修飾、副詞は動詞・形容詞を修飾\nネットでは -ly を省略することもある"
+        "content": "形容詞は名詞を修飾、副詞は動詞・形容詞を修飾。ネットでは -ly を省略することもある。"
       },
       {
         "type": "form",
         "title": "基本のカタチ",
-        "intro": "形容詞は「良い」「大きい」など、副詞は「速く」「とても」など\n副詞は形容詞 + ly で作ることが多い",
+        "intro": "形容詞は「良い」「大きい」など、副詞は「速く」「とても」など。副詞は形容詞 + ly で作ることが多い。",
         "breakdown": [
           {
             "part": "It",
@@ -3294,11 +3294,11 @@
         "points": [
           {
             "heading": "-ly を省略",
-            "text": "カジュアルでは「real good」のように ly を省略することがある（文法的には正しくないが）"
+            "text": "カジュアルでは「real good」のように ly を省略することがある（文法的には正しくないが）。"
           },
           {
             "heading": "super/pretty",
-            "text": "very より super や pretty がカジュアル\n「super easy」「pretty good」"
+            "text": "very より super や pretty がカジュアル。「super easy」「pretty good」。"
           }
         ]
       },
@@ -3364,7 +3364,7 @@
         ]
       }
     ],
-    "netTip": "-ly を省略\nカジュアルでは「real good」のように ly を省略することがある（文法的には正しくないが）"
+    "netTip": "-ly を省略。カジュアルでは「real good」のように ly を省略することがある（文法的には正しくないが）。"
   },
   {
     "id": "passive",
@@ -3376,12 +3376,12 @@
       {
         "type": "summary",
         "title": "ポイント",
-        "content": "受動態は「〜される」\nbe + 過去分詞で作る\nネットでは能動態の方が多い"
+        "content": "受動態は「〜される」。be + 過去分詞で作る。ネットでは能動態の方が多い。"
       },
       {
         "type": "form",
         "title": "基本のカタチ",
-        "intro": "主語が動作を「される」側になる\nbe動詞 + 過去分詞",
+        "intro": "主語が動作を「される」側になる。be動詞 + 過去分詞。",
         "breakdown": [
           {
             "part": "It",
@@ -3428,11 +3428,11 @@
         "points": [
           {
             "heading": "能動態の方が多い",
-            "text": "ネットでは「They released it」のように能動態が好まれる傾向\n受動態はフォーマル寄り"
+            "text": "ネットでは「They released it」のように能動態が好まれる傾向。受動態はフォーマル寄り。"
           },
           {
             "heading": "got + 過去分詞",
-            "text": "「got released」のように got を使うとカジュアルに"
+            "text": "「got released」のように got を使うとカジュアルに。"
           }
         ]
       },
@@ -3498,7 +3498,7 @@
         ]
       }
     ],
-    "netTip": "能動態の方が多い\nネットでは「They released it」のように能動態が好まれる傾向\n受動態はフォーマル寄り"
+    "netTip": "能動態の方が多い。ネットでは「They released it」のように能動態が好まれる傾向。受動態はフォーマル寄り。"
   },
   {
     "id": "there-is-are",
@@ -3510,12 +3510,12 @@
       {
         "type": "summary",
         "title": "ポイント",
-        "content": "There is/are は「〜がある/いる」\nネットでは There's で統一されがち"
+        "content": "There is/are は「〜がある/いる」。ネットでは There's で統一されがち。"
       },
       {
         "type": "form",
         "title": "基本のカタチ",
-        "intro": "何かが「ある」「いる」ことを伝える時に使う\n単数なら There is、複数なら There are",
+        "intro": "何かが「ある」「いる」ことを伝える時に使う。単数なら There is、複数なら There are。",
         "breakdown": [
           {
             "part": "There's",
@@ -3558,11 +3558,11 @@
         "points": [
           {
             "heading": "There's で統一",
-            "text": "カジュアルな場面では複数でも There's を使う人が多い\n「There's two ways」など"
+            "text": "カジュアルな場面では複数でも There's を使う人が多い。「There's two ways」など。"
           },
           {
             "heading": "省略パターン",
-            "text": "「Got a problem」のように There's すら省略して got で代用することもある"
+            "text": "「Got a problem」のように There's すら省略して got で代用することもある。"
           }
         ]
       },
@@ -3629,7 +3629,7 @@
         ]
       }
     ],
-    "netTip": "There's で統一\nカジュアルな場面では複数でも There's を使う人が多い\n「There's two ways」など"
+    "netTip": "There's で統一。カジュアルな場面では複数でも There's を使う人が多い。「There's two ways」など。"
   },
   {
     "id": "pronouns",
@@ -3641,12 +3641,12 @@
       {
         "type": "summary",
         "title": "ポイント",
-        "content": "代名詞は名詞の代わり\nit, this, that, one, they など\nthey は単数で「その人」の意味でも使う"
+        "content": "代名詞は名詞の代わり。it, this, that, one, they など。they は単数で「その人」の意味でも使う。"
       },
       {
         "type": "form",
         "title": "基本のカタチ",
-        "intro": "一度出てきた名詞を繰り返さないために使う\nit は「それ」、this は「これ」、they は「彼ら」または「その人」",
+        "intro": "一度出てきた名詞を繰り返さないために使う。it は「それ」、this は「これ」、they は「彼ら」または「その人」。",
         "breakdown": [
           {
             "part": "This",
@@ -3693,11 +3693,11 @@
         "points": [
           {
             "heading": "単数 they",
-            "text": "性別不明な人や、ジェンダーニュートラルで「they」を使う\n「Someone left their bag」など"
+            "text": "性別不明な人や、ジェンダーニュートラルで「they」を使う。「Someone left their bag」など。"
           },
           {
             "heading": "this + 形容詞",
-            "text": "「This is so good」「This is it」のように this を多用"
+            "text": "「This is so good」「This is it」のように this を多用。"
           }
         ]
       },
@@ -3763,7 +3763,7 @@
         ]
       }
     ],
-    "netTip": "単数 they\n性別不明な人や、ジェンダーニュートラルで「they」を使う\n「Someone left their bag」など"
+    "netTip": "単数 they。性別不明な人や、ジェンダーニュートラルで「they」を使う。「Someone left their bag」など。"
   },
   {
     "id": "prepositions",
@@ -3775,12 +3775,12 @@
       {
         "type": "summary",
         "title": "ポイント",
-        "content": "前置詞は in, on, at, to, for など\nin は「中」、on は「上」、at は「点」のイメージ"
+        "content": "前置詞は in, on, at, to, for など。in は「中」、on は「上」、at は「点」のイメージ。"
       },
       {
         "type": "form",
         "title": "基本のカタチ",
-        "intro": "前置詞 + 名詞で場所や時間を表す\nin は「中」、on は「上」、at は「点」のイメージ",
+        "intro": "前置詞 + 名詞で場所や時間を表す。in は「中」、on は「上」、at は「点」のイメージ。",
         "breakdown": [
           {
             "part": "I'm",
@@ -3823,11 +3823,11 @@
         "points": [
           {
             "heading": "前置詞の省略",
-            "text": "「(on) Monday」「(at) 5pm」のように前置詞が省略されることがある"
+            "text": "「(on) Monday」「(at) 5pm」のように前置詞が省略されることがある。"
           },
           {
             "heading": "句動詞",
-            "text": "「look up」「check out」「figure out」など、動詞 + 前置詞の組み合わせ（句動詞）が超重要"
+            "text": "「look up」「check out」「figure out」など、動詞 + 前置詞の組み合わせ（句動詞）が超重要。"
           }
         ]
       },
@@ -3897,7 +3897,7 @@
         ]
       }
     ],
-    "netTip": "前置詞の省略\n「(on) Monday」「(at) 5pm」のように前置詞が省略されることがある"
+    "netTip": "前置詞の省略。「(on) Monday」「(at) 5pm」のように前置詞が省略されることがある。"
   },
   {
     "id": "conditional",
@@ -3909,12 +3909,12 @@
       {
         "type": "summary",
         "title": "ポイント",
-        "content": "仮定法は「もし〜なら」\nif + 過去形 で現実と違う仮定\nwish にも使う"
+        "content": "仮定法は「もし〜なら」。if + 過去形 で現実と違う仮定。wish にも使う。"
       },
       {
         "type": "form",
         "title": "基本のカタチ",
-        "intro": "if節が条件、主節が結果\n仮定法は if + 過去形、主節は would + 動詞",
+        "intro": "if節が条件、主節が結果。仮定法は if + 過去形、主節は would + 動詞。",
         "breakdown": [
           {
             "part": "If",
@@ -3961,11 +3961,11 @@
         "points": [
           {
             "heading": "I were vs I was",
-            "text": "正式には「If I were」だが、カジュアルでは「If I was」も使われる"
+            "text": "正式には「If I were」だが、カジュアルでは「If I was」も使われる。"
           },
           {
             "heading": "woulda",
-            "text": "would have → woulda と略される\n「If I knew, I woulda said something」"
+            "text": "would have → woulda と略される。「If I knew, I woulda said something」。"
           }
         ]
       },
@@ -4031,7 +4031,7 @@
         ]
       }
     ],
-    "netTip": "I were vs I was\n正式には「If I were」だが、カジュアルでは「If I was」も使われる"
+    "netTip": "I were vs I was。正式には「If I were」だが、カジュアルでは「If I was」も使われる。"
   },
   {
     "id": "causative-perception",
@@ -4043,12 +4043,12 @@
       {
         "type": "summary",
         "title": "ポイント",
-        "content": "使役動詞（make, let, have）と知覚動詞（see, hear, feel）は原形不定詞を取る"
+        "content": "使役動詞（make, let, have）と知覚動詞（see, hear, feel）は原形不定詞を取る。"
       },
       {
         "type": "form",
         "title": "基本のカタチ",
-        "intro": "make は「〜させる」、let は「〜させてあげる」\nsee/hear + 目的語 + 動詞の原形で「〜が〜するのを見る/聞く」",
+        "intro": "make は「〜させる」、let は「〜させてあげる」。see/hear + 目的語 + 動詞の原形で「〜が〜するのを見る/聞く」。",
         "breakdown": [
           {
             "part": "Let",
@@ -4091,11 +4091,11 @@
         "points": [
           {
             "heading": "lemme",
-            "text": "let me → lemme と縮約\n「Lemme check」「Lemme think」"
+            "text": "let me → lemme と縮約。「Lemme check」「Lemme think」。"
           },
           {
             "heading": "have + 人 + do",
-            "text": "「I'll have him do it」で「彼にやらせる」\nビジネスでも使う"
+            "text": "「I'll have him do it」で「彼にやらせる」。ビジネスでも使う。"
           }
         ]
       },
@@ -4161,6 +4161,6 @@
         ]
       }
     ],
-    "netTip": "lemme\nlet me → lemme と縮約\n「Lemme check」「Lemme think」"
+    "netTip": "lemme。let me → lemme と縮約。「Lemme check」「Lemme think」。"
   }
 ]
