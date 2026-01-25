@@ -4,6 +4,7 @@ import { useParams, useRouter } from 'next/navigation';
 import { LessonHeader } from '@/components/Header/Header';
 import { Button } from '@/components/Button/Button';
 import { FluentEmoji } from '@/components/FluentEmoji/FluentEmoji';
+import { LessonArticleSchema } from '@/components/SEO/Schema';
 import { useProgress } from '@/hooks/useProgress';
 import { getLessonById, getNextLesson } from '@/lib/lessons';
 import type { ChunksStep, FormStep, NuanceStep, ComparisonStep } from '@/lib/types';
@@ -57,6 +58,12 @@ export default function SummaryPage() {
 
     return (
         <>
+            <LessonArticleSchema
+                title={lesson.title}
+                description={summaryStep && 'content' in summaryStep ? summaryStep.content : `${lesson.title}のまとめ`}
+                lessonId={lessonId}
+                category={lesson.categoryLabel}
+            />
             <LessonHeader title={lesson.title} />
             <main className={`container ${styles.main}`}>
                 <div className={styles.card}>
