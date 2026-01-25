@@ -158,7 +158,7 @@ export default function AboutPage() {
                 </section>
 
                 <p className={styles.note}>
-                    ※ このサイトはAIを活用して制作しています
+                    🤖 このサイトはAIの力を借りて作りました
                 </p>
 
                 <div className={styles.cta}>
