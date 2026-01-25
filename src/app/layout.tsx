@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Noto_Sans_JP, Nunito } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { Footer } from "@/components/Footer/Footer";
+import { WebsiteSchema } from "@/components/SEO/Schema";
 import "./globals.css";
 
 const notoSansJP = Noto_Sans_JP({
@@ -53,6 +54,11 @@ export default function RootLayout({
   return (
     <html lang="ja" suppressHydrationWarning>
       <body className={`${notoSansJP.variable} ${nunito.variable}`}>
+        <WebsiteSchema
+          name="ネット英文法"
+          description="教科書英語とネットで使う英語の違いを学べる文法学習サイト"
+          url="https://net-eibunpo.nanataro.app"
+        />
         {children}
         <Footer />
         <Analytics />
