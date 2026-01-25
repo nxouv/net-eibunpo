@@ -157,6 +157,10 @@ export default function AboutPage() {
                     </div>
                 </section>
 
+                <p className={styles.note}>
+                    ※ このサイトはAIを活用して制作しています
+                </p>
+
                 <div className={styles.cta}>
                     <Link href="/" className={styles.backLink}>
                         ← レッスン一覧へ
