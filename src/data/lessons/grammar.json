@@ -1535,7 +1535,7 @@
         "points": [
           {
             "heading": "継続を強調",
-            "text": "「I've been waiting」は「ずっと待ってる」という継続のニュアンスがある。"
+            "text": "「I've been waiting」は「ずっと待ってる」という継続のニュアンスになる。"
           },
           {
             "heading": "疲れも表現",
@@ -1605,7 +1605,7 @@
         ]
       }
     ],
-    "netTip": "継続を強調。「I've been waiting」は「ずっと待ってる」という継続のニュアンスがある。"
+    "netTip": "継続を強調。「I've been waiting」は「ずっと待ってる」という継続のニュアンスになる。"
   },
   {
     "id": "modal-can-could",
