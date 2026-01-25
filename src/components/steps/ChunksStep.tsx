@@ -27,7 +27,7 @@ export function ChunksStep({ step }: Props) {
                             onClick={() => speak(item.en)}
                             className={styles.speakButton}
                         >
-                            <FluentEmoji name="speaker" size={18} />
+                            <FluentEmoji name="speaker" size={20} />
                         </IconButton>
                     </div>
                 ))}

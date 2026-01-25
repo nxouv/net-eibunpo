@@ -26,7 +26,7 @@ export function ExamplesStep({ step }: Props) {
                                 label={`${item.en}を読み上げ`}
                                 onClick={() => speak(item.en)}
                             >
-                                <FluentEmoji name="speaker" size={18} />
+                                <FluentEmoji name="speaker" size={20} />
                             </IconButton>
                         </div>
                         <p className={styles.exampleEnFull}>{item.en}</p>

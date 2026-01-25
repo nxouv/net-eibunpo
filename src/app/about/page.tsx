@@ -55,7 +55,7 @@ export default function AboutPage() {
                         <ul className={styles.list}>
                             <li>
                                 <span className={styles.listIcon}>
-                                    <FluentEmoji name="target" size={20} />
+                                    <FluentEmoji name="target" size={24} />
                                 </span>
                                 <div className={styles.listContent}>
                                     <div className={styles.listTitle}>1画面1要素</div>
@@ -66,7 +66,7 @@ export default function AboutPage() {
                             </li>
                             <li>
                                 <span className={styles.listIcon}>
-                                    <FluentEmoji name="puzzle" size={20} />
+                                    <FluentEmoji name="puzzle" size={24} />
                                 </span>
                                 <div className={styles.listContent}>
                                     <div className={styles.listTitle}>チャンクで覚える</div>
@@ -77,7 +77,7 @@ export default function AboutPage() {
                             </li>
                             <li>
                                 <span className={styles.listIcon}>
-                                    <FluentEmoji name="lightbulb" size={20} />
+                                    <FluentEmoji name="lightbulb" size={24} />
                                 </span>
                                 <div className={styles.listContent}>
                                     <div className={styles.listTitle}>文脈で理解</div>
@@ -88,7 +88,7 @@ export default function AboutPage() {
                             </li>
                             <li>
                                 <span className={styles.listIcon}>
-                                    <FluentEmoji name="book" size={20} />
+                                    <FluentEmoji name="book" size={24} />
                                 </span>
                                 <div className={styles.listContent}>
                                     <div className={styles.listTitle}>教科書との差分</div>
@@ -107,7 +107,7 @@ export default function AboutPage() {
                         <ul className={styles.list}>
                             <li>
                                 <span className={styles.listIcon}>
-                                    <FluentEmoji name="book" size={20} />
+                                    <FluentEmoji name="book" size={24} />
                                 </span>
                                 <div className={styles.listContent}>
                                     <div className={styles.listTitle}>基本の文法</div>
@@ -118,7 +118,7 @@ export default function AboutPage() {
                             </li>
                             <li>
                                 <span className={styles.listIcon}>
-                                    <FluentEmoji name="speech" size={20} />
+                                    <FluentEmoji name="speech" size={24} />
                                 </span>
                                 <div className={styles.listContent}>
                                     <div className={styles.listTitle}>話し言葉の文法</div>
@@ -129,7 +129,7 @@ export default function AboutPage() {
                             </li>
                             <li>
                                 <span className={styles.listIcon}>
-                                    <FluentEmoji name="memo" size={20} />
+                                    <FluentEmoji name="memo" size={24} />
                                 </span>
                                 <div className={styles.listContent}>
                                     <div className={styles.listTitle}>書くときのトーン</div>
@@ -158,7 +158,7 @@ export default function AboutPage() {
                 </section>
 
                 <p className={styles.note}>
-                    ✨ このサイトはAIの力を借りて作っています
+                    <FluentEmoji name="sparkles" size={18} /> このサイトはAIの力を借りて作っています
                 </p>
 
                 <div className={styles.cta}>

@@ -71,7 +71,7 @@ export default function SummaryPage() {
                         <h1 className={styles.title}>{lesson.title} ─ まとめ</h1>
                         {isComplete && (
                             <span className={styles.badge}>
-                                <FluentEmoji name="check" size={14} /> 完了
+                                <FluentEmoji name="check" size={16} /> 完了
                             </span>
                         )}
                     </div>
@@ -79,7 +79,7 @@ export default function SummaryPage() {
                     {summaryStep && (
                         <section className={styles.section}>
                             <h2 className={styles.sectionTitle}>
-                                <FluentEmoji name="pin" size={18} />
+                                <FluentEmoji name="pin" size={20} />
                                 ポイント
                             </h2>
                             <div className={styles.content}>
@@ -91,7 +91,7 @@ export default function SummaryPage() {
                     {formStep && (
                         <section className={styles.section}>
                             <h2 className={styles.sectionTitle}>
-                                <FluentEmoji name="memo" size={18} />
+                                <FluentEmoji name="memo" size={20} />
                                 基本のカタチ
                             </h2>
                             <div className={styles.pattern}>
@@ -107,7 +107,7 @@ export default function SummaryPage() {
                     {nuanceStep && nuanceStep.points.length > 0 && (
                         <section className={styles.section}>
                             <h2 className={styles.sectionTitle}>
-                                <FluentEmoji name="lightbulb" size={18} />
+                                <FluentEmoji name="lightbulb" size={20} />
                                 ニュアンス
                             </h2>
                             <ul className={styles.nuanceList}>
@@ -124,7 +124,7 @@ export default function SummaryPage() {
                     {comparisonStep && comparisonStep.pairs.length > 0 && (
                         <section className={styles.section}>
                             <h2 className={styles.sectionTitle}>
-                                <FluentEmoji name="book" size={18} />
+                                <FluentEmoji name="book" size={20} />
                                 教科書 vs ネット
                             </h2>
                             <div className={styles.comparisonList}>
@@ -142,7 +142,7 @@ export default function SummaryPage() {
                     {chunksStep && (
                         <section className={styles.section}>
                             <h2 className={styles.sectionTitle}>
-                                <FluentEmoji name="speech" size={18} />
+                                <FluentEmoji name="speech" size={20} />
                                 よく使うフレーズ
                             </h2>
                             <div className={styles.chunkList}>
@@ -158,7 +158,7 @@ export default function SummaryPage() {
                     {lesson.netTip && (
                         <section className={styles.tipSection}>
                             <h2 className={styles.tipTitle}>
-                                <FluentEmoji name="target" size={16} /> ネットでは
+                                <FluentEmoji name="target" size={18} /> ネットでは
                             </h2>
                             <p className={styles.tipContent}>
                                 {lesson.netTip}
@@ -174,7 +174,7 @@ export default function SummaryPage() {
                                 onClick={handleComplete}
                                 fullWidth
                             >
-                                完了にする <FluentEmoji name="check" size={16} />
+                                完了にする <FluentEmoji name="check" size={18} />
                             </Button>
                         )}
 
