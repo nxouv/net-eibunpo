@@ -1,21 +1,8 @@
 import type { Metadata } from "next";
-import { Noto_Sans_JP, Nunito } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { Footer } from "@/components/Footer/Footer";
 import { WebsiteSchema } from "@/components/SEO/Schema";
 import "./globals.css";
-
-const notoSansJP = Noto_Sans_JP({
-  variable: "--font-ja",
-  subsets: ["latin"],
-  display: "swap",
-});
-
-const nunito = Nunito({
-  variable: "--font-en",
-  subsets: ["latin"],
-  display: "swap",
-});
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://net-eibunpo.nanataro.app"),
@@ -53,7 +40,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ja" suppressHydrationWarning>
-      <body className={`${notoSansJP.variable} ${nunito.variable}`}>
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css2?family=Line+Seed+Sans+JP:wght@400;700;800&display=swap" rel="stylesheet" />
+      </head>
+      <body>
         <WebsiteSchema
           name="ネット英文法"
           description="教科書英語とネットで使う英語の違いを学べる文法学習サイト"

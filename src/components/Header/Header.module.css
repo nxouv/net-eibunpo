@@ -63,7 +63,7 @@
 .progress {
     font-size: 13px;
     color: var(--color-text-sub);
-    font-family: var(--font-en);
+    font-family: var(--font-main);
 }
 
 .rightArea {

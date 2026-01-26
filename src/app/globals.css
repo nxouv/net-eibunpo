@@ -25,8 +25,7 @@
   --color-shadow: rgba(0, 0, 0, 0.08);
 
   /* フォント */
-  --font-ja: 'Noto Sans JP', sans-serif;
-  --font-en: 'Nunito', sans-serif;
+  --font-main: 'Line Seed Sans JP', sans-serif;
 
   /* サイズ */
   --max-width-card: 640px;
@@ -84,15 +83,15 @@ html {
 body {
   background-color: var(--color-bg);
   color: var(--color-text-main);
-  font-family: var(--font-ja);
+  font-family: var(--font-main);
   line-height: 1.7;
   min-height: 100vh;
   transition: background-color 0.3s, color 0.3s;
 }
 
-/* 英語テキストにはNunitoを適用 */
+/* 英語テキスト（LINE Seedで統一なので同じフォント） */
 .en-text {
-  font-family: var(--font-en);
+  font-family: var(--font-main);
 }
 
 /* ========================================
