@@ -54,9 +54,6 @@ export function LessonCard({ id, title, isComplete, category, order }: LessonCar
             {order !== undefined && (
                 <span className={styles.lessonOrder}>{order}</span>
             )}
-            <div className={`${styles.lessonIcon} ${isComplete ? styles.lessonIconComplete : styles.lessonIconIncomplete}`}>
-                {isComplete ? '✓' : ''}
-            </div>
             <span className={styles.lessonTitle}>{title}</span>
             <span className={styles.lessonArrow}>→</span>
         </Link>

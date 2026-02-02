@@ -27,7 +27,6 @@
     border-top: 3px solid var(--color-writing);
 }
 
-/* Lesson card specific */
 .lessonCard {
     display: flex;
     align-items: center;
@@ -35,28 +34,6 @@
     padding: 16px 20px;
     text-decoration: none;
     color: inherit;
-}
-
-.lessonIcon {
-    width: 24px;
-    height: 24px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
-    font-size: 12px;
-}
-
-.lessonIconIncomplete {
-    background-color: var(--color-bg);
-    border: 2px solid var(--color-border);
-    color: var(--color-text-sub);
-}
-
-.lessonIconComplete {
-    background-color: var(--color-success);
-    color: white;
 }
 
 .lessonTitle {
