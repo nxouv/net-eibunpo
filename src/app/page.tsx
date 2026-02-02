@@ -98,6 +98,7 @@ function CategorySection({
             title={lesson.title}
             isComplete={isLoaded ? isLessonComplete(lesson.id) : false}
             category={category}
+            order={lesson.order}
           />
         ))}
       </div>

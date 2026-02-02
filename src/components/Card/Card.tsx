@@ -35,9 +35,10 @@ interface LessonCardProps {
     title: string;
     isComplete: boolean;
     category: Category;
+    order?: number;
 }
 
-export function LessonCard({ id, title, isComplete, category }: LessonCardProps) {
+export function LessonCard({ id, title, isComplete, category, order }: LessonCardProps) {
     const cardClasses = [
         styles.card,
         styles.lessonCard,
@@ -50,6 +51,9 @@ export function LessonCard({ id, title, isComplete, category }: LessonCardProps)
             href={`/lesson/${id}`}
             className={cardClasses}
         >
+            {order !== undefined && (
+                <span className={styles.lessonOrder}>{order}</span>
+            )}
             <div className={`${styles.lessonIcon} ${isComplete ? styles.lessonIconComplete : styles.lessonIconIncomplete}`}>
                 {isComplete ? '✓' : ''}
             </div>
