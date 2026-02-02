@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import styles from './ThemeToggle.module.css';
 
-type Theme = 'light' | 'dark' | 'system';
+type Theme = 'light' | 'dark';
 
 // Simple SVG icons (no external dependencies)
 const SunIcon = () => (
@@ -20,38 +20,31 @@ const MoonIcon = () => (
     </svg>
 );
 
-const SystemIcon = () => (
-    <svg className={`${styles.icon} ${styles.systemIcon}`} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-        <rect x="2" y="3" width="20" height="14" rx="2" />
-        <line x1="8" y1="21" x2="16" y2="21" />
-        <line x1="12" y1="17" x2="12" y2="21" />
-    </svg>
-);
+
 
 export function ThemeToggle() {
-    const [theme, setTheme] = useState<Theme>('system');
+    const [theme, setTheme] = useState<Theme>('light');
     const [mounted, setMounted] = useState(false);
 
     useEffect(() => {
         setMounted(true);
         const saved = localStorage.getItem('theme') as Theme | null;
-        if (saved) {
+        if (saved && (saved === 'light' || saved === 'dark')) {
             setTheme(saved);
             applyTheme(saved);
+        } else {
+            // デフォルトはライトモード
+            applyTheme('light');
         }
     }, []);
 
     const applyTheme = (newTheme: Theme) => {
         const root = document.documentElement;
-        if (newTheme === 'system') {
-            root.removeAttribute('data-theme');
-        } else {
-            root.setAttribute('data-theme', newTheme);
-        }
+        root.setAttribute('data-theme', newTheme);
     };
 
     const toggleTheme = () => {
-        const next: Theme = theme === 'light' ? 'dark' : theme === 'dark' ? 'system' : 'light';
+        const next: Theme = theme === 'light' ? 'dark' : 'light';
         setTheme(next);
         localStorage.setItem('theme', next);
         applyTheme(next);
@@ -61,7 +54,7 @@ export function ThemeToggle() {
         return <div className={styles.toggle} style={{ visibility: 'hidden' }} />;
     }
 
-    const label = theme === 'light' ? 'ライト' : theme === 'dark' ? 'ダーク' : 'システム';
+    const label = theme === 'light' ? 'ライト' : 'ダーク';
 
     return (
         <button
@@ -77,7 +70,6 @@ export function ThemeToggle() {
             <div className={styles.knob}>
                 {theme === 'light' && <SunIcon />}
                 {theme === 'dark' && <MoonIcon />}
-                {theme === 'system' && <SystemIcon />}
             </div>
 
             <span className={styles.tooltip}>{label}</span>

@@ -42,6 +42,9 @@ export default function LessonPage() {
         const canonicalUrl = `${window.location.origin}/lesson/${lessonId}/summary`;
         let link = document.querySelector('link[rel="canonical"]') as HTMLLinkElement;
 
+        // 既存のlinkを追跡（クリーンアップ用）
+        const createdLink = !link;
+
         if (!link) {
             link = document.createElement('link');
             link.rel = 'canonical';
@@ -50,10 +53,12 @@ export default function LessonPage() {
         link.href = canonicalUrl;
 
         return () => {
-            // クリーンアップ: ページ離脱時に削除
-            const existingLink = document.querySelector('link[rel="canonical"]');
-            if (existingLink) {
-                existingLink.remove();
+            // クリーンアップ: 自分で作成したlinkのみ削除
+            if (createdLink) {
+                const existingLink = document.querySelector('link[rel="canonical"]');
+                if (existingLink && existingLink.parentNode) {
+                    existingLink.parentNode.removeChild(existingLink);
+                }
             }
         };
     }, [lessonId]);

@@ -19,9 +19,7 @@
     background-color: #87ceeb;
 }
 
-.toggle[data-theme="system"] {
-    background-color: var(--color-border);
-}
+
 
 .knob {
     position: absolute;
@@ -48,10 +46,7 @@
     background-color: #ffd700;
 }
 
-.toggle[data-theme="system"] .knob {
-    transform: translateX(14px);
-    background-color: #6b7280;
-}
+
 
 .icon {
     width: 14px;
@@ -67,9 +62,7 @@
     color: #f0f0f0;
 }
 
-.systemIcon {
-    color: #ffffff;
-}
+
 
 
 

@@ -4162,5 +4162,591 @@
       }
     ],
     "netTip": "lemme\nlet me → lemme と縮約\n「Lemme check」「Lemme think」"
+  },
+  {
+    "id": "articles",
+    "category": "grammar",
+    "categoryLabel": "基本の文法",
+    "title": "冠詞（a/an/the）",
+    "order": 31,
+    "steps": [
+      {
+        "type": "summary",
+        "title": "ポイント",
+        "content": "a/an は「1つの〜」、the は「その〜」\nネットでは省略されることもあるが、基本ルールは知っておきたい"
+      },
+      {
+        "type": "form",
+        "title": "基本のカタチ",
+        "intro": "a/an は不特定の1つを指す\nthe は特定のものを指す",
+        "breakdown": [
+          {
+            "part": "I",
+            "role": "私は"
+          },
+          {
+            "part": "saw",
+            "role": "見た"
+          },
+          {
+            "part": "a",
+            "role": "（不特定の）"
+          },
+          {
+            "part": "cat",
+            "role": "猫を"
+          }
+        ],
+        "pattern": [
+          {
+            "label": "a/an",
+            "pattern": "a + 子音で始まる名詞、an + 母音で始まる名詞"
+          },
+          {
+            "label": "the",
+            "pattern": "the + 特定のもの",
+            "highlight": "the"
+          }
+        ],
+        "examples": [
+          {
+            "en": "I need a new phone.",
+            "ja": "新しい携帯が必要"
+          },
+          {
+            "en": "The update is finally here.",
+            "ja": "アプデがついに来た"
+          }
+        ]
+      },
+      {
+        "type": "nuance",
+        "title": "ニュアンス",
+        "points": [
+          {
+            "heading": "ネットでの省略",
+            "text": "カジュアルなSNSでは冠詞が省略されることがある\n「Got new phone」「Just finished game」など\nただし、正式な場面では必要"
+          },
+          {
+            "heading": "the の強調",
+            "text": "「THE best」「THE one」のように大文字で書くと強調になる\n「This is THE game」= これこそが、あのゲーム"
+          }
+        ]
+      },
+      {
+        "type": "comparison",
+        "title": "教科書 vs ネット",
+        "pairs": [
+          {
+            "textbook": "I bought a new computer.",
+            "real": "Got a new PC. / Got new PC.",
+            "note": "省略も許容"
+          },
+          {
+            "textbook": "This is the best movie I have ever seen.",
+            "real": "This is THE best movie ever.",
+            "note": "THE で強調"
+          }
+        ]
+      },
+      {
+        "type": "chunks",
+        "title": "よく使うフレーズ",
+        "items": [
+          {
+            "en": "What a ...",
+            "ja": "なんて〜"
+          },
+          {
+            "en": "The thing is...",
+            "ja": "問題は〜"
+          },
+          {
+            "en": "In a sec",
+            "ja": "すぐ"
+          },
+          {
+            "en": "THE best",
+            "ja": "最高の"
+          },
+          {
+            "en": "The one and only",
+            "ja": "唯一無二の"
+          }
+        ]
+      },
+      {
+        "type": "examples",
+        "title": "例文",
+        "items": [
+          {
+            "en": "Just got a new game, gonna stream it later",
+            "ja": "新しいゲーム買った、後で配信する",
+            "context": "SNS"
+          },
+          {
+            "en": "This is THE moment",
+            "ja": "これがその瞬間だ",
+            "context": "配信"
+          },
+          {
+            "en": "What a play!",
+            "ja": "なんてプレイだ！",
+            "context": "配信"
+          }
+        ]
+      },
+      {
+        "type": "practice",
+        "title": "やってみよう",
+        "items": [
+          {
+            "type": "translate",
+            "instruction": "日本語を英語にしてみよう",
+            "question": "これが最高のゲームだ",
+            "answers": [
+              "This is THE best game",
+              "This is the best game"
+            ],
+            "explanation": "強調する時は THE を大文字に"
+          }
+        ]
+      }
+    ],
+    "netTip": "ネットでの省略\nカジュアルなSNSでは冠詞が省略されることがある\n「Got new phone」「Just finished game」など\nただし、正式な場面では必要"
+  },
+  {
+    "id": "past-progressive",
+    "category": "grammar",
+    "categoryLabel": "基本の文法",
+    "title": "過去進行形",
+    "order": 32,
+    "steps": [
+      {
+        "type": "summary",
+        "title": "ポイント",
+        "content": "過去進行形は「〜していた」\nwas/were + 動詞-ing で作る\nストーリーを語る時に必須"
+      },
+      {
+        "type": "form",
+        "title": "基本のカタチ",
+        "intro": "過去のある時点で進行中だった動作を表す\nwas/were + 動詞-ing",
+        "breakdown": [
+          {
+            "part": "I",
+            "role": "私は"
+          },
+          {
+            "part": "was",
+            "role": "〜していた"
+          },
+          {
+            "part": "playing",
+            "role": "プレイ"
+          },
+          {
+            "part": "when it happened",
+            "role": "それが起きた時"
+          }
+        ],
+        "pattern": [
+          {
+            "label": "肯定",
+            "pattern": "主語 + was/were + 動詞-ing"
+          },
+          {
+            "label": "否定",
+            "pattern": "主語 + wasn't/weren't + 動詞-ing",
+            "highlight": "wasn't"
+          }
+        ],
+        "examples": [
+          {
+            "en": "I was watching the stream when the raid happened.",
+            "ja": "レイドが来た時配信見てた"
+          },
+          {
+            "en": "What were you doing?",
+            "ja": "何してた？"
+          }
+        ]
+      },
+      {
+        "type": "nuance",
+        "title": "ニュアンス",
+        "points": [
+          {
+            "heading": "when と一緒に",
+            "text": "「I was doing X when Y happened」のパターンが超多い\n「〜してた時に〜が起きた」"
+          },
+          {
+            "heading": "while との組み合わせ",
+            "text": "「While I was playing, he called」\n2つの動作が同時に起きていることを表す"
+          }
+        ]
+      },
+      {
+        "type": "comparison",
+        "title": "教科書 vs ネット",
+        "pairs": [
+          {
+            "textbook": "I was studying when you called.",
+            "real": "Was studying when you called.",
+            "note": "主語省略"
+          }
+        ]
+      },
+      {
+        "type": "chunks",
+        "title": "よく使うフレーズ",
+        "items": [
+          {
+            "en": "I was just ...",
+            "ja": "ちょうど〜してた"
+          },
+          {
+            "en": "What were you doing?",
+            "ja": "何してた？"
+          },
+          {
+            "en": "I was about to ...",
+            "ja": "〜しようとしてた"
+          },
+          {
+            "en": "While I was ...",
+            "ja": "〜している間"
+          }
+        ]
+      },
+      {
+        "type": "examples",
+        "title": "例文",
+        "items": [
+          {
+            "en": "I was grinding when the server crashed",
+            "ja": "周回してたらサーバー落ちた",
+            "context": "配信"
+          },
+          {
+            "en": "Was just thinking about that",
+            "ja": "ちょうどそれ考えてた",
+            "context": "会話"
+          },
+          {
+            "en": "What were you watching?",
+            "ja": "何見てた？",
+            "context": "会話"
+          }
+        ]
+      },
+      {
+        "type": "practice",
+        "title": "やってみよう",
+        "items": [
+          {
+            "type": "translate",
+            "instruction": "日本語を英語にしてみよう",
+            "question": "ゲームしてたら電話来た",
+            "answers": [
+              "I was playing when the phone rang",
+              "Was playing when I got a call"
+            ],
+            "explanation": "was + -ing + when"
+          }
+        ]
+      }
+    ],
+    "netTip": "when と一緒に\n「I was doing X when Y happened」のパターンが超多い\n「〜してた時に〜が起きた」"
+  },
+  {
+    "id": "past-perfect",
+    "category": "grammar",
+    "categoryLabel": "基本の文法",
+    "title": "過去完了形",
+    "order": 33,
+    "steps": [
+      {
+        "type": "summary",
+        "title": "ポイント",
+        "content": "過去完了形は「（その時点までに）〜していた」\nhad + 過去分詞で作る\n物語の背景説明に使う"
+      },
+      {
+        "type": "form",
+        "title": "基本のカタチ",
+        "intro": "過去のある時点より前に起きたことを表す\nhad + 過去分詞",
+        "breakdown": [
+          {
+            "part": "I",
+            "role": "私は"
+          },
+          {
+            "part": "had",
+            "role": "〜していた"
+          },
+          {
+            "part": "already",
+            "role": "すでに"
+          },
+          {
+            "part": "finished",
+            "role": "終えて"
+          }
+        ],
+        "pattern": [
+          {
+            "label": "基本",
+            "pattern": "主語 + had + 過去分詞"
+          },
+          {
+            "label": "省略",
+            "pattern": "主語'd + 過去分詞",
+            "highlight": "'d"
+          }
+        ],
+        "examples": [
+          {
+            "en": "I had already seen it.",
+            "ja": "もう見てた"
+          },
+          {
+            "en": "I'd never played this before.",
+            "ja": "これ今までやったことなかった"
+          }
+        ]
+      },
+      {
+        "type": "nuance",
+        "title": "ニュアンス",
+        "points": [
+          {
+            "heading": "'d に縮約",
+            "text": "had → 'd と縮約される\n「I'd seen it」「I'd already done it」"
+          },
+          {
+            "heading": "before/after と一緒に",
+            "text": "「I had finished before he arrived」\n時系列を明確にする時に使う"
+          }
+        ]
+      },
+      {
+        "type": "comparison",
+        "title": "教科書 vs ネット",
+        "pairs": [
+          {
+            "textbook": "I had never experienced anything like this before.",
+            "real": "I'd never seen anything like this.",
+            "note": "had → 'd"
+          }
+        ]
+      },
+      {
+        "type": "chunks",
+        "title": "よく使うフレーズ",
+        "items": [
+          {
+            "en": "I'd never ...",
+            "ja": "今まで一度も〜なかった"
+          },
+          {
+            "en": "I'd already ...",
+            "ja": "すでに〜していた"
+          },
+          {
+            "en": "If I'd known ...",
+            "ja": "知っていたら〜"
+          },
+          {
+            "en": "I wish I'd ...",
+            "ja": "〜していればなあ"
+          }
+        ]
+      },
+      {
+        "type": "examples",
+        "title": "例文",
+        "items": [
+          {
+            "en": "I'd already beaten the boss when they joined",
+            "ja": "みんなが来た時もうボス倒してた",
+            "context": "配信"
+          },
+          {
+            "en": "I wish I'd saved earlier",
+            "ja": "もっと早くセーブしとけばよかった",
+            "context": "配信"
+          },
+          {
+            "en": "If I'd known, I would've told you",
+            "ja": "知ってたら言ってたのに",
+            "context": "会話"
+          }
+        ]
+      },
+      {
+        "type": "practice",
+        "title": "やってみよう",
+        "items": [
+          {
+            "type": "translate",
+            "instruction": "日本語を英語にしてみよう",
+            "question": "もうクリアしてた",
+            "answers": [
+              "I'd already cleared it",
+              "I had already finished it"
+            ],
+            "explanation": "'d = had の縮約"
+          }
+        ]
+      }
+    ],
+    "netTip": "'d に縮約\\nhad → 'd と縮約される\\n「I'd seen it」「I'd already done it」"
+  },
+  {
+    "id": "singular-plural",
+    "category": "grammar",
+    "categoryLabel": "基本の文法",
+    "title": "単数・複数形",
+    "order": 34,
+    "steps": [
+      {
+        "type": "summary",
+        "title": "ポイント",
+        "content": "英語では「1つ」か「2つ以上」かを区別する\\n複数形は基本的に -s/-es をつける\\n不規則変化もある"
+      },
+      {
+        "type": "form",
+        "title": "基本のカタチ",
+        "intro": "1つなら単数形、2つ以上なら複数形\\n複数形は基本的に -s または -es をつける",
+        "breakdown": [
+          {
+            "part": "I",
+            "role": "私は"
+          },
+          {
+            "part": "have",
+            "role": "持っている"
+          },
+          {
+            "part": "two",
+            "role": "2つの"
+          },
+          {
+            "part": "games",
+            "role": "ゲームを"
+          }
+        ],
+        "pattern": [
+          {
+            "label": "規則変化",
+            "pattern": "名詞 + -s / -es"
+          },
+          {
+            "label": "不規則",
+            "pattern": "man → men, child → children など",
+            "highlight": "不規則"
+          }
+        ],
+        "examples": [
+          {
+            "en": "I have one cat.",
+            "ja": "猫1匹いる"
+          },
+          {
+            "en": "I have two cats.",
+            "ja": "猫2匹いる"
+          }
+        ]
+      },
+      {
+        "type": "nuance",
+        "title": "ニュアンス",
+        "points": [
+          {
+            "heading": "ネットでの省略",
+            "text": "「10 min」「5 sec」のように単位は複数でも単数形で書くことがある\\nただし会話では正しく言う"
+          },
+          {
+            "heading": "不可算名詞",
+            "text": "water, information, advice などは数えられない\\n「× two informations」「○ some information」"
+          }
+        ]
+      },
+      {
+        "type": "comparison",
+        "title": "教科書 vs ネット",
+        "pairs": [
+          {
+            "textbook": "I will be there in 10 minutes.",
+            "real": "Be there in 10 min.",
+            "note": "minutes → min と省略"
+          },
+          {
+            "textbook": "I have a few pieces of advice.",
+            "real": "Got some advice for you.",
+            "note": "シンプルに"
+          }
+        ]
+      },
+      {
+        "type": "chunks",
+        "title": "よく使うフレーズ",
+        "items": [
+          {
+            "en": "a few",
+            "ja": "いくつかの（数えられる）"
+          },
+          {
+            "en": "a lot of",
+            "ja": "たくさんの"
+          },
+          {
+            "en": "some",
+            "ja": "いくつかの"
+          },
+          {
+            "en": "many / much",
+            "ja": "多くの（many=数える / much=数えない）"
+          }
+        ]
+      },
+      {
+        "type": "examples",
+        "title": "例文",
+        "items": [
+          {
+            "en": "Got a few ideas",
+            "ja": "いくつかアイデアある",
+            "context": "会話"
+          },
+          {
+            "en": "Be back in 5 min",
+            "ja": "5分で戻る",
+            "context": "SNS"
+          },
+          {
+            "en": "I need some help",
+            "ja": "助けが必要",
+            "context": "会話"
+          }
+        ]
+      },
+      {
+        "type": "practice",
+        "title": "やってみよう",
+        "items": [
+          {
+            "type": "translate",
+            "instruction": "日本語を英語にしてみよう",
+            "question": "10分で戻る",
+            "answers": [
+              "Be back in 10 min",
+              "Back in 10 minutes"
+            ],
+            "explanation": "min は省略形"
+          }
+        ]
+      }
+    ],
+    "netTip": "ネットでの省略\\n「10 min」「5 sec」のように単位は複数でも単数形で書くことがある\\nただし会話では正しく言う"
   }
 ]

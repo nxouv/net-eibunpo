@@ -10,6 +10,21 @@ import { getLessonById, getNextLesson } from '@/lib/lessons';
 import type { ChunksStep, FormStep, NuanceStep, ComparisonStep } from '@/lib/types';
 import styles from './page.module.css';
 
+// 改行で分割してブレットリストとして表示
+function BulletList({ text }: { text: string }) {
+    const lines = text.split('\n').filter(line => line.trim());
+    if (lines.length === 1) {
+        return <span>{lines[0]}</span>;
+    }
+    return (
+        <ul className={styles.bulletList}>
+            {lines.map((line, i) => (
+                <li key={i}>{line}</li>
+            ))}
+        </ul>
+    );
+}
+
 export default function SummaryPage() {
     const params = useParams();
     const router = useRouter();
@@ -83,7 +98,7 @@ export default function SummaryPage() {
                                 ポイント
                             </h2>
                             <div className={styles.content}>
-                                {summaryStep.content}
+                                <BulletList text={summaryStep.content} />
                             </div>
                         </section>
                     )}
@@ -94,11 +109,14 @@ export default function SummaryPage() {
                                 <FluentEmoji name="memo" size={20} />
                                 基本のカタチ
                             </h2>
-                            <div className={styles.pattern}>
+                            <div className={styles.patternList}>
                                 {typeof formStep.pattern === 'string'
-                                    ? formStep.pattern
+                                    ? <div className={styles.patternItem}>{formStep.pattern}</div>
                                     : formStep.pattern.map((p, i) => (
-                                        <div key={i}>{p.label}: {p.pattern}</div>
+                                        <div key={i} className={styles.patternItem}>
+                                            <span className={styles.patternLabel}>{p.label}</span>
+                                            <span className={styles.patternText}>{p.pattern}</span>
+                                        </div>
                                     ))}
                             </div>
                         </section>
@@ -114,7 +132,7 @@ export default function SummaryPage() {
                                 {nuanceStep.points.slice(0, 3).map((point, i) => (
                                     <li key={i} className={styles.nuanceItem}>
                                         <strong>{point.heading}</strong>
-                                        <span>{point.text}</span>
+                                        <span><BulletList text={point.text} /></span>
                                     </li>
                                 ))}
                             </ul>
@@ -161,7 +179,7 @@ export default function SummaryPage() {
                                 <FluentEmoji name="target" size={18} /> ネットでは
                             </h2>
                             <p className={styles.tipContent}>
-                                {lesson.netTip}
+                                <BulletList text={lesson.netTip} />
                             </p>
                         </section>
                     )}
